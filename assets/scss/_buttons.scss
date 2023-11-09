@@ -6,7 +6,7 @@
   font-weight: 500;
   text-transform: capitalize;
   transition: all .3s ease;
-  border: 1px solid;
+  border: 0px solid;
   position: relative;
   z-index: 1;
   cursor: pointer;
@@ -22,7 +22,7 @@
 }
 
 .btn-primary {
-  background: $primary-color;
+  background: $primary-gradient;
   color: $white;
   border-color: $primary-color;
 
@@ -30,7 +30,7 @@
   &:active,
   &.focus,
   &.active {
-    background: $secondary-color !important;
+    background: $secondary-gradient !important;
     border-color: $secondary-color !important;
     color: $white !important;
   }
