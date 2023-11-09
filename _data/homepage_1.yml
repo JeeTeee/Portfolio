@@ -1,51 +1,52 @@
 ######################### Hero Area ##############################
 hero_area:
   background_image : "/assets/images/bg/banner-2.png"
-  subtitle: "MY NAME IS Jessica Alba"
-  title : "I am a creative <br>UI/UX Designer <br>from London."
-  content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-  image : "/assets/images/banner/banner-img-2.png"
+  subtitle: "GUILLAUME TEILLAIS"
+  title : "<br>Web Développeur<br>"
+  content : "Après de riches expériences dans la communication et l’automobile, je me reconvertis dans le numérique.
+Passionné par les nouvelles technologies et créatif, le métier de Développeur Web est une évidence pour la suite de ma carrière. Animé par l’envie de découvrir et d’apprendre, je suis disponible immédiatement."
+  image : "/assets/images/banner/photo-banner.png"
   button:
     enable : true
-    label : "contact me"
+    label : "Contactez-Moi"
     link : "/contact"
 
 ########################### Service ##############################
-services:
-- title : "Brand Design"
-  icon : "ti-ruler-pencil"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+# services:
+# - title : "Brand Design"
+#   icon : "ti-ruler-pencil"
+#   content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
-- title : "Seo & Marketing"
-  icon : "ti-announcement"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+# - title : "Seo & Marketing"
+#   icon : "ti-announcement"
+#   content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
-- title : "Creative Design"
-  icon : "ti-palette"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+# - title : "Creative Design"
+#   icon : "ti-palette"
+#   content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
 
 ########################### Testimonial ###########################
-testimonial:
-  enable : true
-  title : "clients feedback"
-  subtitle : "testimonials"
-  bg_image : "/assets/images/bg/testimonial-bg.png"
-  item:
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/test-1.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
-    
-  - name : "Jane Austin"
-    designation : "Designer"
-    image : "/assets/images/team/test-2.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
-    
-  - name : "Liolane hussy"
-    designation : "Developer"
-    image : "/assets/images/team/test-3.jpg"
-    content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+# testimonial:
+#   enable : true
+#   title : "clients feedback"
+#   subtitle : "testimonials"
+#   bg_image : "/assets/images/bg/testimonial-bg.png"
+#   item:
+#   - name : "Liam Hughes"
+#     designation : "Manager"
+#     image : "/assets/images/team/test-1.jpg"
+#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+
+#   - name : "Jane Austin"
+#     designation : "Designer"
+#     image : "/assets/images/team/test-2.jpg"
+#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+
+#   - name : "Liolane hussy"
+#     designation : "Developer"
+#     image : "/assets/images/team/test-3.jpg"
+#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
 
 
 ######################## Fun facts ########################
@@ -56,15 +57,15 @@ funfacts:
   - name : "work completed"
     icon : "ti-briefcase"
     value : "370"
-    
+
   - name : "new projects"
     icon : "ti-paint-bucket"
     value : "450"
-    
+
   - name : "Happy customers"
     icon : "ti-heart"
     value : "5000"
-    
+
   - name : "awards win"
     icon : "ti-cup"
     value : "37"

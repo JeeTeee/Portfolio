@@ -1,3 +1,5 @@
+// Banner index 2 (pas besoin)
+
 .banner {
   background: url("../images/banner/banner.jpg") center center no-repeat;
   background-size: cover;
@@ -31,7 +33,7 @@
   }
 }
 
-// Banner-2 Style
+// Banner Home Style
 
 .banner-2 {
   overflow: hidden;
@@ -65,19 +67,45 @@
   }
 }
 
+.banner-2 .img-fluid {
+  height: 600px;
+  max-width: 600px;
+
+}
+
 
 @include mobile-xs {
   .banner .banner-content h2 {
     font-size: 66px;
     line-height: 86px;
+  }
+
+  .banner-2 .img-fluid {
+    display: none;
   }
 }
 
-@include mobile-xs {
+@include mobile {
   .banner .banner-content h2 {
     font-size: 66px;
     line-height: 86px;
   }
+
+  .banner-2 .img-fluid {
+    display: none;
+  }
+}
+
+@include tablet {
+  .banner .banner-content h2 {
+    font-size: 66px;
+    line-height: 86px;
+  }
+
+  .banner-2 .img-fluid {
+    display: none;
+  }
+
 }
 
 @include desktop {
@@ -89,4 +117,6 @@
   .about-banner {
     background-position: 40% 50%;
   }
+
+
 }

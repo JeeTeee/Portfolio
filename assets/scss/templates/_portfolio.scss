@@ -50,11 +50,11 @@
 
 
 //  Portfolio-2
-//  
+//
 
 
 // Portfolio
-// 
+//
 .portfolio-2,
 .portfolio-5 {
 
@@ -92,11 +92,11 @@
 }
 
 .pt200 {
-  padding-top: 200px;
+  padding-top: 50px;
 }
 
 // Portfolio SIngle
-// 
+//
 .portfolio-single {
   padding: 180px 0px 100px;
 }
@@ -160,7 +160,7 @@
     transform-origin: left;
     transition: .2s ease-in;
   }
-  
+
   &::after{
     position: absolute;
     content: "";
