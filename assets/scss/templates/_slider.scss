@@ -38,6 +38,7 @@
 .banner-2 {
   overflow: hidden;
   padding-top: 50px;
+  height: 100%;
 
 
   .banner-content-2 {
@@ -66,12 +67,6 @@
     background: $white;
     color: $black !important;
   }
-}
-
-.banner-2 .img-fluid {
-  height: 600px;
-  max-width: 600px;
-
 }
 
 
@@ -119,5 +114,25 @@
     background-position: 40% 50%;
   }
 
+  .banner-2 .img-fluid {
+    display: none;
+  }
+
+}
+
+@include desktop-lg {
+  .banner .banner-content h2 {
+    font-size: 85px;
+    line-height: 100px;
+  }
+
+  .about-banner {
+    background-position: 40% 50%;
+  }
+
+  .banner-2 .img-fluid {
+    display: none;
+
+  }
 
 }

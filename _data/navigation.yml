@@ -12,12 +12,12 @@ main:
     #   - name: Home 4
     #     url: /index-4.html
   - name: À propos
-    url: "#"
-    submenu:
-      - name: About
-        url: /about.html
-      - name: About Me
-        url: /about-me.html
+    url: /about-me.html
+    # submenu:
+    #   - name: About
+    #     url: /about.html
+    #   - name: About Me
+    #     url: /about-me.html
   # - name: Blog
   #   url: /blog-1.html
   - name: Pages
@@ -27,8 +27,8 @@ main:
         url: /services.html
       - name: Portfolio One
         url: /portfolio-1.html
-      - name: Portfolio Two
-        url: /portfolio-2.html
+      # - name: Portfolio Two
+      #   url: /portfolio-2.html
       - name: 404
         url: /404
   - name: Contact

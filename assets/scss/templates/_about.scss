@@ -108,15 +108,28 @@
 }
 
 .about-banner{
-	padding: 251px 0px 175px 0px;
+	padding: 200px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
 	.socials-links{
 		li a {
 			color: $black-light;
 			border: 1px solid rgba(0,0,0,0.08);
 		}
-		
+
 	}
+
+  .container {
+    padding: 100px 100px 0px 0px;
+
+  }
+
+  .img-fluid {
+    height:600px;
+  }
+
 }
 
 .text-black{
