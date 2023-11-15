@@ -1,10 +1,10 @@
 baseurl: "/dizer-jekyll" # the subpath of your site, e.g. /blog
-url: "https://demo.themefisher.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
-title: "Dizer -  Multipurpose Business & Corporate Jekyll Template"
+url: "https://guillaume-teillais.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
+title: "Guillaume Teillais - Web Developer & UX Designer"
 email: "guillaume.teillais@gmail.com"
 phone: "06 30 61 12 91"
 address: "13090 Aix-en-Porvence"
-author: themefisher
+author: Guillaume Teillais
 description: >- # this means to ignore newlines
   Dizer - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
 logo: "/assets/images/logo.png"
@@ -21,16 +21,16 @@ google_map_api: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDnh74UN6BKgq9
 ############### Call to Action ###############
 cta:
   enable: true
-  title: "dizer give the smart solution for your business"
+  title: "Contactez-moi pour un devis ou une offre d'emploi"
   bg_image: "/assets/images/bg/cta-bg-2.png"
   button:
-    label: "get a quote"
+    label: "Contactez-moi"
     link: "contact"
 
 ################## Social site ###############
 social:
   - name: facebook
-    icon: "ti-facebook"
+    icon: "ti-github"
     link: "#"
 
   - name: twitter

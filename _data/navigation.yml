@@ -27,8 +27,8 @@ main:
         url: /services.html
       - name: Portfolio One
         url: /portfolio-1.html
-      # - name: Portfolio Two
-      #   url: /portfolio-2.html
+      - name: Portfolio Two
+        url: /portfolio-2.html
       - name: 404
         url: /404
   - name: Contact
