@@ -4,6 +4,7 @@
 	<img src="{{ banner.background_image | relative_url }}" alt="" class="overlay-shape">
 	<div class="container d-flex h-100" >
 		<div class="row align-items-center">
+
 			<div class="col-lg-6 col-md-7">
 				<div class="infos-index d-flex flex-column">
           <div class="banner-content-2">
@@ -14,18 +15,17 @@
             <a href="{{ banner.button.link | relative_url }}" class="btn btn-primary">{{ banner.button.label }}</a>
             {% endif %}
           </div>
-
-          <div class="banner-content-3 justify-content-center">
-            <div class='icon-scroll'></div>
-          </div>
-
-
         </div>
 			</div>
 
 			<div class="col-lg-6 col-md-5 align-self-end">
-				<img src="{{ banner.image | relative_url }}" alt="Guillaume Teillais" class="portrait-img position-absolute-">
+				<img src="{{ banner.image | relative_url }}" alt="Guillaume Teillais" class="portrait-img">
 			</div>
+
+      <div class="banner-content-3 justify-content-center">
+        <div class='icon-scroll'></div>
+      </div>
+
 		</div>
 	</div>
 </section>

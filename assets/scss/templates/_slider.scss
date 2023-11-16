@@ -59,9 +59,14 @@
 
   .banner-content-3 {
 
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     @include desktop-lg {
       padding: 150px 0 100px 0;
-    }
+        }
 
     h2 {
       font-size: 60px;
@@ -149,6 +154,10 @@
 
 
 }
+
+
+// Icone de scrolling (à voir si on garde)
+
 
 .icon-scroll,
 .icon-scroll:before {

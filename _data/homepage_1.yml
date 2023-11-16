@@ -11,19 +11,19 @@ Passionné par les nouvelles technologies et créatif, le métier de Développeu
     label : "Contactez-Moi"
     link : "/contact"
 
-########################### Service ##############################
-# services:
-# - title : "Brand Design"
-#   icon : "ti-ruler-pencil"
-#   content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+########################## Service ##############################
+services:
+- title : "Brand Design"
+  icon : "ti-ruler-pencil"
+  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
-# - title : "Seo & Marketing"
-#   icon : "ti-announcement"
-#   content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+- title : "Seo & Marketing"
+  icon : "ti-announcement"
+  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
-# - title : "Creative Design"
-#   icon : "ti-palette"
-#   content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+- title : "Creative Design"
+  icon : "ti-palette"
+  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
 
 ########################### Testimonial ###########################
