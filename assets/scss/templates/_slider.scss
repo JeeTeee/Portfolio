@@ -48,7 +48,7 @@
     }
 
     h2 {
-      font-size: 60px;
+      font-size: 54px;
       line-height: 70px;
       color: $primary-color;
       @include desktop-lg {
@@ -93,7 +93,7 @@
 
 .banner-2 .portrait-img {
   height: 80vh;
-  // margin-left: 90px;
+  // margin-left: 10px;
   filter: drop-shadow(10px 10px 15px #0000004f);
 }
 
@@ -158,6 +158,35 @@
 
 }
 
+
+// typing animation
+
+
+.code-title {
+  width: 17ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 32px;
+  font-weight: 500;
+  color: $white;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 
 // Icone de scrolling (à voir si on garde)
 

@@ -37,7 +37,7 @@ about:
   Animé par l’envie de découvrir et d’apprendre, je suis <span class='highlight'>disponible immédiatement</span> pour un emploi ou une mission freelance."
   button:
     enable : true
-    label : "M'écrire"
+    label : "Contactez-moi"
     link : "/contact"
 
 

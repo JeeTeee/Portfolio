@@ -1,10 +1,10 @@
 ######################### Hero Area ##############################
 hero_area:
   background_image : "/assets/images/bg/bg-home.jpg"
-  subtitle: 'puts <span style="color: #ffe260">"Hello World!"</span>'
+  subtitle: '> <span style="color: #ffe260">"Hello World!"</span>'
   title : "Guillaume"
-  content : "Développeur Web & UX <br>
-  basé à Aix-en-Provence"
+  content : "Développeur Web <br>
+  Designer UX"
   image : "/assets/images/banner/photo-banner.png"
   button:
     enable : true
