@@ -57,16 +57,25 @@
 		&:before{
 			position: absolute;
 			content:"";
-			background: url("../images/about/pattern-bg.png")no-repeat;
-			width:100%;
-			height: 100%;
-			left: -56px;
-			top: 56px;
-			width: 100%;
-			height: 100%;
-			z-index: -1;
+			// background: url("../images/about/pattern-bg.png")no-repeat;
+      background-color: #00c8f294;
+      width: 100%;
+      height: 100%;
+      left: -58px;
+      top: 557px;
+      width: 120px;
+      height: 120px;
+      z-index: 9999;
+      @include tablet {
+        display: none;
+      }
 		}
 	}
+
+  .highlight {
+    color: $primary-color;
+    font-weight: 400;
+  }
 }
 
 

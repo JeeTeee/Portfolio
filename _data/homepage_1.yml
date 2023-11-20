@@ -1,14 +1,14 @@
 ######################### Hero Area ##############################
 hero_area:
   background_image : "/assets/images/bg/bg-home.jpg"
-  subtitle: "GUILLAUME TEILLAIS"
-  title : "<br>Web Développeur<br>"
-  content : "Après de riches expériences dans la communication et l’automobile, je me reconvertis dans le numérique.
-Passionné par les nouvelles technologies et créatif, le métier de Développeur Web est une évidence pour la suite de ma carrière. Animé par l’envie de découvrir et d’apprendre, je suis disponible immédiatement."
+  subtitle: 'puts <span style="color: #ffe260">"Hello World!"</span>'
+  title : "Guillaume"
+  content : "Développeur Web & UX <br>
+  basé à Aix-en-Provence"
   image : "/assets/images/banner/photo-banner.png"
   button:
     enable : true
-    label : "Contactez-Moi"
+    label : "Engagez-Moi"
     link : "/contact"
 
 ########################## Service ##############################

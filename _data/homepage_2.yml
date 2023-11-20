@@ -16,11 +16,11 @@ services:
   - name : "Brand Design"
     icon : "ti-ruler-pencil"
     content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-    
+
   - name : "Seo & Marketing"
     icon : "ti-announcement"
     content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-    
+
   - name : "Creative Design"
     icon : "ti-palette"
     content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
@@ -28,19 +28,17 @@ services:
 ################## About ###########################
 about:
   enable : true
-  subtitle : "About Us"
-  title : "We are Design & <br>Development Team."
+  subtitle : "À Propos de moi"
+  title : "Développeur Web <br> Designer UX"
   video_thumb : "/assets/images/about/about.jpg"
-  video_url : "https://www.youtube.com/watch?v=jrkvirglgaQ"
-  content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna aliqua enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat.duis aute irure.
-  
-
-  Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
-  "
+  video_url : "#"
+  content : "Après de riches expériences dans la communication et l’automobile, je me suis reconverti dans le numérique. <br>
+  J'ai choisi le métier de <span class='highlight'>Développeur Web</span> et <span class='highlight'>UX Designer</span> pour laisser libre cours à ma créativité. <br>
+  Animé par l’envie de découvrir et d’apprendre, je suis <span class='highlight'>disponible immédiatement</span> pour un emploi ou une mission freelance."
   button:
     enable : true
-    label : "Purchase now"
-    link : "/pricing"
+    label : "M'écrire"
+    link : "/contact"
 
 
 ###################### Funfacts #########################
@@ -51,15 +49,15 @@ funfacts:
   - name : "work completed"
     icon : "ti-briefcase"
     value : "370"
-    
+
   - name : "new projects"
     icon : "ti-paint-bucket"
     value : "450"
-    
+
   - name : "Happy customers"
     icon : "ti-heart"
     value : "5000"
-    
+
   - name : "awards win"
     icon : "ti-cup"
     value : "37"
@@ -73,13 +71,13 @@ skill:
   item:
   - name : "Branding"
     percentage : "85%"
-    
+
   - name : "Consulting"
     percentage : "90%"
-    
+
   - name : "Business"
     percentage : "75%"
-    
+
   - name : "Promotion"
     percentage : "95%"
 
@@ -94,27 +92,27 @@ testimonial:
     designation : "Manager"
     image : "/assets/images/team/test-1.jpg"
     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/test-2.jpg"
     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/test-3.jpg"
     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/test-1.jpg"
     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/test-2.jpg"
     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim	veniam."
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/test-3.jpg"
@@ -135,7 +133,7 @@ clients:
     - "/assets/images/clients/client-3.png"
     - "/assets/images/clients/client-4.png"
     - "/assets/images/clients/client-5.png"
-    
+
 
 ###################### Team ######################
 team:
@@ -144,15 +142,15 @@ team:
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/team-1.jpg"
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/team-2.jpg"
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/team-3.jpg"
-    
+
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/team-4.jpg"

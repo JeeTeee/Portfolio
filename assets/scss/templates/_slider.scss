@@ -50,6 +50,7 @@
     h2 {
       font-size: 60px;
       line-height: 70px;
+      color: $primary-color;
       @include desktop-lg {
         font-size: 50px;
         line-height: 60px;
@@ -92,6 +93,8 @@
 
 .banner-2 .portrait-img {
   height: 80vh;
+  // margin-left: 90px;
+  filter: drop-shadow(10px 10px 15px #0000004f);
 }
 
 

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,500,700');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;700&family=Source+Code+Pro&display=swap');
 
 
 
@@ -14,18 +14,19 @@ html{
 body {
   font-family: $body-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height:26px;
 }
 
 p{
   color: $black-light;
+  font-weight: 300;
 }
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
   font-family: $heading-font;
   color: #222530;
-  font-weight: 500;
+  font-weight: 5006
 }
 
 h1 ,.h1{
@@ -38,7 +39,7 @@ h1 ,.h1{
 h2,.h2 {
   font-size: 42px;
   line-height: 52px;
-  text-transform: capitalize;
+  // text-transform: capitalize;
 
 }
 
@@ -58,11 +59,25 @@ h5,.h5 {
 }
 
 h6,.h6 {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
 
 .text-sm{
   font-size: 14px;
+}
+
+.code-title {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  font-weight: 500;
+  color: $black-light;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+
+  .highlight {
+    color:#ffe260;
+  }
 }

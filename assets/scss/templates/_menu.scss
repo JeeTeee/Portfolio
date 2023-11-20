@@ -1,6 +1,7 @@
 #main-nav {
   height: 100px;
   padding-top: 0px;
+  padding-bottom: 0px;
 
   .navbar-nav .nav-link {
     text-transform: uppercase;
@@ -25,6 +26,7 @@
   font-weight: 500;
   font-family: $heading-font;
   padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-brand .img-fluid {
@@ -99,7 +101,6 @@
 .navbar-toggler span {
   @include desktop {
     color: $white;
-    height: 50px;
   }
 }
 
@@ -182,6 +183,7 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
+    background-color: $navbar-color;
   }
 
   #main-nav .navbar-nav .nav-link {
@@ -193,6 +195,7 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
+    background-color: $navbar-color;
   }
 
   #main-nav .navbar-nav .nav-link {
@@ -208,6 +211,7 @@
   .navbar-collapse {
     text-align: center;
     padding: 20px;
+    background-color: $navbar-color;
   }
 
   #main-nav .navbar-nav .nav-link {
