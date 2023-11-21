@@ -2,9 +2,8 @@
 hero_area:
   background_image : "/assets/images/bg/bg-home.jpg"
   subtitle: '> <span style="color: #ffe260">"Hello World!"</span>'
-  title : "Guillaume"
-  content : "Développeur Web <br>
-  Designer UX"
+  title : "Guillaume Teillais"
+  content : "Développeur Web & UX"
   image : "/assets/images/banner/photo-banner.png"
   button:
     enable : true
