@@ -28,7 +28,7 @@ services:
 ################## About ###########################
 about:
   enable : true
-  subtitle : "À Propos de moi"
+  subtitle : '> <span style="color: #00c8f2">"À propos de moi"</span>'
   title : "Développeur Web <br> Designer UX"
   video_thumb : "/assets/images/about/about.jpg"
   video_url : "#"

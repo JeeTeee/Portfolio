@@ -27,6 +27,31 @@
   }
 }
 
+.code-title-sm {
+  width: 21ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 26px;
+  font-weight: 500;
+  color: $black;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 
 // apparition text
 
@@ -43,7 +68,15 @@
   width: 550px;
   max-width: 70vh;
   @include tablet {
-    width: 50vh;
+    width: 60vh;
+  }
+
+  @include desktop-xlg {
+    width: 60vh;
+  }
+
+  @include mobile {
+    width: 61vh;
   }
 
 }
@@ -52,10 +85,29 @@
   line-height: 130%;
   padding: 2vmin 0;
   position: relative;
+
   @include tablet {
     font-size: 30px;
     line-height: 130%;
     padding: 2vmin 0;
+  }
+
+  @include desktop {
+    font-size: 40px;
+    line-height: 130%;
+    padding: 2vmin 0;
+  }
+
+  @include desktop-xlg {
+    font-size: 64px;
+    line-height: 130%;
+    padding: 2vmin 0;
+  }
+
+  @include mobile-xs {
+    font-size: 26px;
+    line-height: 130%;
+    padding: 1vmin 0;
   }
 }
 .animated-title > div div span {
@@ -108,20 +160,32 @@
 		color: $white;
     margin-right: 25px;
     font-size: 36px;
-    @include mobile {
+    padding: 0vmin 5vmin 0vmin 2vmin;
+    @include tablet {
       font-size: 30px;
       line-height: 130%;
-      padding: 2vmin 0;
+      padding: 0vmin 5vmin  0vmin 2vmin;
+      margin: 0px;
     }
 
-		// &:hover{
-		// 	color: $primary-color;
-		// }
+    @include mobile-xs {
+      font-size: 20px;
+      line-height: 130%;
+      padding: 0vmin 7vmin  0vmin 2vmin;
+      margin: 0px;
+    }
+
+    @include desktop-xlg {
+      font-size: 46px;
+      line-height: 130%;
+      padding: 0vmin 8vmin  0vmin 2vmin;
+    }
+
 	}
 }
 
 .fa-github:hover {
-  animation: bounce 1.3s ease infinite alternate;
+  animation: bounce 1s ease-in-out infinite alternate;
   color: $primary-color;
 
   @keyframes bounce {
@@ -175,6 +239,29 @@
     100% { transform: translateY(0) rotate(0) }
   }
 
+}
+
+.fa-envelope:hover {
+  animation: rotate 2s ease infinite alternate;
+  color: $primary-color;
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg) }
+    25% { transform: translateY(-9px) rotate(-10deg) }
+    50% { transform: translateY(-9px) rotate(-15deg) }
+    75% { transform: translateY(-9px) rotate(-10deg) }
+    100% { transform: translateY(-0px) rotate(0deg) }
+    // 65% { transform: translateY(-2px) rotate(-5deg) }
+    // 75% { transform: translateY(-9px) rotate(-10deg) }
+    // 85% { transform: translateY(-2px) rotate(-5deg) }
+    // 100% { transform: rotate(0) }
+  }
+
+}
+
+.mailme:hover .fa-envelope:before{
+  content:"\f2b6";
+  color: $primary-color;
 }
 
 // Icone de scrolling (à voir si on garde)

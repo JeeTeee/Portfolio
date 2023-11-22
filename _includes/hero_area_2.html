@@ -5,14 +5,14 @@
 	<div class="container d-flex h-100" >
 		<div class="row align-items-center">
 
-			<div class="col-lg-8 col-md-7">
+			<div class="col-lg-8 col-md-7 mt-5">
 				<div class="infos-index d-flex flex-column">
           <div class="banner-content-2">
             <div class="code-title">{{banner.subtitle}}</div>
             <div class="animated-title">
               <div class="text-top">
                 <div>
-                  <span style="font-weight: 575; color: #00c8f2;">{{banner.title}}</span>
+                  <span style="font-weight: 505; color: #00c8f2; letter-spacing: -1px;">{{banner.title}}</span>
                   <span>{{banner.content}}</span>
                 </div>
               </div>
@@ -20,16 +20,19 @@
                 <div>
                   <ul class="list-inline socials-links d-flex flex-fill justify-content-start">
                     <li class="list-inline-item">
-                      <a href="https://github.com/JeeTeee" target="_blank"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://github.com/JeeTeee" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/guillaume-teillais/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="https://www.linkedin.com/in/guillaume-teillais/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li class="list-inline-item">
-                      <a href="tel:{{site.phone}}" ><i class="fa-solid fa-phone"></i></a>
+                      <a href="tel:{{site.phone}}" title="M'appeler"><i class="fa-solid fa-phone fa-sm"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="{{ banner.button.link | relative_url }}" target="_blank" title="Me contacter" class="mailme"><i class="fa-regular fa-envelope"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -49,9 +52,9 @@
 				<img src="{{ banner.image | relative_url }}" alt="Guillaume Teillais" class="portrait-img">
 			</div>
 
-      <div class="banner-content-3 justify-content-center">
+      <!-- <div class="banner-content-3 justify-content-center">
         <div class='icon-scroll'></div>
-      </div>
+      </div> -->
 
 		</div>
 	</div>

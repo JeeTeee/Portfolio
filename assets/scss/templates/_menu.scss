@@ -641,7 +641,7 @@
   text-align: center;
   left: 100px;
   transform: scale(0);
-  transform-origin: left;
+  transform-origin: top;
   transition: .4s ease;
 
   &.show {

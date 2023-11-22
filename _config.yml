@@ -29,21 +29,21 @@ cta:
 
 ################## Social site ###############
 social:
-  - name: facebook
-    icon: "ti-github"
-    link: "#"
+  - name: github
+    icon: "fa-brands fa-github"
+    link: "https://github.com/JeeTeee"
 
-  - name: twitter
-    icon: "ti-twitter-alt"
+  - name: instagram
+    icon: "fa-brands fa-instagram"
     link: "#"
 
   - name: linkedin
-    icon: "ti-linkedin"
-    link: "#"
+    icon: "fa-brands fa-linkedin-in"
+    link: "https://www.linkedin.com/in/guillaume-teillais/"
 
-  - name: pinterest
-    icon: "ti-pinterest"
-    link: "#"
+  - name: phone
+    icon: "fa-solid fa-phone fa-sm"
+    link: "tel:06 30 61 12 91"
 
 # Build settings
 permalink: "/:title"
