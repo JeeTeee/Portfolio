@@ -1,7 +1,7 @@
 ######################### Hero Area ##############################
 hero_area:
   background_image : "/assets/images/bg/bg-home.jpg"
-  subtitle: '> <span style="color: #ffe260">"Hello World!"</span>'
+  subtitle: '> <span style="color: #ff5f6d">"Hello World!"</span>'
   title : "GUILLAUME TEILLAIS"
   content : "Développeur Web & UX"
   image : "/assets/images/banner/photo-banner.png"
@@ -10,61 +10,80 @@ hero_area:
     label : "Engagez-Moi"
     link : "/contact"
 
-########################## Service ##############################
-services:
-- title : "Brand Design"
-  icon : "ti-ruler-pencil"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-
-- title : "Seo & Marketing"
-  icon : "ti-announcement"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-
-- title : "Creative Design"
-  icon : "ti-palette"
-  content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
-
-
-########################### Testimonial ###########################
-# testimonial:
-#   enable : true
-#   title : "clients feedback"
-#   subtitle : "testimonials"
-#   bg_image : "/assets/images/bg/testimonial-bg.png"
-#   item:
-#   - name : "Liam Hughes"
-#     designation : "Manager"
-#     image : "/assets/images/team/test-1.jpg"
-#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
-
-#   - name : "Jane Austin"
-#     designation : "Designer"
-#     image : "/assets/images/team/test-2.jpg"
-#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
-
-#   - name : "Liolane hussy"
-#     designation : "Developer"
-#     image : "/assets/images/team/test-3.jpg"
-#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
-
-
-######################## Fun facts ########################
-funfacts:
+######################## Skills ########################
+skills:
   enable : true
   bg_image : "/assets/images/bg/cta-bg.png"
   item:
-  - name : "work completed"
-    icon : "ti-briefcase"
-    value : "370"
+  - name : "HTML"
+    description : "work completed"
+    icon : "devicon-html5-plain"
 
-  - name : "new projects"
-    icon : "ti-paint-bucket"
-    value : "450"
 
-  - name : "Happy customers"
-    icon : "ti-heart"
-    value : "5000"
+  - name : "CSS"
+    description : "new projects"
+    icon : "devicon-css3-plain"
 
-  - name : "awards win"
-    icon : "ti-cup"
-    value : "37"
+
+  - name : "Javascript"
+    description : "Happy customers"
+    icon : "devicon-javascript-plain"
+
+
+  - name : "Ruby"
+    description : "awards win"
+    icon : "devicon-ruby-plain"
+
+
+  - name : "React"
+    description : "Happy customers"
+    icon : "devicon-react-original"
+
+
+  - name : "Github"
+    description : "Happy customers"
+    icon : "devicon-github-original"
+
+
+  - name : "PostgreSQL"
+    description : "awards win"
+    icon : "devicon-postgresql-plain"
+
+
+  - name : "Figma"
+    description : "Happy customers"
+    icon : "devicon-figma-plain"
+
+
+  - name : "Photoshop"
+    description : "Happy customers"
+    icon : "devicon-photoshop-plain"
+
+
+  - name : "Illustrator"
+    description : "Happy customers"
+    icon : "devicon-illustrator-plain"
+
+
+  - name : "Indesign"
+    description : "Happy customers"
+    icon : "indesign"
+
+    ########################## Service ##############################
+services:
+- title : "Freelance"
+  icon : "ti-ruler-pencil"
+  content : "<strong style='color: #00c8f2'>Auto-Entreprise Développement Web à AIX-EN-PROVENCE (13)</strong> <br>
+  Développeur Web <br> Statut de micro-entreprise."
+
+- title : "Peugeot Beauvois Auto"
+  icon : "ti-announcement"
+  content : "<strong style='color: #00c8f2'>Concession automobile à MONTAIGU-VENDÉE (85)</strong> <br>
+  Communication et vitrine PDV/Web <br>Assistant Commercial"
+# Assistant Commercial: Livraisons et mises en main, service locations...
+
+- title : "Toamasina"
+  icon : "ti-palette"
+  content : "<strong style='color: #00c8f2'>Agence de création graphique (Web/Print) à MARSEILLE (13)</strong> <br>
+  Communication Web & Print : <br> Tour Opérateur EXOTISMES <br>"
+# Newsletters, bannières web, brochures, cartes de visites, flyers...

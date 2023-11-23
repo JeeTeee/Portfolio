@@ -10,15 +10,16 @@
 }
 
 .counter{
-	font-size: 46px;
-	font-weight: 700;
+	font-size: 24px;
+	font-weight: 600;
+  color: $primary-color;
 }
 
 .counter-content {
 	i{
 		color: $primary-color;
 		font-size: 50px;
-		line-height: 60px;
+		line-height: 50px;
 	}
 	h2{
 		color: $white;
@@ -26,5 +27,124 @@
 	p{
 		color: #d4dae3;
 		font-weight: 600;
+    font-size: 18px;
 	}
+}
+
+.indesign {
+  background-image: url("../images/indesign_icon.svg");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+
+  animation: color-ind 10s ease-in infinite alternate;
+  animation-delay: 20s;
+
+
+  @keyframes color-ind {
+    0% { background-image: url("../images/indesign_icon.svg"); }
+    100% { background-image: url("../images/indesign_icon_color.svg"); }
+  }
+}
+
+.devicon-html5-plain {
+
+  animation: color-html 10s ease-in infinite alternate;
+  animation-delay: 0s;
+
+  @keyframes color-html {
+    0% { color: $primary-color; }
+    100% { color: #E54D26; }
+  }
+}
+
+.devicon-css3-plain {
+  animation: color-css 10s ease-in infinite alternate;
+  animation-delay: 2s;
+
+  @keyframes color-css {
+    0% { color: $primary-color; }
+    100% { color: #3D8FC6; }
+  }
+}
+
+.devicon-javascript-plain {
+  animation: color-js 10s ease-in infinite alternate;
+  animation-delay: 4s;
+
+  @keyframes color-js {
+    0% { color: $primary-color; }
+    100% { color: #F0DB4F; }
+  }
+}
+
+.devicon-ruby-plain {
+  animation: color-rb 10s ease-in infinite alternate;
+  animation-delay: 6s;
+
+  @keyframes color-rb {
+    0% { color: $primary-color; }
+    100% { color: #D91404; }
+  }
+}
+
+.devicon-react-original {
+  animation: color-rct 10s ease-in infinite alternate;
+  animation-delay: 8s;
+
+  @keyframes color-rct {
+    0% { color: $primary-color; }
+    100% { color: #61DAFB; }
+  }
+}
+
+.devicon-github-original {
+  animation: color-gh 10s ease-in infinite alternate;
+  animation-delay: 10s;
+
+  @keyframes color-gh {
+    0% { color: $primary-color; }
+    100% { color: #181616; }
+  }
+}
+
+.devicon-postgresql-plain {
+  animation: color-sql 10s ease-in infinite alternate;
+  animation-delay: 12s;
+
+  @keyframes color-sql {
+    0% { color: $primary-color; }
+    100% { color: #336791; }
+  }
+}
+
+.devicon-figma-plain {
+  animation: color-fm 10s ease-in infinite alternate;
+  animation-delay: 14s;
+
+  @keyframes color-fm {
+    0% { color: $primary-color; }
+    100% { color: #F24E1E; }
+  }
+}
+
+.devicon-photoshop-plain {
+  animation: color-ps 10s ease-in infinite alternate;
+  animation-delay: 16s;
+
+  @keyframes color-ps {
+    0% { color: $primary-color; }
+    100% { color: #80B5E2; }
+  }
+}
+
+.devicon-illustrator-plain {
+  animation: color-ill 10s ease-in infinite alternate;
+  animation-delay: 18s;
+
+  @keyframes color-ill {
+    0% { color: $primary-color; }
+    100% { color: #FAA625; }
+  }
 }

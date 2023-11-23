@@ -32,7 +32,8 @@ about:
   title : "Développeur Web <br> Designer UX"
   video_thumb : "/assets/images/about/about.jpg"
   video_url : "#"
-  content : "Après de riches expériences dans la communication et l’automobile, je me suis reconverti dans le numérique. <br>
+  content : "Après de riches expériences dans la communication et l’automobile, <br>
+  je me suis reconverti dans le secteur du numérique. <br>
   J'ai choisi le métier de <span class='highlight'>Développeur Web</span> et <span class='highlight'>UX Designer</span> pour laisser libre cours à ma créativité. <br>
   Animé par l’envie de découvrir et d’apprendre, je suis <span class='highlight'>disponible immédiatement</span> pour un emploi ou une mission freelance."
   button:
@@ -154,3 +155,26 @@ team:
   - name : "Liam Hughes"
     designation : "Manager"
     image : "/assets/images/team/team-4.jpg"
+
+
+########################### Testimonial ###########################
+# testimonial:
+#   enable : true
+#   title : "clients feedback"
+#   subtitle : "testimonials"
+#   bg_image : "/assets/images/bg/testimonial-bg.png"
+#   item:
+#   - name : "Liam Hughes"
+#     designation : "Manager"
+#     image : "/assets/images/team/test-1.jpg"
+#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+
+#   - name : "Jane Austin"
+#     designation : "Designer"
+#     image : "/assets/images/team/test-2.jpg"
+#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."
+
+#   - name : "Liolane hussy"
+#     designation : "Developer"
+#     image : "/assets/images/team/test-3.jpg"
+#     content : "Lorem ipsum dolor amet constur adipisicing elit sed eiusmtempor incid dolore magna aliqu. enim minim veniam.quis nos trud exercittion ullam laboris nisi ut aliquip excepteur. sint occaecat cuida tat nonproident sunt in culpa qui officia deserunt mollit anim est laborum. sed ut perspiciatis."

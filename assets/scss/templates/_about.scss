@@ -1,15 +1,15 @@
 .about{
 	position: relative;
 
-	&:before{
-		position: absolute;
-		content:"";
-		background: url("../images/about/pattern-bg.png")no-repeat;
-		width:90%;
-		height: 100%;
-		left: 97%;
-		top: 23px;
-	}
+	// &:before{
+	// 	position: absolute;
+	// 	content:"";
+	// 	background: url("../images/about/pattern-bg.png")no-repeat;
+	// 	width:90%;
+	// 	height: 100%;
+	// 	left: 97%;
+	// 	top: 23px;
+	// }
 	.about-img{
 		position: relative;
 		.video-play{
@@ -54,22 +54,27 @@
 			}
 		}
 
-		&:before{
-			position: absolute;
-			content:"";
-			// background: url("../images/about/pattern-bg.png")no-repeat;
-      background-color: #00c8f294;
-      width: 100%;
-      height: 100%;
-      left: -58px;
-      top: 557px;
-      width: 120px;
-      height: 120px;
-      z-index: 9999;
-      @include tablet {
-        display: none;
-      }
-		}
+		// &:before{
+		// 	position: absolute;
+		// 	content:"";
+		// 	// background: url("../images/about/pattern-bg.png")no-repeat;
+    //   background-color: #00c8f294;
+    //   width: 100%;
+    //   height: 100%;
+    //   left: -58px;
+    //   top: 557px;
+    //   width: 120px;
+    //   height: 120px;
+    //   z-index: 9999;
+    //   @include tablet {
+    //     display: none;
+    //   }
+		// }
+
+    img {
+      height: 450px;
+      width: auto;
+    }
 	}
 
   .highlight {
@@ -136,7 +141,7 @@
   }
 
   .img-fluid {
-    height:600px;
+    height: 600px;
   }
 
 }

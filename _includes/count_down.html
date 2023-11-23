@@ -1,17 +1,17 @@
-<!-- Counter Start -->
-{% assign count = site.data.homepage_2.funfacts %}
+<!-- Skills Start -->
+{% assign count = site.data.homepage_1.skills %}
 {% if count.enable %}
-<section class="section-sm counter-section bg-secondary position-relative">
-	<img src="{{count.bg_image | relative_url }}" alt="" class="overlay-shape">
+<section class="section-sm counter-section position-relative">
+	<!-- <img src="{{count.bg_image | relative_url }}" alt="" class="overlay-shape"> -->
 	<div class="container">
 		<div class="row">
 			{% for item in count.item %}
 			<div class="col-lg-3 col-md-6">
-				<div class="counter-content d-flex mb-5 mb-lg-0">
-					<i class="{{item.icon}} mr-4"></i>
+				<div class="counter-content d-flex flex-column align-items-center mb-5">
+					<i class="{{item.icon}} mb-2"></i>
 					<div>
-						<h2 class="mb-0"><span class="counter">{{item.value}}</span></h2>
-						<p class="text-capitalize mb-0">{{item.name}}</p>
+						<p class="mb-0"><span class="counter">{{item.name}}</span></p>
+						<!-- <p class="text-capitalize mb-0">{{item.description}}</p> -->
 					</div>
 				</div>
 			</div>
@@ -19,5 +19,5 @@
 		</div>
 	</div>
 </section>
-<!-- Counter End -->
+<!-- Skills End -->
 {% endif %}

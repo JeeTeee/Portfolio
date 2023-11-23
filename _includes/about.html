@@ -6,8 +6,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
-				<div class="about-img">
-					<img src="{{about.video_thumb| relative_url}}" alt="" class="img-fluid w-100">
+				<div class="about-img d-flex justify-content-end">
+					<img src="{{about.video_thumb| relative_url}}" alt="" class="img-about">
 					<!-- <div class="video-play">
 						<div class="play-bg">
 							<a class="popup-youtube" href="{{about.video_url}}"><i class="ti-control-play"></i></a>
@@ -20,7 +20,7 @@
 				<h3 class="mb-4 mt-3">{{ about.title }}</h3>
 				{{ about.content | markdownify }}
 				{% if about.button.enable %}
-				<a href="{{ about.button.link | relative_url }}" class="btn btn-primary w-50">{{about.button.label}}</a>
+				<a href="{{ about.button.link | relative_url }}" class="btn btn-primary rounded-0 w-50 bounce-to-right">{{about.button.label}}</a>
 				{% endif %}
 			</div>
 		</div>
