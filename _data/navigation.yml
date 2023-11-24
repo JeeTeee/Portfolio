@@ -12,7 +12,7 @@ main:
     #   - name: Home 4
     #     url: /index-4.html
   - name: À propos
-    url: /#ma-section
+    url: /#about-section
     # submenu:
     #   - name: About
     #     url: /about.html

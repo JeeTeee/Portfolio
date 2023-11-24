@@ -1,19 +1,36 @@
-<!-- Service Start -->
-<section class="service-2">
-	<div class="container border-top w-75">
-    <h1 class="banner-title text-uppercase d-flex justify-content-center mb-5">Expériences notables</h1>
-		<div class="row justify-content-center">
-			{% for service in site.data.homepage_1.services %}
-			<div class="col-lg-4 col-md-6 h-50 {% unless forloop.last %}border-right{% endunless %}">
-				<div class="service-item mb-4 mb-lg-0 text-center px-4 ">
-					<i class="{{ service.icon }} text-color icon-md"></i>
-					<h4 class="my-4">{{ service.title }}</h4>
-					<p>{{ service.content }}</p>
-				</div>
-			</div>
-			{% endfor %}
-			</div5
-		</div>
-	</div>
-</section>
-<!-- Service End -->
+<!-- Experience Start -->
+<div class="service-2">
+  <div class="row justify-content-sm-center m-3">
+    <div class="col-sm-auto m-5">
+      <h2>Expériences</h2>
+      <div class="col justify-content-start mt-5">
+        {% for service in site.data.homepage_1.services %}
+
+          <div class="service-item mb-4  text-center px-2">
+            <h3 class="pr-3">{{ service.title }}</h3>
+            <p>{{ service.content }}</p>
+            <p style="font-style: italic;">{{ service.date }}</p>
+          </div>
+
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="col-sm-auto m-5">
+      <h2>Enseignements</h2>
+      <div class="col justify-content-start mt-5">
+        {% for education in site.data.homepage_1.educations %}
+          <div class="service-item mb-4  text-center px-2">
+            <h3 class="pr-3">{{ education.title }}</h3>
+            <p>{{ education.content }}</p>
+            <p style="font-style: italic;">{{ education.date }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<!-- Experience End -->
