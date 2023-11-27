@@ -1,17 +1,27 @@
 .home-contact{
-	background: url("../images/bg/bg-portfolio.jpg")center center no-repeat;
-	background-size: cover;
+	// background: url("../images/bg/bg-portfolio.jpg")center center no-repeat;
+	// background-size: cover;
+  // background-color: $extra-color;
 
 	.form-control {
-	    background-color: transparent;
+	    background-color: $extra-color;
 	    border-radius: 0px;
 	    border: 0px;
-	    border-bottom: 1px solid #e6c5c5;
-	    padding-left: 0px;
+	    border-bottom: 1px solid $primary-color;
+	    padding: 10px;
 	    box-shadow: 0px;
 	    color: $black!important;
 	    font-size: 14px;
 	}
+
+  .form-control:focus {
+    border-bottom: 1px solid $secondary-color;
+  }
+
+  ::placeholder {
+    color: $black-light;
+    font-weight: 300;
+  }
 
 	.form-control:focus{
 		box-shadow: none;
@@ -42,4 +52,63 @@
 .google-map #map {
     width: 100%;
     height: 450px;
+}
+
+
+// curriculum vitae
+
+.banner-cv {
+  // height: 550px;
+  border: 2px dotted $extra-color;
+  padding-bottom: 20px;
+
+  img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: auto;
+
+  }
+}
+
+.overlay-cv {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-cv img {
+  vertical-align: middle;
+}
+
+.overlay-cv .hover-cv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+
+
+  background-color: #00caf28a;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.overlay-cv:hover .hover-cv {
+  opacity: 1;
+  font-size: 48px;
+}
+
+embed {
+  background-color: $extra-color;
+  height: 100vh;
 }

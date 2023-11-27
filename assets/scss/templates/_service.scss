@@ -31,7 +31,6 @@
 
 
 .service-2 {
-	background: $extra-color;
 
   h1 {
     color: $primary-color;
@@ -39,7 +38,19 @@
 
   h2 {
     color: $primary-color;
-    border-bottom: 2px solid $black-light;
+    border-bottom: 2px solid #00caf254;
+    text-transform: uppercase;
+    font-size: 34px;
+    padding-left: 34px;
+
+    &:before {
+      position: absolute;
+      content: url("../images/cat-title.svg");
+      display: inline-block;
+      height: 45px;
+      width: 45px;
+      left: -8px;
+    }
   }
 
 	.service-item {
@@ -62,10 +73,12 @@
     }
 
     h3:before {
-      content: url("../images/list-title.png");
+      position: absolute;
+      content: url("../images/list-title.svg");
       display: inline-block;
-      height: 5px;
-      width: 5px;
+      height: 25px;
+      width: 25px;
+      left: -10px;
     }
 	}
 }
