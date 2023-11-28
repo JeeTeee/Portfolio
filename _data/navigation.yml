@@ -2,15 +2,15 @@
 main:
   - name: Accueil
     url: /index.html
-    submenu:
-      - name: Home
-        url: /index.html
-      - name: Home 2
-        url: /index-2.html
-      - name: Home 3
-        url: /index-3.html
-      - name: Home 4
-        url: /index-4.html
+    # submenu:
+    #   - name: Home
+    #     url: /index.html
+    #   - name: Home 2
+    #     url: /index-2.html
+    #   - name: Home 3
+    #     url: /index-3.html
+    #   - name: Home 4
+    #     url: /index-4.html
   - name: À propos
     url: /#about-section
     # submenu:
@@ -20,17 +20,17 @@ main:
     #     url: /about-me.html
   # - name: Blog
   #   url: /blog-1.html
-  - name: Pages
-    url: /
-    submenu:
-      - name: Services
-        url: /services.html
-      - name: Portfolio One
-        url: /portfolio-1.html
-      - name: Portfolio Two
-        url: /portfolio-2.html
-      - name: 404
-        url: /404
+  - name: Portfolio
+    url: /portfolio-1.html
+    # submenu:
+    #   - name: Services
+    #     url: /services.html
+    #   - name: Portfolio One
+    #     url: /portfolio-1.html
+    #   - name: Portfolio Two
+    #     url: /portfolio-2.html
+    #   - name: 404
+    #     url: /404
   - name: Contact
     url: /contact.html
 

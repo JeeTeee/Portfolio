@@ -182,88 +182,123 @@
     }
 
 	}
-}
+  .fa-github:hover {
+    animation: bounce 1s ease-in-out infinite alternate;
+    color: $primary-color;
 
-.fa-github:hover {
-  animation: bounce 1s ease-in-out infinite alternate;
-  color: $primary-color;
+    @keyframes bounce {
+      0%   { transform: scale(1,1)    translateY(0); }
+      10%  { transform: scale(1.1,.9) translateY(0); }
+      30%  { transform: scale(.9,1.1) translateY(-20px); }
+      50%  { transform: scale(1,1)    translateY(0); }
+      100% { transform: scale(1,1)    translateY(0); }
+    }
 
-  @keyframes bounce {
-    0%   { transform: scale(1,1)    translateY(0); }
-    10%  { transform: scale(1.1,.9) translateY(0); }
-    30%  { transform: scale(.9,1.1) translateY(-20px); }
-    50%  { transform: scale(1,1)    translateY(0); }
-    100% { transform: scale(1,1)    translateY(0); }
   }
 
-}
 
+  .fa-instagram:hover {
+    animation: icon3d 250ms ease infinite alternate;
+    color: $white;
 
-.fa-instagram:hover {
-  animation: icon3d 250ms ease infinite alternate;
-  color: $white;
+    @keyframes icon3d {
+      0% { text-shadow: 5px 4px $primary-color, -5px -6px $secondary-color; }
+      25% { text-shadow: -5px -6px $primary-color, 5px 4px $secondary-color; }
+      50% { text-shadow: 5px -4px $primary-color, -8px 4px $secondary-color; }
+      75% {text-shadow: -8px -4px $primary-color, -5px -4px $secondary-color; }
+      100% { text-shadow: -5px 0 $primary-color, 5px -4px $secondary-color; }
+    }
 
-  @keyframes icon3d {
-    0% { text-shadow: 5px 4px $primary-color, -5px -6px $secondary-color; }
-    25% { text-shadow: -5px -6px $primary-color, 5px 4px $secondary-color; }
-    50% { text-shadow: 5px -4px $primary-color, -8px 4px $secondary-color; }
-    75% {text-shadow: -8px -4px $primary-color, -5px -4px $secondary-color; }
-    100% { text-shadow: -5px 0 $primary-color, 5px -4px $secondary-color; }
   }
 
-}
+  .fa-linkedin-in:hover {
+    animation: beat-fade 1.6s ease infinite alternate;
+    color: $primary-color;
 
-.fa-linkedin-in:hover {
-  animation: beat-fade 1.6s ease infinite alternate;
-  color: $primary-color;
+    @keyframes beat-fade {
+      0% { transform: scale(1);   opacity: 0.5; }
+      50% { transform: scale(1.25); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.5; }
+    }
 
-  @keyframes beat-fade {
-    0% { transform: scale(1);   opacity: 0.5; }
-    50% { transform: scale(1.25); opacity: 1; }
-    100% { transform: scale(1); opacity: 0.5; }
   }
 
-}
+  .fa-phone:hover {
+    animation: shake 0.8s ease infinite alternate;
+    color: $primary-color;
 
-.fa-phone:hover {
-  animation: shake 0.8s ease infinite alternate;
-  color: $primary-color;
+    @keyframes shake {
+      0% { transform: translateX(0) }
+      25% { transform: translateY(-9px) }
+      35% { transform: translateY(-9px) rotate(17deg) }
+      55% { transform: translateY(-9px) rotate(-17deg) }
+      65% { transform: translateY(-9px) rotate(17deg) }
+      75% { transform: translateY(-9px) rotate(-17deg) }
+      100% { transform: translateY(0) rotate(0) }
+    }
 
-  @keyframes shake {
-    0% { transform: translateX(0) }
-    25% { transform: translateY(-9px) }
-    35% { transform: translateY(-9px) rotate(17deg) }
-    55% { transform: translateY(-9px) rotate(-17deg) }
-    65% { transform: translateY(-9px) rotate(17deg) }
-    75% { transform: translateY(-9px) rotate(-17deg) }
-    100% { transform: translateY(0) rotate(0) }
   }
 
-}
+  .fa-envelope:hover {
+    animation: rotate 2s ease infinite alternate;
+    color: $primary-color;
 
-.fa-envelope:hover {
-  animation: rotate 2s ease infinite alternate;
-  color: $primary-color;
+    @keyframes rotate {
+      0% { transform: rotate(0deg) }
+      25% { transform: translateY(-9px) rotate(-10deg) }
+      50% { transform: translateY(-9px) rotate(-15deg) }
+      75% { transform: translateY(-9px) rotate(-10deg) }
+      100% { transform: translateY(-0px) rotate(0deg) }
+      // 65% { transform: translateY(-2px) rotate(-5deg) }
+      // 75% { transform: translateY(-9px) rotate(-10deg) }
+      // 85% { transform: translateY(-2px) rotate(-5deg) }
+      // 100% { transform: rotate(0) }
+    }
 
-  @keyframes rotate {
-    0% { transform: rotate(0deg) }
-    25% { transform: translateY(-9px) rotate(-10deg) }
-    50% { transform: translateY(-9px) rotate(-15deg) }
-    75% { transform: translateY(-9px) rotate(-10deg) }
-    100% { transform: translateY(-0px) rotate(0deg) }
-    // 65% { transform: translateY(-2px) rotate(-5deg) }
-    // 75% { transform: translateY(-9px) rotate(-10deg) }
-    // 85% { transform: translateY(-2px) rotate(-5deg) }
-    // 100% { transform: rotate(0) }
   }
 
+  .mailme:hover .fa-envelope:before{
+    content:"\f2b6";
+    color: $primary-color;
+  }
 }
 
-.mailme:hover .fa-envelope:before{
-  content:"\f2b6";
-  color: $primary-color;
-}
 
+
+
+
+.socials-links-footer {
+  font-size: 30px;
+  line-height: 0px;
+  margin: 0;
+  li a {
+    padding: 0vmin 0vmin 0vmin 1vmin;
+
+    i:hover {
+      color: $primary-color;
+    }
+
+    @include tablet {
+      font-size: 30px;
+      padding: 0vmin 0vmin  0vmin 1vmin;
+      margin: 0px;
+    }
+
+    @include mobile-xs {
+      font-size: 20px;
+      padding: 0vmin 0vmin  0vmin 1vmin;
+      margin: 0px;
+    }
+
+    @include desktop-xlg {
+      font-size: 32px;
+      line-height: 130%;
+      padding: 0vmin 0vmin 0vmin 1vmin;
+    }
+  }
+
+
+}
 // Icone de scrolling (à voir si on garde)
 
 .icon-scroll,

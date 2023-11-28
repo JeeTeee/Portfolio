@@ -134,6 +134,8 @@
 }
 
 #main-nav.main-nav-black {
+  // background: $primary-color;
+  // box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
   @include desktop {
     .w-logo {
       display: block;
@@ -323,10 +325,17 @@
 
 #main-nav.main-nav-black .navbar-nav .nav-link {
   color: $black !important;
+
+  &:hover {
+    color: $primary-color !important;
+  }
 }
 
 #main-nav.main-nav-black.nav-top .navbar-nav .nav-link {
   color: $white !important;
+  &:hover {
+    color: $primary-color !important;
+  }
 }
 
 #main-nav.main-nav-black {

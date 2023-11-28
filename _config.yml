@@ -31,19 +31,28 @@ cta:
 social:
   - name: github
     icon: "fa-brands fa-github"
+    title: "Github"
     link: "https://github.com/JeeTeee"
 
   - name: instagram
     icon: "fa-brands fa-instagram"
+    title: "Instagram"
     link: "#"
 
   - name: linkedin
     icon: "fa-brands fa-linkedin-in"
+    title: "Linkedin"
     link: "https://www.linkedin.com/in/guillaume-teillais/"
 
   - name: phone
     icon: "fa-solid fa-phone fa-sm"
+    title: "M'appeler"
     link: "tel:06 30 61 12 91"
+
+  - name: mail
+    icon: "fa-regular fa-envelope"
+    title: "M'envoyer un mail"
+    link: "mailto:guillaume.teillais@gmail.com"
 
 # Build settings
 permalink: "/:title"
