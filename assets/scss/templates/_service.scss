@@ -51,6 +51,10 @@
       width: 40px;
       left: -6px;
     }
+
+    @include mobile {
+      font-size: 22px;
+    }
   }
 
 	.service-item {

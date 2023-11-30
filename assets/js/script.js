@@ -130,9 +130,9 @@
 
   win.on('load', function () { // makes sure the whole site is loaded
 
-    // ----------------------- 
+    // -----------------------
     // Progress Bar--------------------
-    // 
+    //
     $('.progress-bar').each(function () {
       var width = $(this).data('percent');
       $(this).css({
@@ -204,5 +204,57 @@
     });
   }
 
+  // formulaire validation
+
+  document.getElementById("home-contact-form").addEventListener("submit", function(event) {
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("msg").value.trim();
+
+
+    if (name === "" || email === "" || message === "") {
+
+        event.preventDefault();
+
+
+        alert("Veuillez remplir tous les champs obligatoires !");
+
+        if (name === "") {
+          document.getElementById("name").classList.add("empty-field");
+        }
+        if (email === "") {
+            document.getElementById("email").classList.add("empty-field");
+        }
+        if (message === "") {
+            document.getElementById("msg").classList.add("empty-field");
+        }
+    }
+});
+
+// animation en scrollant
+
+let animationDone = false;
+
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+function addClassOnScroll() {
+  const element = document.getElementById('animscroll');
+  if (!animationDone && isElementInViewport(element)) {
+    element.classList.add('active');
+    animationDone = true;
+    window.removeEventListener('scroll', addClassOnScroll);
+  }
+}
+
+window.addEventListener('scroll', addClassOnScroll);
 
 })(jQuery);

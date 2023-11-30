@@ -28,8 +28,8 @@
 }
 
 .code-title-sm {
-  width: 21ch;
-  animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+  width: 20.5ch;
+  animation: none;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -41,15 +41,38 @@
   margin-bottom: 20px;
 }
 
+.code-title-sm.active {
+  animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+}
+
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
 
 @keyframes blink {
   50% {
     border-color: transparent
+  }
+}
+
+.experiences {
+  animation: leftapp 1.7s cubic-bezier(.53,.14,.88,.55) alternate;
+}
+
+@keyframes leftapp {
+  0% {
+    opacity: 0;
+    left:-1000px;
+  }
+  50% {
+    opacity: 0.2;
+    left: -400px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
   }
 }
 
@@ -263,6 +286,13 @@
   }
 }
 
+// icon menu hamburger
+
+.hamburger-menu[aria-expanded="true"] .fa-bars:before{
+  content:"\f00d";
+  color: $primary-color;
+  transition: 2s ease-in;
+}
 
 
 

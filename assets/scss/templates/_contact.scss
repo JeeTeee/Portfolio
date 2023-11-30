@@ -26,6 +26,10 @@
 	.form-control:focus{
 		box-shadow: none;
 	}
+
+  .empty-field {
+    border-bottom: 2px solid $secondary-color;
+}
 }
 
 
@@ -61,13 +65,21 @@
   // height: 550px;
   border: 2px dotted $extra-color;
   padding-bottom: 20px;
+  margin: 20px 0 20px 0;
+
+  @include mobile {
+    border: none;
+    max-width: 280px;
+  }
 
   img {
     margin-top: 30px;
     margin-bottom: 10px;
     width: 300px;
     height: auto;
-
+    @include mobile {
+      max-width: 270px;
+    }
   }
 }
 
