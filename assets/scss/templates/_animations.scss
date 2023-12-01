@@ -45,6 +45,15 @@
   animation: typing 2s steps(19), blink .5s step-end infinite alternate;
 }
 
+.code-title-sm {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.code-title-sm.active {
+  opacity: 1;
+}
+
 @keyframes typing {
   from {
     width: 0;
@@ -336,6 +345,7 @@
   h2{
     position: relative;
     animation: leftapp 1s linear;
+    animation-delay: -0.75s;
   }
  }
 
@@ -366,7 +376,7 @@
 }
 .experiences.active > div.exp-column div {
   animation: showBottomTextExp 0.5s;
-  animation-delay: 1.5s;
+  animation-delay: 0.75s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -400%);
@@ -382,7 +392,7 @@
   h2{
     position: relative;
     animation: rightapp 1s linear;
-    // animation-delay: 2s;
+    animation-delay: -0.75s;
   }
  }
 
@@ -413,7 +423,7 @@
 }
 .educations.active > div.educ-column div {
   animation: showBottomTextEdu 0.5s;
-  animation-delay: 1.5s;
+  animation-delay: 0.75s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -400%);

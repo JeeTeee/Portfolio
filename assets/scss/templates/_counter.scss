@@ -79,23 +79,25 @@
   }
 }
 
-.devicon-ruby-plain {
-  animation: color-rb 10s ease-in infinite alternate;
-  animation-delay: 6s;
-
-  @keyframes color-rb {
-    0% { color: $primary-color; }
-    100% { color: #D91404; }
-  }
-}
 
 .devicon-react-original {
   animation: color-rct 10s ease-in infinite alternate;
-  animation-delay: 8s;
+  animation-delay: 6s;
 
   @keyframes color-rct {
     0% { color: $primary-color; }
     100% { color: #61DAFB; }
+  }
+}
+
+
+.devicon-ruby-plain {
+  animation: color-rb 10s ease-in infinite alternate;
+  animation-delay: 8s;
+
+  @keyframes color-rb {
+    0% { color: $primary-color; }
+    100% { color: #D91404; }
   }
 }
 
@@ -119,9 +121,19 @@
   }
 }
 
+.devicon-wordpress-plain {
+  animation: color-wp 10s ease-in infinite alternate;
+  animation-delay: 14s;
+
+  @keyframes color-wp {
+    0% { color: $primary-color; }
+    100% { color: #585C60; }
+  }
+}
+
 .devicon-figma-plain {
   animation: color-fm 10s ease-in infinite alternate;
-  animation-delay: 14s;
+  animation-delay: 16s;
 
   @keyframes color-fm {
     0% { color: $primary-color; }
@@ -131,7 +143,7 @@
 
 .devicon-photoshop-plain {
   animation: color-ps 10s ease-in infinite alternate;
-  animation-delay: 16s;
+  animation-delay: 18s;
 
   @keyframes color-ps {
     0% { color: $primary-color; }
@@ -141,7 +153,7 @@
 
 .devicon-illustrator-plain {
   animation: color-ill 10s ease-in infinite alternate;
-  animation-delay: 18s;
+  animation-delay: 20s;
 
   @keyframes color-ill {
     0% { color: $primary-color; }

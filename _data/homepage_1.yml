@@ -30,14 +30,14 @@ skills:
     icon : "devicon-javascript-plain"
 
 
-  - name : "Ruby"
-    description : "awards win"
-    icon : "devicon-ruby-plain"
-
-
-  - name : "React"
+  - name : "React JS"
     description : "Happy customers"
     icon : "devicon-react-original"
+
+
+  - name : "Ruby on Rails"
+    description : "awards win"
+    icon : "devicon-ruby-plain"
 
 
   - name : "Github"
@@ -48,6 +48,11 @@ skills:
   - name : "PostgreSQL"
     description : "awards win"
     icon : "devicon-postgresql-plain"
+
+
+  - name : "Wordpress"
+    description : "Happy customers"
+    icon : "devicon-wordpress-plain"
 
 
   - name : "Figma"

@@ -32,6 +32,41 @@
 }
 }
 
+.page-contact{
+	// background: url("../images/bg/bg-portfolio.jpg")center center no-repeat;
+	// background-size: cover;
+  // background-color: $extra-color;
+
+	.form-control {
+	    background-color: $extra-color;
+	    border-radius: 0px;
+	    border: 0px;
+	    border-bottom: 1px solid $primary-color;
+	    padding: 10px;
+	    box-shadow: 0px;
+	    color: $black!important;
+	    font-size: 14px;
+	}
+
+  .form-control:focus {
+    border-bottom: 1px solid $secondary-color;
+  }
+
+  ::placeholder {
+    color: $black-light;
+    font-weight: 300;
+  }
+
+	.form-control:focus{
+		box-shadow: none;
+	}
+
+  .empty-field {
+    border-bottom: 2px solid $secondary-color;
+}
+}
+
+
 
 // Contact page
 //
@@ -100,7 +135,7 @@
   right: 0;
 
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
 
 
   background-color: #00caf28a;
