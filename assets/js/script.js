@@ -234,8 +234,6 @@
 
 // animation en scrollant
 
-let animationDone = false;
-
 function isElementInViewport(el) {
   const rect = el.getBoundingClientRect();
   return (
@@ -246,15 +244,30 @@ function isElementInViewport(el) {
   );
 }
 
-function addClassOnScroll() {
-  const element = document.getElementById('animscroll');
+function addClassOnScroll(elemId) {
+  const element = document.getElementById(elemId);
+  const animationDone = element.getAttribute('data-animation-done');
+
   if (!animationDone && isElementInViewport(element)) {
     element.classList.add('active');
-    animationDone = true;
-    window.removeEventListener('scroll', addClassOnScroll);
+    element.setAttribute('data-animation-done', 'true');
   }
 }
 
-window.addEventListener('scroll', addClassOnScroll);
+window.addEventListener('scroll', function() {
+  addClassOnScroll('animscroll');
+  console.log('animation 1 se déclanche');
+
+});
+
+window.addEventListener('scroll', function() {
+  addClassOnScroll('animscroll2');
+  console.log('animation 2 se déclanche');
+});
+
+
+window.addEventListener('scroll', function() {
+  addClassOnScroll('animscroll3');
+});
 
 })(jQuery);

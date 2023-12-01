@@ -57,25 +57,6 @@
   }
 }
 
-.experiences {
-  animation: leftapp 1.7s cubic-bezier(.53,.14,.88,.55) alternate;
-}
-
-@keyframes leftapp {
-  0% {
-    opacity: 0;
-    left:-1000px;
-  }
-  50% {
-    opacity: 0.2;
-    left: -400px;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-
 // apparition text
 
 .animated-title {
@@ -329,67 +310,186 @@
 
 
 }
-// Icone de scrolling (à voir si on garde)
 
-.icon-scroll,
-.icon-scroll:before {
-  position: absolute;
-  left: 50%;
+// experiences et enseignements
+
+.experiences {
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
-.icon-scroll {
-  width: 40px;
-  height: 70px;
-  // margin-left: -20px;
-  // top: 50%;
-  // margin-top: -35px;
-  box-shadow: inset 0 0 0 1px #fff;
-  border-radius: 25px;
+
+.experiences.active {
+  opacity: 1;
 }
-.icon-scroll:before {
-  content: '';
-  width: 8px;
-  height: 8px;
-  background: #fff;
-  margin-left: -4px;
-  top: 8px;
-  border-radius: 4px;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-name: scroll;
+
+.educations {
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
-@-moz-keyframes scroll {
+
+.educations.active {
+  opacity: 1;
+}
+
+// titre
+.experiences.active {
+  h2{
+    position: relative;
+    animation: leftapp 1s linear;
+  }
+ }
+
+@keyframes leftapp {
   0% {
-    opacity: 1;
+    opacity: 0;
+    left:-1000px;
+  }
+  50% {
+    opacity: 0.2;
+    left: -500px;
   }
   100% {
-    opacity: 0;
-    transform: translateY(46px);
+    opacity: 1;
+    left: 0;
   }
 }
-@-webkit-keyframes scroll {
+
+// contenu
+.experiences > div {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.experiences > div.exp-column {
+  bottom: 0;
+}
+.experiences.active > div.exp-column div {
+  animation: showBottomTextExp 0.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -400%);
+}
+
+@keyframes showBottomTextExp {
+  0% { transform: translate3d(0, -400%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+// titre
+.educations.active {
+  h2{
+    position: relative;
+    animation: rightapp 1s linear;
+    // animation-delay: 2s;
+  }
+ }
+
+@keyframes rightapp {
   0% {
-    opacity: 1;
+    opacity: 0;
+    right:-1000px;
+  }
+  50% {
+    opacity: 0.2;
+    right: -500px;
   }
   100% {
-    opacity: 0;
-    transform: translateY(46px);
-  }
-}
-@-o-keyframes scroll {
-  0% {
     opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(46px);
+    right: 0;
   }
 }
-@keyframes scroll {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(46px);
-  }
+
+// contenu
+.educations > div {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
+
+.educations > div.educ-column {
+  bottom: 0;
+}
+.educations.active > div.educ-column div {
+  animation: showBottomTextEdu 0.5s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -400%);
+}
+
+@keyframes showBottomTextEdu {
+  0% { transform: translate3d(0, -400%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+// .experiences.active {}
+
+// .educations.active {}
+
+
+// // Icone de scrolling (à voir si on garde)
+
+// .icon-scroll,
+// .icon-scroll:before {
+//   position: absolute;
+//   left: 50%;
+// }
+// .icon-scroll {
+//   width: 40px;
+//   height: 70px;
+//   // margin-left: -20px;
+//   // top: 50%;
+//   // margin-top: -35px;
+//   box-shadow: inset 0 0 0 1px #fff;
+//   border-radius: 25px;
+// }
+// .icon-scroll:before {
+//   content: '';
+//   width: 8px;
+//   height: 8px;
+//   background: #fff;
+//   margin-left: -4px;
+//   top: 8px;
+//   border-radius: 4px;
+//   animation-duration: 1.5s;
+//   animation-iteration-count: infinite;
+//   animation-name: scroll;
+// }
+// @-moz-keyframes scroll {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: translateY(46px);
+//   }
+// }
+// @-webkit-keyframes scroll {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: translateY(46px);
+//   }
+// }
+// @-o-keyframes scroll {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: translateY(46px);
+//   }
+// }
+// @keyframes scroll {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//     transform: translateY(46px);
+//   }
+// }
