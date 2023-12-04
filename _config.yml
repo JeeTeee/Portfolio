@@ -8,7 +8,7 @@ author: Guillaume Teillais
 description: >- # this means to ignore newlines
   Dizer - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
 logo: "/assets/images/logo.png"
-logo_icon: "/assets/images/logo-b.png"
+logo_icon: "/assets/images/logo.png"
 # contact form action
 contact_form_action: "https://formkeep.com/f/c3fc3f416b06" # works with https://formspree.io
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
