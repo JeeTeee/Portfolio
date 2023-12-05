@@ -88,10 +88,6 @@
 	}
 }
 
-.google-map #map {
-    width: 100%;
-    height: 450px;
-}
 
 
 // curriculum vitae
@@ -127,53 +123,21 @@
   }
 }
 
-// .overlay-cv {
-//   position: relative;
-//   display: inline-block;
-// }
-
-// .overlay-cv img {
-//   vertical-align: middle;
-// }
-
-// .overlay-cv .hover-cv {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-
-//   opacity: 0;
-//   transition: opacity 0.75s ease-in-out;
-
-
-//   background-color: #00caf28a;
-//   color: white;
-//   margin-top: 30px;
-//   margin-bottom: 10px;
-
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   flex-direction: column;
-//   text-align: center;
-// }
-
-// .overlay-cv:hover .hover-cv {
-//   opacity: 1;
-//   font-size: 48px;
-// }
 
 embed {
   background-color: $extra-color;
   height: 100vh;
 }
+.overlay-cv {
+  padding-left: 10px;
+}
 
 .overlay-cv img {
+  margin-top: 0;
   --color: #00c8f2;
-  --border: 10px;   /* the border thickness*/
-  --offset: 15px;   /* control the offset*/
-  --gap: 5px;       /* the gap on hover */
+  --border: 10px;
+  --offset: 15px;
+  --gap: 1px;
 
   --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
   --_o: calc(3*var(--offset));
@@ -196,4 +160,34 @@ embed {
   background-position: 0px 0px;
   background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
   filter: grayscale(0);
+}
+
+// dl link
+
+.hover-dl {
+  span {
+    font-size: 20px;
+    color: $primary-color;
+  }
+}
+.hover-dl i.fa-solid.fa-circle-down {
+  font-size: 20px;
+  color: $primary-color;
+  text-decoration: none;
+  padding-right: 6px;
+}
+
+.hover-dl:hover i.fa-solid.fa-circle-down,
+.hover-dl:hover span {
+  animation: bouncy 0.75s ease-out infinite;
+  color: $secondary-color;
+  filter: grayscale(0);
+
+  @keyframes bouncy {
+    0%   { transform:     translateY(0); }
+    10%  { transform:  translateY(0); }
+    30%  { transform:  translateY(-10px); }
+    50%  { transform:    translateY(0); }
+    100% { transform:     translateY(0); }
+  }
 }

@@ -40,6 +40,7 @@
 }
 
 a {
+  text-decoration: none;
 	transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-webkit-transition: all .3s ease;
@@ -47,7 +48,7 @@ a {
 }
 
 a:hover {
-	color: $primary-color !important;
+	color: $primary-color;
 }
 
 a:hover,

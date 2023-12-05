@@ -503,3 +503,25 @@
 //     transform: translateY(46px);
 //   }
 // }
+
+.intro-text.active{
+  animation-duration: 0.75s;
+  animation-name: animate-fade;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  top: 0;
+}
+
+@keyframes animate-fade {
+  0% { transform: translate3d(-400%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.intro-text {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.intro-text.active {
+  opacity: 1;
+}

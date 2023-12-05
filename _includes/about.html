@@ -15,13 +15,16 @@
 					</div> -->
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-7 offset-lg-1 my-2 d-flex flex-column justify-content-center mx-1">
+			<div class="col-lg-6 col-md-7 offset-lg-1 my-2 d-flex flex-column justify-content-center mx-1" style="overflow: hidden;">
 				<span id="animscroll" class="code-title-sm">{{about.subtitle}}</span>
-				<h3 class="mb-4 mt-3">{{ about.title }}</h3>
-				{{ about.content | markdownify }}
-				{% if about.button.enable %}
-				<a href="{{ about.button.link | relative_url }}" class="btn btn-primary rounded-0 w-50 bounce-to-right">{{about.button.label}}</a>
-				{% endif %}
+				<div class="intro-text" id="animscroll4">
+          <h3 class="mb-4 mt-3">{{ about.title }}</h3>
+          {{ about.content | markdownify }}
+          {% if about.button.enable %}
+          <a href="{{ about.button.link | relative_url }}" class="btn btn-primary rounded-0 w-50 bounce-to-right">{{about.button.label}}</a>
+          {% endif %}
+        </div>
+
 			</div>
 
 		</div>

@@ -115,6 +115,19 @@
 .header-padding{
 	padding: 140px 0px 80px 0px;
   background: $black-light;
+
+  a {
+    font-size: 24px;
+    color: $primary-color;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.header-padding a:hover {
+  color: $secondary-color;
 }
 
 .text-lg{

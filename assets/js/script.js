@@ -270,4 +270,8 @@ window.addEventListener('scroll', function() {
   addClassOnScroll('animscroll3');
 });
 
+window.addEventListener('scroll', function() {
+  addClassOnScroll('animscroll4');
+});
+
 })(jQuery);
