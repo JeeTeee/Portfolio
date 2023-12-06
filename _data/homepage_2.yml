@@ -1,7 +1,8 @@
+# Page non utilisée
 ################## Hero Area #######################
 hero_area:
   title : "Design Studio"
-  image : "/assets/images/banner/banner-3.png"
+  image : "/assets/images/bg/header-smb-3.gif"
   content : "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna.<br>aliqua enim ad minim veniam quis."
   button:
     enable : true
@@ -9,78 +10,63 @@ hero_area:
     link : "/contact"
 
 ###################### Services #####################
-services:
-  enable : true
-  bg_image : "/assets/images/bg/feature-bg.png"
-  item:
-  - name : "Brand Design"
-    icon : "ti-ruler-pencil"
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+# services:
+#   enable : true
+#   bg_image : "/assets/images/bg/bg-home.jpg"
+#   item:
+#   - name : "Brand Design"
+#     icon : "ti-ruler-pencil"
+#     content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
-  - name : "Seo & Marketing"
-    icon : "ti-announcement"
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+#   - name : "Seo & Marketing"
+#     icon : "ti-announcement"
+#     content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
-  - name : "Creative Design"
-    icon : "ti-palette"
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
+#   - name : "Creative Design"
+#     icon : "ti-palette"
+#     content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna."
 
-################## About ###########################
-about:
-  enable : true
-  subtitle : '> <span style="color: #00c8f2">"À propos de moi"</span>'
-  title : "Développeur Web <br> Designer UX"
-  video_thumb : "/assets/images/about/about.jpg"
-  video_url : "#"
-  content : "Après de riches expériences dans la communication et l’automobile, <br>
-  je me suis reconverti dans le secteur du numérique. <br>
-  J'ai choisi le métier de <span class='highlight'>Développeur Web</span> / <span class='highlight'>UX Designer</span> pour laisser libre cours à ma créativité. <br>
-  Animé par l’envie de découvrir et d’apprendre, je suis <span class='highlight'>disponible immédiatement</span> pour un emploi ou une mission freelance."
-  button:
-    enable : true
-    label : "Contactez-moi"
-    link : "/contact"
 
 
 ###################### Funfacts #########################
-funfacts:
-  enable : true
-  bg_image : "/assets/images/bg/cta-bg.png"
-  item:
-  - name : "work completed"
-    icon : "ti-briefcase"
-    value : "370"
+# funfacts:
+#   enable : true
+#   bg_image : "/assets/images/bg/bg-home.jpg"
+#   item:
+#   - name : "work completed"
+#     icon : "ti-briefcase"
+#     value : "370"
 
-  - name : "new projects"
-    icon : "ti-paint-bucket"
-    value : "450"
+#   - name : "new projects"
+#     icon : "ti-paint-bucket"
+#     value : "450"
 
-  - name : "Happy customers"
-    icon : "ti-heart"
-    value : "5000"
+#   - name : "Happy customers"
+#     icon : "ti-heart"
+#     value : "5000"
 
-  - name : "awards win"
-    icon : "ti-cup"
-    value : "37"
+#   - name : "awards win"
+#     icon : "ti-cup"
+#     value : "37"
 
 ###################### Skill #############################
-skill:
-  enable : true
-  subtitle : "our skill"
-  title : "We are Design & Development Team."
-  image : "/assets/images/about/skill.jpg"
-  item:
-  - name : "Branding"
-    percentage : "85%"
+# skill:
+#   enable : true
+#   subtitle : "our skill"
+#   title : "We are Design & Development Team."
+#   image : "/assets/images/about/skill.jpg"
+#   item:
+#   - name : "Branding"
+#     percentage : "85%"
 
-  - name : "Consulting"
-    percentage : "90%"
+#   - name : "Consulting"
+#     percentage : "90%"
 
-  - name : "Business"
-    percentage : "75%"
+#   - name : "Business"
+#     percentage : "75%"
 
-  - name : "Promotion"
-    percentage : "95%"
+#   - name : "Promotion"
+#     percentage : "95%"
 
 
 ######################### Testimonail ####################
@@ -121,40 +107,40 @@ testimonial:
 
 
 ###################### Clients ######################
-clients:
-  enable : true
-  logos:
-    - "/assets/images/clients/client-1.png"
-    - "/assets/images/clients/client-2.png"
-    - "/assets/images/clients/client-3.png"
-    - "/assets/images/clients/client-4.png"
-    - "/assets/images/clients/client-5.png"
-    - "/assets/images/clients/client-1.png"
-    - "/assets/images/clients/client-2.png"
-    - "/assets/images/clients/client-3.png"
-    - "/assets/images/clients/client-4.png"
-    - "/assets/images/clients/client-5.png"
+# clients:
+#   enable : true
+#   logos:
+#     - "/assets/images/clients/client-1.png"
+#     - "/assets/images/clients/client-2.png"
+#     - "/assets/images/clients/client-3.png"
+#     - "/assets/images/clients/client-4.png"
+#     - "/assets/images/clients/client-5.png"
+#     - "/assets/images/clients/client-1.png"
+#     - "/assets/images/clients/client-2.png"
+#     - "/assets/images/clients/client-3.png"
+#     - "/assets/images/clients/client-4.png"
+#     - "/assets/images/clients/client-5.png"
 
 
 ###################### Team ######################
-team:
-  enable : true
-  item:
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/team-1.jpg"
+# team:
+#   enable : true
+#   item:
+#   - name : "Liam Hughes"
+#     designation : "Manager"
+#     image : "/assets/images/team/team-1.jpg"
 
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/team-2.jpg"
+#   - name : "Liam Hughes"
+#     designation : "Manager"
+#     image : "/assets/images/team/team-2.jpg"
 
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/team-3.jpg"
+#   - name : "Liam Hughes"
+#     designation : "Manager"
+#     image : "/assets/images/team/team-3.jpg"
 
-  - name : "Liam Hughes"
-    designation : "Manager"
-    image : "/assets/images/team/team-4.jpg"
+#   - name : "Liam Hughes"
+#     designation : "Manager"
+#     image : "/assets/images/team/team-4.jpg"
 
 
 ########################### Testimonial ###########################
@@ -162,7 +148,7 @@ team:
 #   enable : true
 #   title : "clients feedback"
 #   subtitle : "testimonials"
-#   bg_image : "/assets/images/bg/testimonial-bg.png"
+#   bg_image : "/assets/images/bg/bg-home.jpg"
 #   item:
 #   - name : "Liam Hughes"
 #     designation : "Manager"

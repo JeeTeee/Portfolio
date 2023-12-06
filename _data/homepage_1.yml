@@ -1,5 +1,5 @@
-######################### Hero Area ##############################
-hero_area:
+######################### Banner ##############################
+banner:
   background_image : "/assets/images/bg/bg-home.jpg"
   subtitle: '> <span style="color: #ff5f6d">"Hello World!"</span>'
   title : "GUILLAUME TEILLAIS"
@@ -10,10 +10,26 @@ hero_area:
     label : "Engagez-Moi"
     link : "/contact"
 
+################## About ###########################
+about:
+  enable : true
+  subtitle : '> <span style="color: #00c8f2">"À propos de moi"</span>'
+  title : "Développeur Web <br> Designer UX"
+  video_thumb : "/assets/images/about/about.jpg"
+  video_url : "#"
+  content : "Après de riches expériences dans la communication et l’automobile, <br>
+  je me suis reconverti dans le secteur du numérique. <br>
+  J'ai choisi le métier de <span class='highlight'>Développeur Web</span> / <span class='highlight'>UX Designer</span> pour laisser libre cours à ma créativité. <br>
+  Animé par l’envie de découvrir et d’apprendre, je suis <span class='highlight'>disponible immédiatement</span> pour un emploi ou une mission freelance."
+  button:
+    enable : true
+    label : "Contactez-moi"
+    link : "/contact"
+
 ######################## Skills ########################
 skills:
   enable : true
-  bg_image : "/assets/images/bg/cta-bg.png"
+  bg_image : "/assets/images/bg/bg-home.jpg"
   item:
   - name : "HTML"
     description : "work completed"

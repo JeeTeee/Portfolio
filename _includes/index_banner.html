@@ -1,0 +1,62 @@
+<!-- Slider Start -->
+{% assign banner = site.data.homepage_1.banner %}
+<section class="banner-2 position-relative bg-blue">
+	<img src="{{ banner.background_image | relative_url }}" alt="" class="overlay-shape">
+	<div class="container d-flex h-100" >
+		<div class="row align-items-center">
+
+			<div class="col-lg-8 col-md-7 mt-5">
+				<div class="infos-index d-flex flex-column">
+          <div class="banner-content-2">
+            <div class="code-title">{{banner.subtitle}}</div>
+            <div class="animated-title">
+              <div class="text-top">
+                <div>
+                  <span style="font-weight: 600; color: #00c8f2;">{{banner.title}}</span>
+                  <span>{{banner.content}}</span>
+                </div>
+              </div>
+              <div class="text-bottom">
+                <div>
+                  <ul class="list-inline socials-links d-flex flex-fill justify-content-start">
+                    <li class="list-inline-item">
+                      <a href="https://github.com/JeeTeee" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.linkedin.com/in/guillaume-teillais/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="tel:{{site.phone}}" title="M'appeler"><i class="fa-solid fa-phone fa-sm"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="{{ banner.button.link | relative_url }}" target="_blank" title="Me contacter" class="mailme"><i class="fa-regular fa-envelope"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- <h2 class="mt-2">{{ banner.title | strip_html}}</h2>
+            <h3 class="text-white mt-2 mb-4">{{ banner.content }}</h3> -->
+
+            <!-- {% if banner.button.enable %}
+            <a href="{{ banner.button.link | relative_url }}" class="btn btn-primary">{{ banner.button.label }}</a>
+            {% endif %} -->
+          </div>
+        </div>
+			</div>
+
+			<div class="col-lg-4 col-md-5 p-0 align-self-end">
+				<img src="{{ banner.image | relative_url }}" alt="Guillaume Teillais" class="portrait-img">
+			</div>
+
+      <!-- <div class="banner-content-3 justify-content-center">
+        <div class='icon-scroll'></div>
+      </div> -->
+
+		</div>
+	</div>
+</section>
+<!-- Slider End -->

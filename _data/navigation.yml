@@ -1,21 +1,30 @@
-#Please use the main menu items under the "name"
 main:
   - name: Accueil
     url: /index.html
   - name: À propos
     url: /#about-section
+  - name: Portfolio
+    url: /portfolio-1.html
+  - name: Contact
+    url: /contact.html
   # - name: Blog
   #   url: /blog-1.html
+
+############## footer nav  ###############
+footer:
+  - name: Accueil
+    url: /index.html
+  - name: À propos
+    url: /#about-section
   - name: Portfolio
     url: /portfolio-1.html
   - name: Contact
     url: /contact.html
 
 
-
-############## Bottom menu ###############
-bottom:
-  - name: Terms of Service
-    link: "#"
-  - name: Privacy Policy
-    link: "#"
+############## termes & conditions  ###############
+# bottom:
+#   - name: Conditions d'utilisation
+#     link: "#"
+#   - name: Politique de confidentialité
+#     link: "#"

@@ -1,34 +1,23 @@
-<!-- Slill Start -->
-{% assign skill = site.data.homepage_2.skill %}
-{% if skill.enable %}
-<section class="section skill">
+<!-- Skills Start -->
+{% assign count = site.data.homepage_1.skills %}
+{% if count.enable %}
+<section class="section-sm counter-section position-relative">
+	<!-- <img src="{{count.bg_image | relative_url }}" alt="" class="overlay-shape"> -->
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6 pr-6">
-				<span class="h5 text-color text-uppercase">
-					{{skill.subtitle}}
-				</span>
-				<h3 class="mb-5 mt-2">{{skill.title}}</h3>
-
-				{% for item in skill.item %}
-				<div class="progress-block">
-					<h6 class="text-uppercase">{{ item.name }}</h6>
-					<div class="progress">
-					  <div class="progress-bar progress-bar-striped" style="width: {{item.percentage}};">
-					  	<span class="bg-primary skill-number">{{item.percentage}}</span>
-					  </div>
+		<div class="row">
+			{% for item in count.item %}
+			<div class="col-lg-3 col-md-6">
+				<div class="counter-content d-flex flex-column align-items-center mb-5">
+					<i class="{{item.icon}} mb-2"></i>
+					<div>
+						<p class="mb-0"><span class="counter">{{item.name}}</span></p>
+						<!-- <p class="text-capitalize mb-0">{{item.description}}</p> -->
 					</div>
 				</div>
-				{% endfor %}
 			</div>
-			<div class="col-lg-6 text-right mb-5">
-				<div class="skill-img position-relative mb-4">
-					<img src="{{'/assets/images/about/pattern-skill.jpg' | relative_url }}" alt="" class="img-fluid">	
-					<img src="{{ skill.image | relative_url }}" alt="" class="img-fluid position-absolute img-absolute">
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>
-<!-- Skill End -->
+<!-- Skills End -->
 {% endif %}
