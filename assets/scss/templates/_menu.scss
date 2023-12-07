@@ -6,11 +6,11 @@
   .navbar-nav .nav-link {
     text-transform: uppercase;
     color: $white;
-    font-size: 30px;
+    font-size: 16px;
     padding-right: 20px;
     padding-left: 35px;
     font-weight: 500;
-    line-height: 140px;
+    line-height: 40px;
     font-family: $heading-font;
 
     &:hover {
@@ -215,6 +215,7 @@
 
   #main-nav .navbar-nav .nav-link {
     padding: 0px;
+    font-size: 30px;
   }
 }
 
@@ -227,6 +228,7 @@
 
   #main-nav .navbar-nav .nav-link {
     padding: 0px;
+    font-size: 30px;
   }
 
   .navbar-toggler span {
@@ -261,12 +263,28 @@
 
   #main-nav .navbar-nav .nav-link {
     padding: 0px;
+    font-size: 30px;
   }
 
   .navbar-toggler span {
     color: $white;
   }
 }
+
+@include desktop {
+  .navbar-collapse {
+    text-align: center;
+    padding: 20px;
+    background-color: $navbar-color;
+  }
+
+  #main-nav .navbar-nav .nav-link {
+    padding: 0px;
+    font-size: 30px;
+    line-height: auto;
+  }
+}
+
 
 // Off canvas menu
 

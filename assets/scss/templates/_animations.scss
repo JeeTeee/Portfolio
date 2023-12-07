@@ -13,6 +13,9 @@
   color: $white;
   letter-spacing: 1px;
   margin-bottom: 20px;
+  @include mobile-xs {
+    font-size: 26px;
+  }
 }
 
 @keyframes typing {
@@ -91,6 +94,12 @@
   @include mobile {
     width: 61vh;
   }
+
+  @include mobile-xs {
+    width: 40vh !important;
+  }
+
+
 
 }
 .animated-title > div div {
