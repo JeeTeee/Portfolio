@@ -24,7 +24,6 @@
 const hamburger = document.querySelector(".hamburger");
   hamburger.addEventListener("click", function() {
     hamburger.classList.toggle("is-active");
-    console.log("is active");
   });
 
   // clients slider
@@ -263,13 +262,12 @@ function addClassOnScroll(elemId) {
 
 window.addEventListener('scroll', function() {
   addClassOnScroll('animscroll');
-  console.log('animation 1 se déclanche');
 
 });
 
 window.addEventListener('scroll', function() {
   addClassOnScroll('animscroll2');
-  console.log('animation 2 se déclanche');
+
 });
 
 
