@@ -163,3 +163,9 @@
 .text-black{
 	color: $black;
 }
+
+.banner-vertical {
+  @include tablet {
+    align-content: flex-end;
+  }
+}
