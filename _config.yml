@@ -1,9 +1,9 @@
 baseurl: /Portfolio # the subpath of your site, e.g. /blog
-url: "https://jeeteee.github.io" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
+url: "https://www.guillaumeteillais.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
 title: "Guillaume Teillais - Web Developer & UX Designer"
 email: "guillaume.teillais@gmail.com"
 phone: "06 30 61 12 91"
-address: "13090 Aix-en-Porvence"
+address: "13090 Aix-en-Provence"
 author: Guillaume Teillais
 description: >- # this means to ignore newlines
   Guillaume Teillais - Web Developer & UX Designer basé à Aix-en-Provence.
