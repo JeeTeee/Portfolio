@@ -3,9 +3,12 @@
 		<a class="navbar-brand" href="{{site.baseurl}}/">
 			<img src="{{site.logo | relative_url}}" alt="{{site.title}}" class="img-fluid">
 		</a>
-		<button class="navbar-toggler collapsed pr-4 hamburger-menu" type="button" data-toggle="collapse" data-target="#navigation"
+		<button class="navbar-toggler collapsed pr-4 hamburger hamburger--elastic" type="button" data-toggle="collapse" data-target="#navigation"
 			aria-controls="navigation" aria-expanded="true" aria-label="Toggle navigation">
-			<span class="fa fa-bars" style="color: #00c8f2 "></span>
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+
 		</button>
 		<div class="collapse navbar-collapse" id="navigation">
 			{% include navigation.html %}
