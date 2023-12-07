@@ -19,6 +19,13 @@
     $(".full-nav").toggleClass("show");
   });
 
+// hamburger navbar
+
+const hamburger = document.querySelector(".hamburger");
+  hamburger.addEventListener("click", function() {
+    hamburger.classList.toggle("is-active");
+    console.log("is active");
+  });
 
   // clients slider
   $('.clients-wrap').slick({
@@ -274,10 +281,5 @@ window.addEventListener('scroll', function() {
   addClassOnScroll('animscroll4');
 });
 
-// hamburger navbar
 
-const hamburger = document.querySelector(".hamburger");
-  hamburger.addEventListener("click", function() {
-    hamburger.classList.toggle("is-active");
-  });
 })(jQuery);
