@@ -278,12 +278,12 @@
 
 // icon menu hamburger
 
-// .hamburger-menu[aria-expanded="true"] .fa-bars:before{
-//   content:"\f00d";
-//   color: $primary-color;
-//   transition: 2s ease-in;
-// }
-
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 
 

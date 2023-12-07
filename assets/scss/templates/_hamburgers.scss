@@ -15,16 +15,16 @@
   margin: 0;
   overflow: visible; }
   .hamburger:hover {
-    opacity: 0.7; }
+    opacity: 1; }
   .hamburger.is-active:hover {
-    opacity: 0.7; }
+    opacity: 1; }
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
     background-color: #00c8f2; }
 
 .hamburger-box {
-  width: 40px;
+  width: 30px;
   height: 24px;
   display: inline-block;
   position: relative; }
