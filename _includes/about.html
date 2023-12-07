@@ -21,7 +21,7 @@
           <h3 class="mb-4 mt-3">{{ about.title }}</h3>
           {{ about.content | markdownify }}
           {% if about.button.enable %}
-          <a href="{{ about.button.link | relative_url }}" class="btn btn-primary rounded-0 w-50 bounce-to-right">{{about.button.label}}</a>
+          <a href="{{ about.button.link | relative_url }}" class="btn btn-primary rounded-0 bounce-to-right">{{about.button.label}}</a>
           {% endif %}
         </div>
 

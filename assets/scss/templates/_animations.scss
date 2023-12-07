@@ -8,7 +8,7 @@
   overflow: hidden;
   border-right: 3px solid;
   font-family: 'Source Code Pro', monospace;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 500;
   color: $white;
   letter-spacing: 1px;
@@ -45,7 +45,7 @@
 }
 
 .code-title-sm.active {
-  animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+  animation: typing 1.5s steps(19), blink .5s step-end infinite alternate;
 }
 
 .code-title-sm {
@@ -516,7 +516,7 @@
 .intro-text.active{
   animation-duration: 0.75s;
   animation-name: animate-fade;
-  animation-delay: 2s;
+  animation-delay: 1.5s;
   animation-fill-mode: backwards;
   top: 0;
 }
