@@ -58,6 +58,10 @@
   @include desktop{
     padding-left: 20px;
   }
+
+  @include desktop-xlg{
+    padding-left: 70px;
+  }
 }
 
 .nav-top {

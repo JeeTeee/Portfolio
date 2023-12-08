@@ -17,9 +17,8 @@ about:
   title : "Développeur Web <br> Designer UX"
   video_thumb : "/assets/images/about/about.jpg"
   video_url : "#"
-  content : "Après de riches expériences dans la communication et l’automobile, <br>
-  je me suis reconverti dans le secteur du numérique. <br>
-  J'ai choisi le métier de <span class='highlight'>Développeur Web</span> / <span class='highlight'>UX Designer</span> pour laisser libre cours à ma créativité. <br>
+  content : "Après de riches expériences dans la communication et l’automobile, je me suis reconverti dans le secteur du numérique. <br>
+  J'ai choisi le métier de <span class='highlight'>Développeur Web</span> / <span class='highlight'>UX Designer</span> pour laisser libre cours à ma créativité. <br><br>
   Animé par l’envie de découvrir et d’apprendre, je suis <span class='highlight'>disponible immédiatement</span> pour un emploi ou une mission freelance."
   button:
     enable : true
@@ -119,12 +118,12 @@ educations:
 
 - title : "Licence 3 L.E.A (Langues)"
   date : "2010"
-  content : "<strong>Université de NANTES (44)</strong> <br>
+  content : "<strong>Université de Nantes (44)</strong> <br>
  Commerce International - Anglais & Russe"
 # Assistant Commercial: Livraisons et mises en main, service locations...
 
 - title : "Baccalauréat Général ES"
   date : "2007"
-  content : "<strong>Lycée Léonard De Vinci à MONTAIGU (85)</strong> <br>
+  content : "<strong>Lycée Léonard De Vinci à Montaigu (85)</strong> <br>
   Option Anglais Renforcé"
 # Newsletters, bannières web, brochures, cartes de visites, flyers...
