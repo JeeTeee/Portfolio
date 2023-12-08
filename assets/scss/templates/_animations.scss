@@ -512,6 +512,13 @@
 //     transform: translateY(46px);
 //   }
 // }
+.intro-text {
+  h3 {
+    @include mobile {
+      font-size: 36px;
+    }
+  }
+}
 
 .intro-text.active{
   animation-duration: 0.75s;
