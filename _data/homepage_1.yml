@@ -91,21 +91,21 @@ skills:
     icon : "indesign"
 
     ########################## Expériences ##############################
-services:
+experiences:
 - title : "Freelance"
   date : "Depuis 2023"
-  content : "<strong style='color: #00c8f2'>Aix-en-Provence (13)</strong> <br>
+  content : "<strong>Aix-en-Provence (13)</strong> <br>
   Développeur Web - Statut de micro-entreprise."
 
 - title : "Peugeot Beauvois Auto"
   date : "2016 - 2022"
-  content : "<strong style='color: #00c8f2'>Montaigu-Vendée (85)</strong> <br>
+  content : "<strong>Montaigu-Vendée (85)</strong> <br>
   Communication - Assistant Commercial"
 # Assistant Commercial: Livraisons et mises en main, service locations...
 
 - title : "Toamasina - Agence graphique"
   date : "2013 - 2015"
-  content : "<strong style='color: #00c8f2'>Marseille (13)</strong> <br>
+  content : "<strong>Marseille (13)</strong> <br>
   Communication Web & Print"
 # Newsletters, bannières web, brochures, cartes de visites, flyers...
 
@@ -114,17 +114,17 @@ services:
 educations:
 - title : "Formation Développeur Web"
   date : "2022"
-  content : "<strong style='color: #00c8f2'>Le Wagon Marseille</strong> <br>
+  content : "<strong>Le Wagon Marseille</strong> <br>
   Full Stack : Back-End et Front-End"
 
 - title : "Licence 3 L.E.A (Langues)"
   date : "2010"
-  content : "<strong style='color: #00c8f2'>Université de NANTES (44)</strong> <br>
+  content : "<strong>Université de NANTES (44)</strong> <br>
  Commerce International - Anglais & Russe"
 # Assistant Commercial: Livraisons et mises en main, service locations...
 
 - title : "Baccalauréat Général ES"
   date : "2007"
-  content : "<strong style='color: #00c8f2'>Lycée Léonard De Vinci à MONTAIGU (85)</strong> <br>
+  content : "<strong>Lycée Léonard De Vinci à MONTAIGU (85)</strong> <br>
   Option Anglais Renforcé"
 # Newsletters, bannières web, brochures, cartes de visites, flyers...

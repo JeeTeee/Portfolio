@@ -4,12 +4,12 @@
     <div class="col-sm-auto experiences scroll-trigger" style="margin: 30px 30px 30px 30px" id="animscroll2">
       <h2>Expériences</h2>
       <div class="exp-column col justify-content-start pt-4">
-        {% for service in site.data.homepage_1.services %}
+        {% for experience in site.data.homepage_1.experiences %}
 
           <div class="service-item mb-4 text-center px-2">
-            <h3 class="pr-3">{{ service.title }}</h3>
-            <p>{{ service.content }}</p>
-            <p style="font-style: italic;">{{ service.date }}</p>
+            <h3 class="pr-3">{{ experience.title }}</h3>
+            <p>{{ experience.content }}</p>
+            <p style="font-style: italic;">{{ experience.date }}</p>
           </div>
 
         {% endfor %}
