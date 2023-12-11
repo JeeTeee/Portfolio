@@ -84,15 +84,15 @@
   width: 550px;
   max-width: 70vh;
   @include tablet {
-    width: 60vh;
+    width: 55vh;
   }
 
   @include desktop-xlg {
-    width: 60vh;
+    width: 55vh;
   }
 
   @include mobile {
-    width: 61vh;
+    width: 55vh;
   }
 
   @include mobile-xs {
@@ -127,7 +127,7 @@
   }
 
   @include mobile-xs {
-    font-size: 26px;
+    font-size: 30px;
     line-height: 130%;
     padding: 1vmin 0;
   }
@@ -183,25 +183,40 @@
     margin-right: 25px;
     font-size: 36px;
     padding: 0vmin 5vmin 0vmin 2vmin;
-    @include tablet {
+    @include desktop {
       font-size: 30px;
       line-height: 130%;
       padding: 0vmin 5vmin  0vmin 2vmin;
       margin: 0px;
     }
 
-    @include mobile-xs {
-      font-size: 20px;
+    @include tablet {
+      font-size: 30px;
       line-height: 130%;
-      padding: 0vmin 7vmin  0vmin 2vmin;
+      padding: 0vmin 8vmin  0vmin 2vmin;
       margin: 0px;
     }
 
     @include desktop-xlg {
       font-size: 46px;
       line-height: 130%;
-      padding: 0vmin 8vmin  0vmin 2vmin;
+      padding: 0vmin 5vmin  0vmin 2vmin;
     }
+
+    @include mobile {
+      font-size: 30px;
+      line-height: 130%;
+      padding: 0vmin 9vmin  0vmin 2vmin;
+      margin: 0px;
+    }
+
+    @include mobile-xs {
+      font-size: 20px;
+      line-height: 130%;
+      padding: 0vmin 5vmin  0vmin 2vmin;
+      margin: 0px;
+    }
+
 
 	}
   .fa-github:hover {
@@ -218,6 +233,23 @@
 
   }
 
+  .fa-behance {
+    transform: perspective(1px) translateZ(0);
+  }
+
+  .fa-behance:hover {
+    animation: float 1s ease-out infinite;
+    animation-fill-mode: forwards;
+    transform: translateZ(0);
+    color: $primary-color;
+
+    @keyframes float {
+      0% { opacity: 1; transform: scale(1);}
+      50% { opacity: 0.4;  transform: translateY(-2px) translateX(2px); text-shadow: -2px 2px 0px $white;}
+      100% { opacity: 1; transform: scale(1);}
+    }
+
+  }
 
   .fa-instagram:hover {
     animation: icon3d 250ms ease infinite alternate;

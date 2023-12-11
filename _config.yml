@@ -34,15 +34,20 @@ social:
     title: "Github"
     link: "https://github.com/JeeTeee"
 
-  - name: instagram
-    icon: "fa-brands fa-instagram"
-    title: "Instagram"
-    link: "https://instagram.com/tellguillaume?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
-
   - name: linkedin
     icon: "fa-brands fa-linkedin-in"
     title: "Linkedin"
     link: "https://www.linkedin.com/in/guillaume-teillais/"
+
+  - name: Behance
+    icon: "fa-brands fa-behance"
+    title: "Behance"
+    link: "https://www.behance.net/guillauteillai"
+
+  - name: instagram
+    icon: "fa-brands fa-instagram"
+    title: "Instagram"
+    link: "https://instagram.com/tellguillaume?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
 
   - name: phone
     icon: "fa-solid fa-phone fa-sm"

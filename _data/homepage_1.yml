@@ -31,62 +31,62 @@ skills:
   bg_image : "/assets/images/bg/bg-home.jpg"
   item:
   - name : "HTML"
-    description : "work completed"
+    description : ""
     icon : "devicon-html5-plain"
 
 
   - name : "CSS"
-    description : "new projects"
+    description : ""
     icon : "devicon-css3-plain"
 
 
   - name : "Javascript"
-    description : "Happy customers"
+    description : ""
     icon : "devicon-javascript-plain"
 
 
   - name : "React JS"
-    description : "Happy customers"
+    description : ""
     icon : "devicon-react-original"
 
 
   - name : "Ruby on Rails"
-    description : "awards win"
+    description : ""
     icon : "devicon-ruby-plain"
 
 
   - name : "Github"
-    description : "Happy customers"
+    description : ""
     icon : "devicon-github-original"
 
 
   - name : "PostgreSQL"
-    description : "awards win"
+    description : ""
     icon : "devicon-postgresql-plain"
 
 
   - name : "Wordpress"
-    description : "Happy customers"
+    description : ""
     icon : "devicon-wordpress-plain"
 
 
   - name : "Figma"
-    description : "Happy customers"
+    description : ""
     icon : "devicon-figma-plain"
 
 
   - name : "Photoshop"
-    description : "Happy customers"
+    description : ""
     icon : "devicon-photoshop-plain"
 
 
   - name : "Illustrator"
-    description : "Happy customers"
+    description : ""
     icon : "devicon-illustrator-plain"
 
 
   - name : "Indesign"
-    description : "Happy customers"
+    description : ""
     icon : "indesign"
 
     ########################## Expériences ##############################
