@@ -24,6 +24,7 @@
 const hamburger = document.querySelector(".hamburger");
   hamburger.addEventListener("click", function() {
     hamburger.classList.toggle("is-active");
+    console.log("hamburger is active");
   });
 
   // clients slider
