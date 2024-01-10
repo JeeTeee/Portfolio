@@ -27,6 +27,7 @@ const hamburger = document.querySelector(".hamburger");
     console.log("hamburger is active");
   });
 
+
   // clients slider
   $('.clients-wrap').slick({
     slidesToShow: 5,
@@ -280,5 +281,8 @@ window.addEventListener('scroll', function() {
   addClassOnScroll('animscroll4');
 });
 
+$('.carousel').carousel({
+  interval: 2000
+});
 
 })(jQuery);

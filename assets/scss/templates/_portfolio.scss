@@ -56,9 +56,6 @@
 }
 
 
-//  Portfolio-2
-//
-
 
 // Portfolio
 //
@@ -251,13 +248,155 @@
 .project-title {
   color: $primary-color;
 
+  // &:before {
+  //   position: relative;
+  //   content: url("../images/cat-title.svg");
+  //   display: inline-block;
+  //   height: 40px;
+  //   width: 40px;
+  //   left: -20px;
+  // }
+
+
   @include mobile {
     font-size: 36px;
   }
 }
 
+.project-caption {
+  font-size: 16px;
+  color: $black-light;
+  margin-bottom: 16px;
+}
+
 
 .project-img {
-  max-height: 70vh;
+  max-height: 55vh;
   max-width: 90vw;
+  // margin: 16px;
+}
+
+.pf-container {
+  max-width: 50vw;
+
+  @include mobile {
+    max-width: 90vw;
+  }
+}
+
+// carousel
+
+.totem-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.totem-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+  @include tablet {
+    align-items: center;
+  }
+}
+
+.img-carousel {
+  max-height: 500px;
+}
+
+
+// gallerie
+.totem-examples {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  @include tablet {
+    display: none;
+  }
+}
+
+.gallery-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 746px;
+  gap: 10px;
+
+  @include tablet {
+    display: none;
+  }
+
+  > div {
+    flex: 0 0 220px;
+    // border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    // box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+    opacity: .6;
+
+    &:nth-of-type(1) {
+      background: url("../images/portfolio/peugeot/totem-1.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("../images/portfolio/peugeot/totem-3.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("../images/portfolio/peugeot/totem-2.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("../images/portfolio/peugeot/totem-4.jpg")
+        no-repeat 50% / cover;
+    }
+
+    .content {
+      font-size: 1.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.692) 0%,
+        rgba(0, 0, 0, 0) 33%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 1rem;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 420px;
+      transform: translatey(-30px);
+      opacity: 1;
+    }
+
+    &:hover .content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
 }
