@@ -87,6 +87,15 @@
 
 	.info{
 		margin-left: 50px;
+
+    h5 {
+      color: $primary-color;
+      font-size: 26px;
+
+      @include mobile {
+        font-size: 20px;
+      }
+    }
 	}
 }
 
