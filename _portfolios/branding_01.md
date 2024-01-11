@@ -48,11 +48,15 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
   </div>
 
   <div class="col-lg-6 col-sm-12 mt-3 totem-description">
-    <h5>Totems numériques</h5>
-    <p>Immédiatement visibles par la clientèle aux deux bornes d'accueil SAV et commercial, les totems sont un formidable moyen de communication. <br>
-    Au milieu des publicités diffusées par Peugeot, je les exploitais pour promouvoir les sorties de nouveaux véhicules, les promotions, ainsi que tous les services proposés par la concession, par exemple la location de chaînes à neige ou de porte-vélos pendant les périodes de vacances.</p>
+    <!-- <div class="intro-text" id="animscroll5"> -->
+    <div>
+      <h5>Totems numériques</h5>
+      <p>Immédiatement visibles par la clientèle aux deux bornes d'accueil SAV et commercial, les totems sont un formidable moyen de communication. <br>
+      Au milieu des publicités diffusées par Peugeot, je les exploitais pour promouvoir les sorties de nouveaux véhicules, les promotions, ainsi que tous les services proposés par la concession, par exemple la location de chaînes à neige ou de porte-vélos pendant les périodes de vacances.</p>
+    </div>
   </div>
 </div>
+
 
 <!-- ici la gallerie des totems -->
 <div class="gallery-container mt-5">
@@ -103,9 +107,17 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
 
 
 <div class="service-2 col-lg-6 mx-3 my-5">
-  <h4>Presse écrite</h4>
+  <h4>Print</h4>
 </div>
 
-<div class="col-lg-6 col-sm-12 mt-3 text-center">
+<div class="col-lg-12 col-sm-12 mt-3 text-center">
+  <h5>Presse régionale (Ouest France)</h5>
+  <p>Création d'un visuel destiné à un quotidien régional pour promouvoir un week-end portes ouvertes.</p>
   <img src="/assets/images/portfolio/peugeot/mockup-ouest-france.jpg" alt="ouest-france-beauvois" class="project-img">
+</div>
+
+<div class="col-lg-12 col-sm-12 mt-3 text-center">
+  <h5>Flyers</h5>
+  <p>Élaboration d'un flyer promotionnel pour les véhicules électriques.</p>
+  <img src="/assets/images/portfolio/peugeot/flyer-electric.jpg" alt="flyer-beauvois" class="project-img">
 </div>

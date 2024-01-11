@@ -19,120 +19,123 @@
     $(".full-nav").toggleClass("show");
   });
 
+
 // hamburger navbar
 
 const hamburger = document.querySelector(".hamburger");
-  hamburger.addEventListener("click", function() {
+  if (hamburger) {
+
+    hamburger.addEventListener("click", function() {
     hamburger.classList.toggle("is-active");
-    console.log("hamburger is active");
   });
+}
 
 
   // clients slider
-  $('.clients-wrap').slick({
-    slidesToShow: 5,
-    slidesToScroll: 5,
-    infinite: true,
-    dots: false,
-    arrows: false,
-    center: true,
-    autoplay: true,
-    padding: 20,
-    autoplaySpeed: 6000,
-    responsive: [{
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-          infinite: true
-        }
-      },
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
-        }
-      }, {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      }
+  // $('.clients-wrap').slick({
+  //   slidesToShow: 5,
+  //   slidesToScroll: 5,
+  //   infinite: true,
+  //   dots: false,
+  //   arrows: false,
+  //   center: true,
+  //   autoplay: true,
+  //   padding: 20,
+  //   autoplaySpeed: 6000,
+  //   responsive: [{
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 4,
+  //         slidesToScroll: 4,
+  //         infinite: true
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 900,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 3
+  //       }
+  //     }, {
+  //       breakpoint: 600,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 2
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 2
+  //       }
+  //     }
 
-    ]
-  });
+  //   ]
+  // });
 
 
   // testimonial slider
-  $('.testimonial-slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    infinite: true,
-    dots: false,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 6000,
-    responsive: [{
-      breakpoint: 900,
-      settings: {
-        slidesToShow: 2
-      }
-    }, {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1
-      }
-    }]
-  });
+  // $('.testimonial-slider').slick({
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   infinite: true,
+  //   dots: false,
+  //   arrows: false,
+  //   autoplay: true,
+  //   autoplaySpeed: 6000,
+  //   responsive: [{
+  //     breakpoint: 900,
+  //     settings: {
+  //       slidesToShow: 2
+  //     }
+  //   }, {
+  //     breakpoint: 600,
+  //     settings: {
+  //       slidesToShow: 1
+  //     }
+  //   }]
+  // });
 
 
   // testimonial slider 2
-  $('.testimonial-wrap').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    dots: false,
-    nextArrow: '<button class="slide-arrow prev-arrow"><i class="ti-arrow-right"></i></button>',
-    prevArrow: '<button class="slide-arrow next-arrow"><i class="ti-arrow-left"></i></button>',
-    autoplay: true,
-    autoplaySpeed: 6000
-  });
+  // $('.testimonial-wrap').slick({
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   infinite: true,
+  //   dots: false,
+  //   nextArrow: '<button class="slide-arrow prev-arrow"><i class="ti-arrow-right"></i></button>',
+  //   prevArrow: '<button class="slide-arrow next-arrow"><i class="ti-arrow-left"></i></button>',
+  //   autoplay: true,
+  //   autoplaySpeed: 6000
+  // });
 
 
   // magnific popup
-  $('.portfolio-gallery').each(function () {
-    $(this).find('.popup-gallery').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true
-      }
-    });
-  });
+  // $('.portfolio-gallery').each(function () {
+  //   $(this).find('.popup-gallery').magnificPopup({
+  //     type: 'image',
+  //     gallery: {
+  //       enabled: true
+  //     }
+  //   });
+  // });
 
-  $(document).ready(function () {
-    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-      disableOn: 700,
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: false
-    });
-    $('.has-animation').each(function (index) {
-      $(this).delay($(this).data('delay')).queue(function () {
-        $(this).addClass('animate-in');
-      });
-    });
-  });
+  // $(document).ready(function () {
+  //   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+  //     disableOn: 700,
+  //     type: 'iframe',
+  //     mainClass: 'mfp-fade',
+  //     removalDelay: 160,
+  //     preloader: false,
+  //     fixedContentPos: false
+  //   });
+  //   $('.has-animation').each(function (index) {
+  //     $(this).delay($(this).data('delay')).queue(function () {
+  //       $(this).addClass('animate-in');
+  //     });
+  //   });
+  // });
 
 
 
@@ -214,30 +217,28 @@ const hamburger = document.querySelector(".hamburger");
 
   // formulaire validation
 
+document.addEventListener("DOMContentLoaded", function() {
+
   document.getElementById("home-contact-form").addEventListener("submit", function(event) {
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("msg").value.trim();
 
-    const name = document.getElementById("name").value.trim();
-    const email = document.getElementById("email").value.trim();
-    const message = document.getElementById("msg").value.trim();
+      if (name === "" || email === "" || message === "") {
+          event.preventDefault();
+          alert("Veuillez remplir tous les champs obligatoires !");
 
-
-    if (name === "" || email === "" || message === "") {
-
-        event.preventDefault();
-
-
-        alert("Veuillez remplir tous les champs obligatoires !");
-
-        if (name === "") {
-          document.getElementById("name").classList.add("empty-field");
-        }
-        if (email === "") {
-            document.getElementById("email").classList.add("empty-field");
-        }
-        if (message === "") {
-            document.getElementById("msg").classList.add("empty-field");
-        }
-    }
+          if (name === "") {
+              document.getElementById("name").classList.add("empty-field");
+          }
+          if (email === "") {
+              document.getElementById("email").classList.add("empty-field");
+          }
+          if (message === "") {
+              document.getElementById("msg").classList.add("empty-field");
+          }
+      }
+  });
 });
 
 // animation en scrollant
@@ -281,8 +282,8 @@ window.addEventListener('scroll', function() {
   addClassOnScroll('animscroll4');
 });
 
-$('.carousel').carousel({
-  interval: 2000
-});
+// $('.carousel').carousel({
+//   interval: 2000
+// });
 
 })(jQuery);
