@@ -386,7 +386,7 @@
   h2{
     position: relative;
     animation: leftapp 1s linear;
-    animation-delay: -0.75s;
+    animation-delay: -0.85s;
   }
  }
 
@@ -417,7 +417,7 @@
 }
 .experiences.active > div.exp-column div {
   animation: showBottomTextExp 0.5s;
-  animation-delay: 0.75s;
+  animation-delay: 0.25s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -400%);
@@ -433,7 +433,7 @@
   h2{
     position: relative;
     animation: rightapp 1s linear;
-    animation-delay: -0.75s;
+    animation-delay: -0.85s;
   }
  }
 
@@ -464,7 +464,7 @@
 }
 .educations.active > div.educ-column div {
   animation: showBottomTextEdu 0.5s;
-  animation-delay: 0.75s;
+  animation-delay: 0.25s;
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -400%);
@@ -555,7 +555,7 @@
 .intro-text.active{
   animation-duration: 0.75s;
   animation-name: animate-fade;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
   top: 0;
 }

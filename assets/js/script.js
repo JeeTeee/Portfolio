@@ -282,6 +282,10 @@ window.addEventListener('scroll', function() {
   addClassOnScroll('animscroll4');
 });
 
+window.addEventListener('scroll', function() {
+  addClassOnScroll('animscroll5');
+});
+
 // $('.carousel').carousel({
 //   interval: 2000
 // });
