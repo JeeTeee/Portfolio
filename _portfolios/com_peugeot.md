@@ -48,7 +48,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
   </div>
 
   <div class="col-lg-6 col-sm-12 mt-3 totem-description">
-    <div class="intro-text" id="animscroll5">
+    <div class="intro-text animscroll">
       <h5>Totems numériques</h5>
       <p>Immédiatement visibles par la clientèle aux deux bornes d'accueil SAV et commercial, les totems sont un formidable moyen de communication. <br>
       Au milieu des publicités diffusées par Peugeot, je les exploitais pour promouvoir les sorties de nouveaux véhicules, les promotions, ainsi que tous les services proposés par la concession, par exemple la location de chaînes à neige ou de porte-vélos pendant les périodes de vacances.</p>
@@ -56,29 +56,28 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
   </div>
 </div>
 
-
 <!-- gallerie des totems -->
-<div class="gallery-container mt-5">
+<div class="gallery-container mt-5 animfade animscroll">
   <div>
-    <div class="content">
+    <div class="gallery-element ">
       <h5 style="color: #00c8f2">Location de Chaînes</h5>
       <span>Promotion de saison</span>
     </div>
   </div>
   <div>
-    <div class="content">
+    <div class="gallery-element">
       <h5 style="color: #00c8f2">Nouveau 3008</h5>
       <span>Sortie Véhicule</span>
     </div>
   </div>
   <div>
-    <div class="content">
+    <div class="gallery-element">
       <h5 style="color: #00c8f2">Offres Occasions</h5>
       <span>Offre limitée</span>
     </div>
   </div>
   <div>
-    <div class="content">
+    <div class="gallery-element">
       <h5 style="color: #00c8f2">Peugeot MyPass</h5>
       <span>Programme Fidélité</span>
     </div>
@@ -86,11 +85,16 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
 </div>
 <p class="col-lg-12 totem-examples">Quelques exemples de créations pour les totems (survolez pour voir)</p>
 
-<div class="col-lg-12 col-sm-12 mt-5 mb-3 text-center">
-  <h5>Banderoles</h5>
-  <p>Visuels pour des bannières imprimées sur bâche.</p>
+<div class="col-lg-12 col-sm-12 mt-5 top-description">
+  <div class="animtop animscroll">
+    <h5>Banderoles</h5>
+    <p>Visuels pour des bannières imprimées sur bâche.</p>
+  </div>
+</div>
+<div class="col-lg-12 col-sm-12 mb-3 text-center animfade animscroll">
   <img src="/assets/images/portfolio/peugeot/banner-mockup.jpg" alt="banderoles-groupebeauvois" class="project-img">
 </div>
+
 
 <div class="service-2 col-lg-6 mx-3 mt-5">
   <h4>Web</h4>

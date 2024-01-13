@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // animation en scrollant
 
-function isElementInViewport(el) {
+const isElementInViewport = (el) => {
   const rect = el.getBoundingClientRect();
   return (
     rect.top >= 0 &&
@@ -251,39 +251,23 @@ function isElementInViewport(el) {
     rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
-}
+};
 
-function addClassOnScroll(elemId) {
-  const element = document.getElementById(elemId);
-  const animationDone = element.getAttribute('data-animation-done');
+const addClassOnScroll = (className) => {
+  const elements = document.querySelectorAll(`.${className}`);
 
-  if (!animationDone && isElementInViewport(element)) {
-    element.classList.add('active');
-    element.setAttribute('data-animation-done', 'true');
-  }
-}
+  elements.forEach((element) => {
+    const animationDone = element.getAttribute('data-animation-done');
 
-window.addEventListener('scroll', function() {
+    if (!animationDone && isElementInViewport(element)) {
+      element.classList.add('active');
+      element.dataset.animationDone = 'true';
+    }
+  });
+};
+
+window.addEventListener('scroll', () => {
   addClassOnScroll('animscroll');
-
-});
-
-window.addEventListener('scroll', function() {
-  addClassOnScroll('animscroll2');
-
-});
-
-
-window.addEventListener('scroll', function() {
-  addClassOnScroll('animscroll3');
-});
-
-window.addEventListener('scroll', function() {
-  addClassOnScroll('animscroll4');
-});
-
-window.addEventListener('scroll', function() {
-  addClassOnScroll('animscroll5');
 });
 
 // $('.carousel').carousel({

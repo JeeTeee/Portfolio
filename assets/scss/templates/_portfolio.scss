@@ -284,6 +284,14 @@
   }
 }
 
+.top-description {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+}
+
 // carousel
 
 .totem-description {
@@ -368,7 +376,7 @@
         no-repeat 50% / cover;
     }
 
-    .content {
+    .gallery-element {
       font-size: 1.5rem;
       color: #fff;
       display: flex;
@@ -401,7 +409,7 @@
       opacity: 1;
     }
 
-    &:hover .content {
+    &:hover .gallery-element {
       opacity: 1;
       transform: translatey(0%);
       visibility: visible;

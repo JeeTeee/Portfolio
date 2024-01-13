@@ -552,12 +552,19 @@
   }
 }
 
+
+.intro-text {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
 .intro-text.active{
   animation-duration: 0.75s;
   animation-name: animate-fade;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-fill-mode: backwards;
   top: 0;
+  opacity: 1;
 }
 
 @keyframes animate-fade {
@@ -565,11 +572,30 @@
   100% { transform: translate3d(0, 0, 0); }
 }
 
-.intro-text {
+.animtop  {
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 1s ease;
 }
 
-.intro-text.active {
+.animtop.active {
+  animation-duration: 0.75s;
+  animation-name: animate-top;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  top: 0;
+  opacity: 1;
+}
+
+@keyframes animate-top {
+  0% { transform: translate3d(0, 100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.animfade {
+  opacity: 0;
+  transition: 1.5s ease;
+}
+
+.animfade.active {
   opacity: 1;
 }
