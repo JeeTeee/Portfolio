@@ -330,8 +330,8 @@
 .totem-examples {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+
 
   @include tablet {
     display: none;
@@ -405,7 +405,7 @@
 
     &:hover {
       flex: 0 0 420px;
-      transform: translatey(-30px);
+      transform: translatey(30px);
       opacity: 1;
     }
 

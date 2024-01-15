@@ -57,7 +57,8 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
 </div>
 
 <!-- gallerie des totems -->
-<div class="gallery-container mt-5 animfade animscroll">
+<p class="col-lg-12 totem-examples">Quelques exemples de créations pour les totems (survolez pour voir)</p>
+<div class="gallery-container fade-in animscroll">
   <div>
     <div class="gallery-element ">
       <h5 style="color: #00c8f2">Location de Chaînes</h5>
@@ -83,15 +84,14 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
     </div>
   </div>
 </div>
-<p class="col-lg-12 totem-examples">Quelques exemples de créations pour les totems (survolez pour voir)</p>
 
 <div class="col-lg-12 col-sm-12 mt-5 top-description">
-  <div class="animtop animscroll">
+  <div class="fade-top animscroll">
     <h5>Banderoles</h5>
     <p>Visuels pour des bannières imprimées sur bâche.</p>
   </div>
 </div>
-<div class="col-lg-12 col-sm-12 mb-3 text-center animfade animscroll">
+<div class="col-lg-12 col-sm-12 mb-3 text-center fade-in animscroll">
   <img src="/assets/images/portfolio/peugeot/banner-mockup.jpg" alt="banderoles-groupebeauvois" class="project-img">
 </div>
 
@@ -99,34 +99,47 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
 <div class="service-2 col-lg-6 mx-3 mt-5">
   <h4>Web</h4>
 </div>
-<div class="col-lg-12 col-sm-12 mt-5 mb-3 text-center">
-  <h5>Site web et réseaux sociaux</h5>
-  <p>Réalisation de bannières pour le site <a href="http://www.voiture-occasion-beauvois.com/" target="_blank">groupebeauvois.fr </a> et la page facebook. <br>
-  Support pour communiquer sur les services, promotions et événements du groupe.</p>
+
+<div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
+  <div class="fade-down animscroll">
+    <h5>Site web et réseaux sociaux</h5>
+    <p>Réalisation de bannières pour le site <a href="http://www.voiture-occasion-beauvois.com/" target="_blank">groupebeauvois.fr </a> et la page facebook. <br>
+    Support pour communiquer sur les services, promotions et événements du groupe.</p>
+  </div>
+</div>
+<div class="col-lg-12 col-sm-12 mb-3 text-center fade-left animscroll">
   <img src="/assets/images/portfolio/peugeot/banner-web.gif" alt="banner-groupebeauvois" class="project-img">
 </div>
 
-<div class="col-lg-12 col-sm-12 mt-5 mb-3 text-center">
-  <h5>Emailing et Newsletters</h5>
-  <p>Création de visuels pour les newsletters mensuelles et campagnes d'emailing pour les promotions et journées portes ouvertes.</p>
+<div class="col-lg-12 col-sm-12 mt-5 mb-3 top-description">
+  <div class="fade-top animscroll">
+    <h5>Emailing et Newsletters</h5>
+    <p>Création de visuels pour les newsletters mensuelles et campagnes d'emailing pour les promotions et journées portes ouvertes.</p>
+  </div>
+</div>
+<div class="col-lg-12 col-sm-12 mb-3 text-center fade-in animscroll">
   <img src="/assets/images/portfolio/peugeot/mailing.jpg" alt="mailing-groupebeauvois" class="project-img">
 </div>
 
-
-
-
-<div class="service-2 col-lg-6 mx-3 my-5">
+<div class="service-2 col-lg-6 mx-3 mt-5">
   <h4>Print</h4>
 </div>
 
-<div class="col-lg-12 col-sm-12 mt-5 mb-3 text-center">
-  <h5>Presse régionale (Ouest France)</h5>
-  <p>Création d'un visuel destiné à un quotidien régional pour promouvoir un week-end portes ouvertes.</p>
+<div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
+  <div class="fade-down animscroll">
+    <h5>Presse régionale (Ouest France)</h5>
+    <p>Création d'un visuel destiné à un quotidien régional pour promouvoir un week-end portes ouvertes.</p>
+  </div>
+</div>
+<div class="col-lg-12 col-sm-12 mb-3 text-center fade-left animscroll">
   <img src="/assets/images/portfolio/peugeot/mockup-ouest-france.jpg" alt="ouest-france-beauvois" class="project-img">
 </div>
 
-<div class="col-lg-12 col-sm-12 mt-5 mb-3 text-center">
-  <h5>Flyers</h5>
-  <p>Ici un flyer promotionnel pour la location longue durée de véhicules électriques.</p>
+<div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
+  <div class="fade-down animscroll">
+    <h5>Flyers</h5>
+    <p>Ici un flyer promotionnel pour la location longue durée de véhicules électriques.</p>
+  </div>
+<div class="col-lg-12 col-sm-12 mb-3 text-center fade-right animscroll">
   <img src="/assets/images/portfolio/peugeot/flyer-electric.jpg" alt="flyer-beauvois" class="project-img">
 </div>

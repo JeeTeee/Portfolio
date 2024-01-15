@@ -572,30 +572,99 @@
   100% { transform: translate3d(0, 0, 0); }
 }
 
-.animtop  {
+// fade in
+
+.fade-in {
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: 1.5s ease;
+  animation-delay: -1s;
 }
 
-.animtop.active {
+.fade-in.active {
+  opacity: 1;
+}
+
+
+// fade top
+
+.fade-top  {
+  opacity: 0;
+  transition: fade-in 1s ease;
+}
+
+.fade-top.active {
   animation-duration: 0.75s;
-  animation-name: animate-top;
-  animation-delay: 2s;
+  animation-name: fade-top;
+  animation-delay: 2.5s;
   animation-fill-mode: backwards;
   top: 0;
   opacity: 1;
 }
 
-@keyframes animate-top {
+@keyframes fade-top {
   0% { transform: translate3d(0, 100%, 0); }
   100% { transform: translate3d(0, 0, 0); }
 }
 
-.animfade {
+// fade down
+
+.fade-down  {
   opacity: 0;
-  transition: 1.5s ease;
+  transition: opacity 2s ease;
 }
 
-.animfade.active {
+.fade-down.active {
+  animation-duration: 0.75s;
+  animation-name: fade-down;
+  animation-delay: 1.5s;
+  animation-fill-mode: backwards;
+  top: 0;
   opacity: 1;
+}
+
+@keyframes fade-down {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+// fade right
+
+.fade-right  {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.fade-right.active {
+  animation-duration: 0.75s;
+  animation-name: fade-right;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+  top: 0;
+  opacity: 1;
+}
+
+@keyframes fade-right {
+  0% { transform: translate3d(100%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+// fade left
+
+.fade-left  {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.fade-left.active {
+  animation-duration: 0.75s;
+  animation-name: fade-left;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+  top: 0;
+  opacity: 1;
+}
+
+@keyframes fade-left {
+  0% { transform: translate3d(-100%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
 }
