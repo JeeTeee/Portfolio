@@ -416,3 +416,44 @@
     }
   }
 }
+
+// mosaïque
+
+.mosaic {
+  overflow: hidden;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px; /* Espace entre les images */
+  grid-template-areas:
+    "panoramic1 panoramic1"
+    "square1 square2"
+    "panoramic2 panoramic2";
+}
+
+.mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.panoramic1 {
+  grid-area: panoramic1;
+  height: 100%; /* Ajustez la hauteur selon vos besoins */
+}
+
+.square1 {
+  grid-area: square1;
+  height: 100%; /* Ajustez la hauteur selon vos besoins */
+}
+
+.square2 {
+  grid-area: square2;
+  height: 100%; /* Ajustez la hauteur selon vos besoins */
+}
+
+.panoramic2 {
+  grid-area: panoramic2;
+  height: 100%; /* Ajustez la hauteur selon vos besoins */
+}

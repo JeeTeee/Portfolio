@@ -576,7 +576,7 @@
 
 .fade-in {
   opacity: 0;
-  transition: 1.5s ease;
+  transition: 1s ease;
   animation-delay: -1s;
 }
 
@@ -595,7 +595,7 @@
 .fade-top.active {
   animation-duration: 0.75s;
   animation-name: fade-top;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
   animation-fill-mode: backwards;
   top: 0;
   opacity: 1;
