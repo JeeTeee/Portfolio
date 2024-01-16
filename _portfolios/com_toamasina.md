@@ -1,10 +1,10 @@
 ---
 layout: portfolio
 
-title: "Toamasina"
+title: "Toamasina (Exotismes)"
 dates: "2013-2014"
 categories: ["Communication"]
-thumbnail: "/assets/images/portfolio/p-4.jpg"
+thumbnail: "/assets/images/portfolio/tbn-exotismes.jpg"
 description: "J'ai travaillé au sein de cette agence de création graphique, dont le principal client était le Tour Opérateur Exotismes, spécialisé dans la vente de voyages dans les îles. <br><br>
 L'agence était en charge de l'intégralité de leur communication, et j'ai activement participé à la conception de la brochure Exotismes, des cartes de visite, des flyers, et d'autres supports visuels destinés à l'impression. <br>
 Pour le volet web, j'ai enrichi le contenu du site www.exotismes.fr, créé des newsletters ainsi que des bannières web, contribuant ainsi à renforcer l'image de la marque."
