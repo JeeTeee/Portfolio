@@ -45,7 +45,7 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
 <div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
   <div class="fade-down animscroll">
     <h5>Brochure Exotismes</h5>
-    <p>Conception en équipe de la brochure Été 2014 Exotismes, distribuée dans les agences de voyage comme Selectour.</p>
+    <p>Conception en équipe de la brochure été 2014 Exotismes, distribuée dans les agences de voyage.</p>
   </div>
 </div>
 
@@ -64,48 +64,6 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
   </div>
 </div>
 
-<!-- <div class="row justify-content-center pf-container mb-5">
-  <div class="col-lg-6 col-sm-12 mt-3 totem-carousel">
-    <img src="/assets/images/portfolio/peugeot/totem-slide.gif" alt="totem" class="project-img">
-  </div>
-
-  <div class="col-lg-6 col-sm-12 mt-3 totem-description">
-    <div class="intro-text animscroll">
-      <h5>Totems numériques</h5>
-      <p>Immédiatement visibles par la clientèle aux deux bornes d'accueil SAV et commercial, les totems sont un formidable moyen de communication. <br>
-      Au milieu des publicités diffusées par Peugeot, je les exploitais pour promouvoir les sorties de nouveaux véhicules, les promotions, ainsi que tous les services proposés par la concession, par exemple la location de chaînes à neige ou de porte-vélos pendant les périodes de vacances.</p>
-    </div>
-  </div>
-</div> -->
-
-<!-- gallerie des totems -->
-<p class="col-lg-12 totem-examples">Quelques exemples de créations pour les totems (survolez pour voir)</p>
-<div class="gallery-container fade-in animscroll">
-  <div>
-    <div class="gallery-element ">
-      <h5 style="color: #00c8f2">Location de Chaînes</h5>
-      <span>Promotion de saison</span>
-    </div>
-  </div>
-  <div>
-    <div class="gallery-element">
-      <h5 style="color: #00c8f2">Nouveau 3008</h5>
-      <span>Sortie Véhicule</span>
-    </div>
-  </div>
-  <div>
-    <div class="gallery-element">
-      <h5 style="color: #00c8f2">Offres Occasions</h5>
-      <span>Offre limitée</span>
-    </div>
-  </div>
-  <div>
-    <div class="gallery-element">
-      <h5 style="color: #00c8f2">Peugeot MyPass</h5>
-      <span>Programme Fidélité</span>
-    </div>
-  </div>
-</div>
 
 <div class="col-lg-12 col-sm-12 mt-5 top-description">
   <div class="fade-top animscroll">
