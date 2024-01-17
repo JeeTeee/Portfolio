@@ -294,7 +294,7 @@
 
 // carousel
 
-.totem-description {
+.portrait-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,8 +310,9 @@
   }
 }
 
-.totem-carousel {
+.portrait-container {
   display: flex;
+  overflow: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;

@@ -249,12 +249,12 @@
     width: 100vh;
     z-index: 10;
     text-align: center;
-    transform: scale(0);
+    transform: scaleY(0);
     transform-origin: top;
-    transition: .4s ease;
+    transition: transform .4s ease;
 
     &.show {
-      transform: scale(1);
+      transform: scaleY(1);
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-
+header_image: "/assets/images/bg/bg-toamasina.jpg"
 title: "Toamasina (Exotismes)"
 dates: "2013-2014"
 categories: ["Communication"]
@@ -42,37 +42,55 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
   <h4>Print</h4>
 </div>
 
-<div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
-  <div class="fade-down animscroll">
-    <h5>Brochure Exotismes</h5>
-    <p>Conception en équipe de la brochure été 2014 Exotismes, distribuée dans les agences de voyage.</p>
+<div class="container">
+  <div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
+    <div class="fade-down animscroll">
+      <h5>Brochure Exotismes</h5>
+      <p>Conception en équipe de la brochure été 2014 Exotismes, distribuée dans les agences de voyage.</p>
+    </div>
+  </div>
+
+  <div class="mosaic col-lg-12">
+    <div class="panoramic1 fade-down animscroll">
+        <img src="/assets/images/portfolio/exotismes/brochure-couv.jpg" alt="Brochure 2014 Exotismes Couverture">
+    </div>
+    <div class="square1 fade-left animscroll">
+        <img src="/assets/images/portfolio/exotismes/brochure-page-1.jpg" alt="Brochure 2014 Exotismes page">
+    </div>
+    <div class="square2 fade-right animscroll">
+        <img src="/assets/images/portfolio/exotismes/brochure-page-2.jpg" alt="Brochure 2014 Exotismes page double">
+    </div>
+    <div class="panoramic2 fade-top animscroll">
+        <img src="/assets/images/portfolio/exotismes/brochure-zoom.jpg" alt="Brochure 2014 Exotismes">
+    </div>
   </div>
 </div>
 
-<div class="mosaic col-lg-6">
-  <div class="panoramic1 fade-down animscroll">
-      <img src="/assets/images/portfolio/exotismes/brochure-couv.jpg" alt="Brochure 2014 Exotismes Couverture">
+
+
+<div class="row justify-content-center pf-container mt-5">
+  <div class="col-lg-6 col-sm-12 mt-3 portrait-container">
+    <div class="right-text animscroll">
+      <img src="/assets/images/portfolio/exotismes/plv-exo.jpg" alt="plv exotismes Karibea" class="project-img">
+    </div>
   </div>
-  <div class="square1 fade-left animscroll">
-      <img src="/assets/images/portfolio/exotismes/brochure-page-1.jpg" alt="Brochure 2014 Exotismes page">
-  </div>
-   <div class="square2 fade-right animscroll">
-      <img src="/assets/images/portfolio/exotismes/brochure-page-2.jpg" alt="Brochure 2014 Exotismes page double">
-  </div>
-  <div class="panoramic2 fade-top animscroll">
-      <img src="/assets/images/portfolio/exotismes/brochure-zoom.jpg" alt="Brochure 2014 Exotismes">
+  <div class="col-lg-6 col-sm-12 mt-3 portrait-description">
+    <div class="left-text animscroll">
+      <h5>PLV</h5>
+      <p>Création de visuels destinés à l'impressions de kakemonos et d'affiches afin de promouvoir la marque en agence de voyage et dans les salons du tourisme.</p>
+    </div>
   </div>
 </div>
 
 
 <div class="col-lg-12 col-sm-12 mt-5 top-description">
-  <div class="fade-top animscroll">
-    <h5>Banderoles</h5>
-    <p>Visuels pour des bannières imprimées sur bâche.</p>
+  <div class="fade-down animscroll">
+    <h5>Kit de papeterie</h5>
+    <p>Confection de visuels pour des cartes de visites et en-tête de lettre.</p>
   </div>
 </div>
 <div class="col-lg-12 col-sm-12 mb-3 text-center fade-in animscroll">
-  <img src="/assets/images/portfolio/peugeot/banner-mockup.jpg" alt="banderoles-groupebeauvois" class="project-img">
+  <img src="/assets/images/portfolio/exotismes/cft-print.jpg" alt="kit Compagnie Financière du Tourisme" class="project-img">
 </div>
 
 
@@ -82,47 +100,10 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
 
 <div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
   <div class="fade-down animscroll">
-    <h5>Site web et réseaux sociaux</h5>
-    <p>Réalisation de bannières pour le site <a href="http://www.voiture-occasion-beauvois.com/" target="_blank">groupebeauvois.fr </a> et la page facebook. <br>
-    Support pour communiquer sur les services, promotions et événements du groupe.</p>
-  </div>
-</div>
-<div class="col-lg-12 col-sm-12 mb-3 text-center fade-left animscroll">
-  <img src="/assets/images/portfolio/peugeot/banner-web.gif" alt="banner-groupebeauvois" class="project-img">
-</div>
-
-<div class="col-lg-12 col-sm-12 mt-5 mb-3 top-description">
-  <div class="fade-top animscroll">
     <h5>Emailing et Newsletters</h5>
-    <p>Création de visuels pour les newsletters mensuelles et campagnes d'emailing pour les promotions et journées portes ouvertes.</p>
+    <p>Création de visuels pour les newsletters mensuelles et campagnes d'emailing pour les promotions sur les voyages.</p>
   </div>
 </div>
 <div class="col-lg-12 col-sm-12 mb-3 text-center fade-in animscroll">
-  <img src="/assets/images/portfolio/peugeot/mailing.jpg" alt="mailing-groupebeauvois" class="project-img">
-</div>
-
-<div class="service-2 col-lg-6 mx-3 mt-5">
-  <h4>Print</h4>
-</div>
-
-<div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
-  <div class="fade-down animscroll">
-    <h5>Presse régionale (Ouest France)</h5>
-    <p>Création d'un visuel destiné à un quotidien régional pour promouvoir un week-end portes ouvertes.</p>
-  </div>
-</div>
-
-<div class="col-lg-12 col-sm-12 mb-3 text-center fade-left animscroll">
-  <img src="/assets/images/portfolio/peugeot/mockup-ouest-france.jpg" alt="ouest-france-beauvois" class="project-img">
-</div>
-
-<div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
-  <div class="fade-down animscroll">
-    <h5>Flyers</h5>
-    <p>Ici un flyer promotionnel pour la location longue durée de véhicules électriques.</p>
-  </div>
-</div>
-
-<div class="col-lg-12 col-sm-12 mb-3 text-center fade-right animscroll">
-  <img src="/assets/images/portfolio/peugeot/flyer-electric.jpg" alt="flyer-beauvois" class="project-img">
+  <img src="/assets/images/portfolio/exotismes/newsletters-exo.jpg" alt="mailing-exotismes" class="project-img">
 </div>

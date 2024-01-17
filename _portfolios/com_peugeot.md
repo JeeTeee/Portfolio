@@ -43,12 +43,14 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
 </div>
 
 <div class="row justify-content-center pf-container mb-5">
-  <div class="col-lg-6 col-sm-12 mt-3 totem-carousel">
-    <img src="/assets/images/portfolio/peugeot/totem-slide.gif" alt="totem" class="project-img">
+  <div class="col-lg-6 col-sm-12 mt-3 portrait-container">
+    <div class="right-text animscroll">
+      <img src="/assets/images/portfolio/peugeot/totem-slide.gif" alt="totem" class="project-img">
+    </div>
   </div>
 
-  <div class="col-lg-6 col-sm-12 mt-3 totem-description">
-    <div class="intro-text animscroll">
+  <div class="col-lg-6 col-sm-12 mt-3 portrait-description">
+    <div class="left-text animscroll">
       <h5>Totems numériques</h5>
       <p>Immédiatement visibles par la clientèle aux deux bornes d'accueil SAV et commercial, les totems sont un formidable moyen de communication. <br>
       Au milieu des publicités diffusées par Peugeot, je les exploitais pour promouvoir les sorties de nouveaux véhicules, les promotions, ainsi que tous les services proposés par la concession, par exemple la location de chaînes à neige ou de porte-vélos pendant les périodes de vacances.</p>

@@ -108,8 +108,8 @@
   padding: 2vmin 0;
   position: relative;
 
-  @include tablet {
-    font-size: 30px;
+  @include desktop-xlg {
+    font-size: 64px;
     line-height: 130%;
     padding: 2vmin 0;
   }
@@ -120,8 +120,8 @@
     padding: 2vmin 0;
   }
 
-  @include desktop-xlg {
-    font-size: 64px;
+  @include tablet {
+    font-size: 30px;
     line-height: 130%;
     padding: 2vmin 0;
   }
@@ -544,7 +544,10 @@
 //     transform: translateY(46px);
 //   }
 // }
-.intro-text {
+
+// fade left text
+
+.left-text {
   h3 {
     @include mobile {
       font-size: 36px;
@@ -553,24 +556,64 @@
 }
 
 
-.intro-text {
+.left-text {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
 
-.intro-text.active{
+.left-text.active{
   animation-duration: 0.75s;
-  animation-name: animate-fade;
+  animation-name: fade-left-txt;
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
   top: 0;
   opacity: 1;
 }
 
-@keyframes animate-fade {
+@keyframes fade-left-txt {
   0% { transform: translate3d(-400%, 0, 0); }
   100% { transform: translate3d(0, 0, 0); }
 }
+
+// fade right text
+
+.right-text {
+  h3 {
+    @include mobile {
+      font-size: 36px;
+    }
+  }
+}
+
+
+.right-text {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+  @include mobile {
+    animation-duration: 0.75s;
+    animation-name: fade-right-txt;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.right-text.active{
+  animation-duration: 0.75s;
+  animation-name: fade-right-txt;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  top: 0;
+  opacity: 1;
+}
+
+@keyframes fade-right-txt {
+  0% { transform: translate3d(400%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
 
 // fade in
 
@@ -598,7 +641,7 @@
   @include mobile {
     animation-duration: 0.75s;
     animation-name: fade-top;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
     animation-fill-mode: backwards;
     top: 0;
     opacity: 1;
@@ -608,7 +651,7 @@
 .fade-top.active {
   animation-duration: 0.75s;
   animation-name: fade-top;
-  animation-delay: 1.5s;
+  animation-delay: 1s;
   animation-fill-mode: backwards;
   top: 0;
   opacity: 1;
