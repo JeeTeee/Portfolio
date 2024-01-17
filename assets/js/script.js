@@ -259,16 +259,24 @@ const addClassOnScroll = (className) => {
   elements.forEach((element) => {
     const animationDone = element.getAttribute('data-animation-done');
 
-    if (!animationDone && isElementInViewport(element)) {
+    // Ajout de condition pour vérifier la largeur de l'écran
+    if (!animationDone && (!isMobile() || isElementInViewport(element))) {
       element.classList.add('active');
       element.dataset.animationDone = 'true';
     }
   });
 };
 
+const isMobile = () => {
+  return window.innerWidth <= 768; // Ajustez la valeur en fonction de votre choix
+};
+
 window.addEventListener('scroll', () => {
   addClassOnScroll('animscroll');
 });
+
+// Appeler la fonction une fois au chargement de la page pour traiter le cas initial
+addClassOnScroll('animscroll');
 
 // $('.carousel').carousel({
 //   interval: 2000
