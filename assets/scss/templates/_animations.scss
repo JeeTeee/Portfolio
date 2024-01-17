@@ -579,9 +579,9 @@
   transition: 1s ease;
   animation-delay: -1s;
 
-  @include mobile {
-    opacity: 1;
-  }
+  // @include mobile {
+  //   opacity: 1;
+  // }
 }
 
 .fade-in.active {
@@ -655,14 +655,14 @@
   opacity: 0;
   transition: opacity 2s ease;
 
-  @include mobile {
-    animation-duration: 0.75s;
-    animation-name: fade-right;
-    animation-delay: 1s;
-    animation-fill-mode: backwards;
-    top: 0;
-    opacity: 1;
-  }
+  // @include mobile {
+  //   animation-duration: 0.75s;
+  //   animation-name: fade-right;
+  //   animation-delay: 1s;
+  //   animation-fill-mode: backwards;
+  //   top: 0;
+  //   opacity: 1;
+  // }
 }
 
 .fade-right.active {

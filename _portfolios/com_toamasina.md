@@ -111,6 +111,7 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
     <p>Création d'un visuel destiné à un quotidien régional pour promouvoir un week-end portes ouvertes.</p>
   </div>
 </div>
+
 <div class="col-lg-12 col-sm-12 mb-3 text-center fade-left animscroll">
   <img src="/assets/images/portfolio/peugeot/mockup-ouest-france.jpg" alt="ouest-france-beauvois" class="project-img">
 </div>
@@ -120,6 +121,8 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
     <h5>Flyers</h5>
     <p>Ici un flyer promotionnel pour la location longue durée de véhicules électriques.</p>
   </div>
+</div>
+
 <div class="col-lg-12 col-sm-12 mb-3 text-center fade-right animscroll">
   <img src="/assets/images/portfolio/peugeot/flyer-electric.jpg" alt="flyer-beauvois" class="project-img">
 </div>
