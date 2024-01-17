@@ -50,7 +50,7 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
 </div>
 
 <div class="mosaic col-lg-6">
-  <div class="panoramic1">
+  <div class="panoramic1 fade-down animscroll">
       <img src="/assets/images/portfolio/exotismes/brochure-couv.jpg" alt="Brochure 2014 Exotismes Couverture">
   </div>
   <div class="square1 fade-left animscroll">

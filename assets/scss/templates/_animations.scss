@@ -590,6 +590,15 @@
 .fade-top  {
   opacity: 0;
   transition: fade-in 1s ease;
+
+  @include mobile {
+    animation-duration: 0.75s;
+    animation-name: fade-top;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .fade-top.active {
@@ -611,6 +620,15 @@
 .fade-down  {
   opacity: 0;
   transition: opacity 2s ease;
+
+  @include mobile {
+    animation-duration: 0.75s;
+    animation-name: fade-down;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .fade-down.active {
