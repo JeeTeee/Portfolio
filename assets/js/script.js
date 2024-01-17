@@ -259,8 +259,7 @@ const addClassOnScroll = (className) => {
   elements.forEach((element) => {
     const animationDone = element.getAttribute('data-animation-done');
 
-    if (!animationDone && isElementInViewport(element) &&
-    window.innerWidth >= 575) {
+    if (!animationDone && isElementInViewport(element)) {
       element.classList.add('active');
       element.dataset.animationDone = 'true';
     }
