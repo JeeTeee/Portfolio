@@ -73,7 +73,7 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
       </div>
     </div>
     <div class="col-lg-6 col-sm-12 mt-3 portrait-description">
-      <div class="fade-left animscroll">
+      <div class="fade-left animscroll px-3">
         <h5>PLV</h5>
         <p>Création de visuels destinés à l'impressions de kakemonos et d'affiches afin de promouvoir la marque en agence de voyage et dans les salons du tourisme.</p>
       </div>

@@ -276,7 +276,7 @@
   // margin: 16px;
 
   @include mobile {
-    max-width: 84vw;
+    max-width: 90vw;
   }
 
   @include desktop-xlg {
@@ -310,7 +310,6 @@
   padding: 15px;
   overflow: hidden;
   border-left: 2px solid #00caf254;
-  padding-left: 15px;
 
   @include tablet {
     border-left: none;

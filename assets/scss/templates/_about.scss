@@ -73,8 +73,12 @@
 		// }
 
     img {
-      height: 450px;
-      width: auto;
+      height: auto;
+      width: 100%;
+
+      // @include desktop {
+      //   margin-left: 0px;
+      // }
     }
 	}
 
