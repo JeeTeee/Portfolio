@@ -7,12 +7,14 @@
 		<div class="row justify-content-center">
 			<div class="col-md-5">
 				<div class="about-img d-flex justify-content-center mx-5">
-					<img src="{{about.video_thumb| relative_url}}" alt="" class="img-about">
+          <div class="fade-right animscroll">
+					  <img src="/assets/images/about/about.jpg" alt="" class="img-about">
+          </div>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-7 offset-lg-1 my-2 d-flex flex-column justify-content-center mx-1" style="overflow: hidden; border-left: 2px solid #00caf254;">
 				<span class="code-title-sm animscroll">{{about.subtitle}}</span>
-				<div class="left-text px-2 animscroll">
+				<div class="fade-left px-2 animscroll">
           <h3 class="mb-4 mt-3">{{ about.title }}</h3>
           {{ about.content | markdownify }}
           {% if about.button.enable %}

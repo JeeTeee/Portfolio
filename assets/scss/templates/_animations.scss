@@ -547,7 +547,7 @@
 
 // fade left text
 
-.left-text {
+.fade-left {
   h3 {
     @include mobile {
       font-size: 36px;
@@ -556,43 +556,13 @@
 }
 
 
-.left-text {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.left-text.active{
-  animation-duration: 0.75s;
-  animation-name: fade-left-txt;
-  animation-delay: 0.5s;
-  animation-fill-mode: backwards;
-  top: 0;
-  opacity: 1;
-}
-
-@keyframes fade-left-txt {
-  0% { transform: translate3d(-400%, 0, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-
-// fade right text
-
-.right-text {
-  h3 {
-    @include mobile {
-      font-size: 36px;
-    }
-  }
-}
-
-
-.right-text {
+.fade-left {
   opacity: 0;
   transition: opacity 0.5s ease;
 
   @include mobile {
     animation-duration: 0.75s;
-    animation-name: fade-right-txt;
+    animation-name: fade-left;
     animation-delay: 0.5s;
     animation-fill-mode: backwards;
     top: 0;
@@ -600,16 +570,55 @@
   }
 }
 
-.right-text.active{
+.fade-left.active{
   animation-duration: 0.75s;
-  animation-name: fade-right-txt;
+  animation-name: fade-left;
   animation-delay: 0.5s;
   animation-fill-mode: backwards;
   top: 0;
   opacity: 1;
 }
 
-@keyframes fade-right-txt {
+@keyframes fade-left {
+  0% { transform: translate3d(-400%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+// fade right text
+
+.fade-right {
+  h3 {
+    @include mobile {
+      font-size: 36px;
+    }
+  }
+}
+
+
+.fade-right {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+  @include mobile {
+    animation-duration: 0.75s;
+    animation-name: fade-right;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.fade-right.active{
+  animation-duration: 0.75s;
+  animation-name: fade-right;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  top: 0;
+  opacity: 1;
+}
+
+@keyframes fade-right {
   0% { transform: translate3d(400%, 0, 0); }
   100% { transform: translate3d(0, 0, 0); }
 }
@@ -689,65 +698,5 @@
 
 @keyframes fade-down {
   0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-
-// fade right
-
-.fade-right  {
-  opacity: 0;
-  transition: opacity 2s ease;
-
-  @include mobile {
-    animation-duration: 0.75s;
-    animation-name: fade-right;
-    animation-delay: 1s;
-    animation-fill-mode: backwards;
-    top: 0;
-    opacity: 1;
-  }
-}
-
-.fade-right.active {
-  animation-duration: 0.75s;
-  animation-name: fade-right;
-  animation-delay: 1s;
-  animation-fill-mode: backwards;
-  top: 0;
-  opacity: 1;
-}
-
-@keyframes fade-right {
-  0% { transform: translate3d(100%, 0, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-
-// fade left
-
-.fade-left  {
-  opacity: 0;
-  transition: opacity 2s ease;
-
-  @include mobile {
-    animation-duration: 0.75s;
-    animation-name: fade-left;
-    animation-delay: 1s;
-    animation-fill-mode: backwards;
-    top: 0;
-    opacity: 1;
-  }
-}
-
-.fade-left.active {
-  animation-duration: 0.75s;
-  animation-name: fade-left;
-  animation-delay: 1s;
-  animation-fill-mode: backwards;
-  top: 0;
-  opacity: 1;
-}
-
-@keyframes fade-left {
-  0% { transform: translate3d(-100%, 0, 0); }
   100% { transform: translate3d(0, 0, 0); }
 }
