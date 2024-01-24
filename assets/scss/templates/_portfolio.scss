@@ -6,6 +6,7 @@
 .portfolio-block {
   position: relative;
   transition: all .45s ease;
+  max-width: 350px;
 
   &:before {
     position: absolute;
@@ -494,21 +495,36 @@
   position: relative;
   text-align: start;
 
-  h5 {
+  h4 {
+    margin-top: 40px;
     color: $primary-color;
+    font-size: 24px;
+    margin-bottom: 10px;
+    opacity: .7;
+
+    @include mobile {
+      font-size: 20px;
+    }
+
+
+    .step {
+      font-size: 36px;
+      opacity: .25;
+      font-weight: 700;
+    }
+  }
+
+  h5 {
+    color: $black;
+    text-decoration: underline $primary-color;
     font-size: 24px;
     margin-bottom: 20px;
     opacity: .7;
 
+    @include mobile {
+      font-size: 20px;
+    }
 
-    // &:before {
-    //   position: absolute;
-    //   content: url("../images/list-title.svg");
-    //   display: inline-block;
-    //   height: 25px;
-    //   width: 25px;
-    //   left: -25px;
-    // }
   }
 
   p {
@@ -521,12 +537,12 @@
     color: $primary-color;
     font-size: 18px;
     font-weight: 500;
-    opacity: .7;
-    margin-top: 35px;
+    opacity: .6;
+    margin-top: 20px;
 
     .step {
       font-size: 34px;
-      opacity: .3;
+      opacity: .25;
       font-weight: 700;
     }
 
@@ -538,6 +554,17 @@
     font-weight: 500;
     opacity: .8;
 
+  }
+
+  a {
+    color: $black-light;
+    font-weight: 500;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: none;
+      font-weight: 500;
+    }
   }
 
 }

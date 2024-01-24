@@ -1,10 +1,12 @@
 ---
 layout: portfolio
+header_image: "/assets/images/bg/bg-passengers.jpg"
 title: "Passengers"
 categories: ["Web"]
 thumbnail: "/assets/images/portfolio/tbn-passengers.jpg"
-description: "Passengers est une application web visant à mettre en relation d'anciens élèves du Wagon, désormais freelances, avec des clients potentiels.
-Ce projet a été réalisé dans le cadre de ma formation Développeur Web Full-Stack au Wagon Marseille. <br><br>
+description: "Ce projet a été réalisé dans le cadre de ma formation Développeur Web Full-Stack au Wagon Marseille.<br>
+Passengers est une application web visant à mettre en relation d'anciens élèves du Wagon, désormais freelances, avec des clients potentiels.
+ <br><br>
 En équipe de 4, nous avons eu 10 jours pour concevoir et développer une application web en utilisant le framework Rails. <br>
 À l'issue du développement, nous avons présenté notre projet devant un public et un jury lors du Demo Day, marquant la clôture de notre formation."
 ---
@@ -42,7 +44,7 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <h4>User Flow (Parcours Utilisateur)</h4>
   </div>
   <div class="user-flow mt-5">
-    <h5>Parcours Client (Proposition de Projet)</h5>
+    <h5>Parcours Client : Proposition de Projet</h5>
     <p><strong>Problème :</strong> Un client démarre son activité et a un projet de site one page, mais son budget est limité. <br> Il recherche un développeur proposant des tarifs accessibles.</p>
     <h6><span class="step">01</span> Proposition de Projet</h6>
     <p>Le client crée un compte sur <strong>Passengers</strong> et propose son projet en répondant au formulaire, fournissant une brève description et ses attentes.</p>
@@ -52,27 +54,27 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Passengers résout ce problème en attribuant une note de difficulté au projet, basée sur les informations fournies par le client.</p>
     <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/project-score-code-sample.jpg" alt="user flow client passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/project-score-code-sample.jpg" alt="échantillon du code de passengers" class="project-img">
       </div>
     </div>
     <h6><span class="step">04</span> Sélection de Freelances</h6>
     <p>En fonction de la note de difficulté, Passengers propose une sélection de freelances adaptés à la complexité du projet.</p>
-     <div class="col my-3 px-0 justify-content-start">
+     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/user-score-code-sample.jpg" alt="user flow client passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/freelance-selection.gif" alt="sélection de freelances sur passengers" class="project-img">
       </div>
     </div>
     <h6><span class="step">05</span> Choix du Freelance</h6>
     <p><strong>Solution :</strong> Le client choisit un freelance en accord avec ses besoins, garantissant ainsi une collaboration optimale malgré les contraintes budgétaires.</p>
     <div class="col mt-3 mb-5 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-client-flow.gif" alt="user flow client passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/passengers-client-flow.gif" alt="parcours utilisateur client passengers" class="project-img">
       </div>
     </div>
   </div>
 
   <div class="user-flow mt-5">
-    <h5>Parcours Freelance (Recherche de Projet)</h5>
+    <h5>Parcours Freelance : Recherche de Projet</h5>
     <p><strong>Problème :</strong> Un freelance junior rencontre des difficultés pour trouver des missions et doit faire face à la concurrence de freelances plus expérimentés sur le marché.</p>
     <h6><span class="step">01</span> Profil du Freelance</h6>
     <p>Le freelance commence son parcours sur <strong>Passengers</strong> en créant son profil, mettant en avant son expérience, ses compétences et ses réalisations.</p>
@@ -82,50 +84,47 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Passengers résout ce problème en évaluant les projets disponibles et en attribuant une note en fonction de la complexité et des compétences requises.</p>
     <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/project-score-code-sample.jpg" alt="user flow client passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/user-score-code-sample.jpg" alt="échantillon du code de passengers" class="project-img">
       </div>
     </div>
-    <h6><span class="step">04</span> Mise en Relation avec des Projets Pertinents</h6>
-    <p>En se basant sur l'évaluation des projets, Passengers met en relation le freelance avec des projets pertinents, il sera contacté par le client et lui proposera un devis.</p>
+    <h6><span class="step">04</span> Mise en Relation</h6>
+    <p>En se basant sur l'évaluation des projets, Passengers met en relation le freelance avec des projets pertinents, il sera mis en relation avec le client et pourra lui envoyer un devis.</p>
      <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/user-score-code-sample.jpg" alt="user flow client passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/passengers-freelancer-flow.gif" alt="" class="project-img">
       </div>
     </div>
     <h6><span class="step">05</span> Collaboration Réussie</h6>
     <p><strong>Solution :</strong> Le freelance et le client parviennent à un accord et collaborent ensemble sur le projet, assurant ainsi une expérience de travail fructueuse.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-client-flow.gif" alt="user flow client passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/collaboration-client.gif" alt="parcours utilisateur freelance passengers" class="project-img">
       </div>
+      <p class="pt-4 mb-5">Cette approche garantit au freelance la possibilité de mettre en avant ses compétences, de trouver des projets alignés sur ses capacités et d'établir des collaborations réussies.</p>
     </div>
-     <p>Cette approche garantit au freelance la possibilité de mettre en avant ses compétences, de trouver des projets alignés sur ses capacités et d'établir des collaborations réussies.</p>
   </div>
 
-  <!-- <div class="service-2 col-lg-12 mt-5">
-    <h4>Print</h4>
+  <div class="service-2 col-lg-12 mt-5">
+    <h4>Développement du Projet</h4>
   </div>
-  <div class="row justify-content-center">
-    <div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
-      <div class="fade-down animscroll">
-        <h5>Presse régionale (Ouest France)</h5>
-        <p>Création d'un visuel destiné à un quotidien régional pour promouvoir un week-end portes ouvertes.</p>
+
+  <div class="user-flow mt-5">
+    <p>D'après l'idée de Mathieu qui nous a convaincus lors de son pitch, Marylou, Jérôme et moi-même avons constitué une équipe avec lui. <br>
+    Pendant 10 jours, nous nous sommes réparti les tâches et avons travaillé comme une véritable équipe de développeurs selon <a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_agile" target="_blank">la méthode agile</a> afin de mener à bien le projet dans le délai imparti. <br><br>La conception s'est déroulée en plusieurs étapes :</p>
+    <h4><span class="step">01</span> Design</h4>
+    <h6>Stories utilisateur</h6>
+    <p>Nous avons identifié le parcours utilisateur et catégorisé et hiérarchisé les stories utilisateurs en utilisant <a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW" target="_blank">la méthode MoSCoW</a>.</p>
+    <h6>Schéma de base de données</h6>
+    <p>Conception du schema de la base de données en fonction du parcours utilisateur.</p>
+    <div class="col my-3 px-0 paysage-container">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/passengers/passengers-db-table.jpg" alt="échantillon du code de passengers" class="project-img">
       </div>
     </div>
-    <div class="col mb-3 paysage-container">
-      <div class="fade-left animscroll">
-        <img src="/assets/images/portfolio/peugeot/mockup-ouest-france.jpg" alt="ouest-france-beauvois" class="project-img">
-       </div>
-    </div>
-    <div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
-      <div class="fade-down animscroll">
-        <h5>Flyers</h5>
-        <p>Un flyer promotionnel pour la location longue durée de véhicules électriques.</p>
-      </div>
-    </div>
-    <div class="col mb-3 paysage-container">
-      <div class="fade-right animscroll">
-        <img src="/assets/images/portfolio/peugeot/flyer-electric.jpg" alt="flyer-beauvois" class="project-img">
-      </div>
-    </div> -->
+    <h6>Maquette et Routes</h6>
+    <p>Élaboration du wireframe (maquette fonctionnelle) sur Figma afin de structurer le parcours utilisateur, définir les fonctionnalités à développer, et établir les routes de l'application.</p>
+    <h4><span class="step">02</span> Création</h4>
+    <h6>Nouveau Projet Rails</h6>
+    <p>tbd.</p>
+  </div>
 </div>
