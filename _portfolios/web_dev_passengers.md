@@ -4,9 +4,9 @@ header_image: "/assets/images/bg/bg-passengers.jpg"
 title: "Passengers"
 categories: ["Web"]
 thumbnail: "/assets/images/portfolio/tbn-passengers.jpg"
-description: "Ce projet a été réalisé dans le cadre de ma formation Développeur Web Full-Stack au Wagon Marseille. <br>
-Il constitue le projet final destiné à mettre en avant toutes les connaissances acquises durant la formation.<br>
-Passengers est une application web visant à mettre en relation d'anciens élèves du Wagon, désormais freelances, avec des clients potentiels.
+description: "Passengers est une application web visant à mettre en relation d'anciens élèves du Wagon, désormais freelances, avec des clients potentiels.<br>
+Ce projet a été réalisé dans le cadre de ma formation Développeur Web Full-Stack au Wagon Marseille. <br>
+Il constitue le projet final destiné à mettre en avant toutes les connaissances acquises durant la formation.
  <br><br>
 En équipe de 4, nous avons eu 10 jours pour concevoir et développer une application web en utilisant le framework Rails. <br>
 À l'issue du développement, nous avons présenté notre projet devant un public et un jury lors du Demo Day, marquant la clôture de notre formation."
