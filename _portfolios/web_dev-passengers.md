@@ -89,16 +89,16 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     </div>
     <h6><span class="step">04</span> Mise en Relation</h6>
     <p>En se basant sur l'évaluation des projets, Passengers met en relation le freelance avec des projets pertinents, il sera mis en relation avec le client et pourra lui envoyer un devis.</p>
-     <div class="col my-3 px-0 justify-content-start">
+    <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-freelancer-flow.gif" alt="" class="project-img">
+        <img src="/assets/images/portfolio/passengers/passengers-freelancer-flow.gif" alt="parcours utilisateur freelance passengers" class="project-img">
       </div>
     </div>
     <h6><span class="step">05</span> Collaboration Réussie</h6>
     <p><strong>Solution :</strong> Le freelance et le client parviennent à un accord et collaborent ensemble sur le projet, assurant ainsi une expérience de travail fructueuse.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/collaboration-client.gif" alt="parcours utilisateur freelance passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/collaboration-client.gif" alt="validation devis passengers" class="project-img">
       </div>
       <p class="pt-4 mb-5">Cette approche garantit au freelance la possibilité de mettre en avant ses compétences, de trouver des projets alignés sur ses capacités et d'établir des collaborations réussies.</p>
     </div>
@@ -118,13 +118,35 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Conception du schema de la base de données en fonction du parcours utilisateur.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-db-table.jpg" alt="échantillon du code de passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/passengers-db-table.jpg" alt="tables base de données passengers" class="project-img">
       </div>
     </div>
     <h6>Maquette et Routes</h6>
     <p>Élaboration du wireframe (maquette fonctionnelle) sur Figma afin de structurer le parcours utilisateur, définir les fonctionnalités à développer, et établir les routes de l'application.</p>
     <h4><span class="step">02</span> Création</h4>
     <h6>Nouveau Projet Rails</h6>
-    <p>tbd.</p>
+    <p>Création de l'application Rails et du dépôt sur <a href="https://github.com/MatWebDev/PASSENGERS" target="_blank">Github</a> et déploiement de l'application sur <a href="https://www.heroku.com/" target="_blank">Heroku</a>. <br> En pair programming, nous avons ensuite créé les modèles et leurs contrôleurs, en plus d'établir leurs associations et validations, tout en suivant le schéma de base de données.</p>
+    <div class="col my-3 px-0 justify-content-start">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/passengers/model-code-sample.jpg" alt="échantillon du code de passengers" class="project-img">
+      </div>
+    </div>
+    <h6>Prototype Figma</h6>
+    <p>Une fois les bases de l'application établies, nous avons mis à jour la maquette sur Figma et développé le design de l'application pour qu'il soit proche du rendu final. Cette maquette haute fidélité a facilité le développement des fonctionnalités par l'équipe et la mise en place du front-end.</p>
+    <div class="col my-3 px-0 paysage-container">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/passengers/figma-flow-passengers.gif" alt="maquette figma passengers" class="project-img">
+      </div>
+    </div>
+    <h4><span class="step">03</span> Gestion de Projet</h4>
+    <h6>Méthode Kanban</h6>
+    <p>Avec l'aide de <a href="https://www.notion.so/fr-fr" target="_blank">Notion</a>, un outil Kanban, nos deux binômes ont pu suivre leur progression respective et avancer efficacement et de manière cohérente tout au long du développement du projet. Ainsi, nous avons pu surmonter les difficultés liées au développement en groupe, une notion nouvelle tous les membres de l'équipe, et mettre en place les fonctionnalités minimales prévues initialement, avant la deadline du Demo Day.</p>
+    <h6>Nom de Domaine</h6>
+    <p>Pour finaliser le projet et le rendre accessible en ligne avant la présentation, nous avons acquis un nom de domaine et configuré le certificat SSL.</p>
+    <h6>Demo Day</h6>
+    <p>Pour conclure et valider notre formation, nous avons eu l'opportunité de présenter notre projet devant un public et un jury lors du "Demo Day"</p>
+    <div class="video-responsive">
+      <iframe width="100%" height="700" src="https://www.youtube.com/embed/_Qgm2clu7Bc?si=gZJ2keW2gyid3HeD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
   </div>
 </div>
