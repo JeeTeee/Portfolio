@@ -4,7 +4,8 @@ header_image: "/assets/images/bg/bg-passengers.jpg"
 title: "Passengers"
 categories: ["Web"]
 thumbnail: "/assets/images/portfolio/tbn-passengers.jpg"
-description: "Ce projet a été réalisé dans le cadre de ma formation Développeur Web Full-Stack au Wagon Marseille.<br>
+description: "Ce projet a été réalisé dans le cadre de ma formation Développeur Web Full-Stack au Wagon Marseille. <br>
+Il constitue le projet final destiné à mettre en avant toutes les connaissances acquises durant la formation.<br>
 Passengers est une application web visant à mettre en relation d'anciens élèves du Wagon, désormais freelances, avec des clients potentiels.
  <br><br>
 En équipe de 4, nous avons eu 10 jours pour concevoir et développer une application web en utilisant le framework Rails. <br>
@@ -123,6 +124,13 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     </div>
     <h6>Maquette et Routes</h6>
     <p>Élaboration du wireframe (maquette fonctionnelle) sur Figma afin de structurer le parcours utilisateur, définir les fonctionnalités à développer, et établir les routes de l'application.</p>
+    <h6>Logo</h6>
+    <p>Fort de mon expérience en graphisme, j'ai pris en charge la conception du logotype de "Passengers". En fusionnant les chevrons, emblèmes des balises en code, avec le pictogramme d'une personne assise dans un train, j'ai créé un logo évocateur qui symbolise à la fois les développeurs et les utilisateurs de l'application.  Enfin, j'ai utilisé la typographie "Anonymous Pro", utilisée en programmation comme référence directe.</p>
+    <div class="col my-3 px-0 paysage-container">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/passengers/passengers-logo.png" alt="échantillon du code de passengers" class="logo-img">
+      </div>
+    </div>
     <h4><span class="step">02</span> Création</h4>
     <h6>Nouveau Projet Rails</h6>
     <p>Création de l'application Rails et du dépôt sur <a href="https://github.com/MatWebDev/PASSENGERS" target="_blank">Github</a> et déploiement de l'application sur <a href="https://www.heroku.com/" target="_blank">Heroku</a>. <br> En pair programming, nous avons ensuite créé les modèles et leurs contrôleurs, en plus d'établir leurs associations et validations, tout en suivant le schéma de base de données.</p>
@@ -140,7 +148,7 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     </div>
     <h4><span class="step">03</span> Gestion de Projet</h4>
     <h6>Méthode Kanban</h6>
-    <p>Avec l'aide de <a href="https://www.notion.so/fr-fr" target="_blank">Notion</a>, un outil Kanban, nos deux binômes ont pu suivre leur progression respective et avancer efficacement et de manière cohérente tout au long du développement du projet. Ainsi, nous avons pu surmonter les difficultés liées au développement en groupe, une notion nouvelle tous les membres de l'équipe, et mettre en place les fonctionnalités minimales prévues initialement, avant la deadline du Demo Day.</p>
+    <p>Avec l'aide de <a href="https://www.notion.so/fr-fr" target="_blank">Notion</a>, un outil Kanban, et de <a href="https://slack.com/intl/fr-fr" target="_blank">Slack</a>, pour la communication et la partage d'informations, nos deux binômes ont pu suivre leur progression respective et avancer efficacement et de manière cohérente tout au long du développement du projet. Ainsi, nous avons pu surmonter les difficultés liées au développement en groupe, une notion nouvelle tous les membres de l'équipe, et mettre en place les fonctionnalités minimales prévues initialement, avant la deadline du Demo Day.</p>
     <h6>Nom de Domaine</h6>
     <p>Pour finaliser le projet et le rendre accessible en ligne avant la présentation, nous avons acquis un nom de domaine et configuré le certificat SSL.</p>
     <h6>Demo Day</h6>
