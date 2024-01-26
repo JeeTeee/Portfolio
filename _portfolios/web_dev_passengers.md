@@ -28,7 +28,7 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
       </div>
       <div class="col-lg-4 text-center">
         <p class="text-color font-weight-bold mb-2">Qui</p>
-        <p>En équipe avec Marylou, <br> Mathieu & Jérôme </p>
+        <p>En équipe avec Marilou, <br> Mathieu & Jérôme </p>
       </div>
   </div>
 </div>
@@ -128,7 +128,7 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Fort de mon expérience en graphisme, j'ai pris en charge la conception du logotype de "Passengers". En fusionnant les chevrons, emblèmes des balises en code, avec le pictogramme d'une personne assise dans un train, j'ai créé un logo évocateur qui symbolise à la fois les développeurs et les utilisateurs de l'application.  Enfin, j'ai utilisé la typographie "Anonymous Pro", utilisée en programmation comme référence directe.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-logo.png" alt="échantillon du code de passengers" class="logo-img">
+        <img src="/assets/images/portfolio/passengers/passengers-logo.png" alt="logo passengers" class="logo-img">
       </div>
     </div>
     <h4><span class="step">02</span> Création</h4>
@@ -148,11 +148,11 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     </div>
     <h4><span class="step">03</span> Gestion de Projet</h4>
     <h6>Méthode Kanban</h6>
-    <p>Avec l'aide de <a href="https://www.notion.so/fr-fr" target="_blank">Notion</a>, un outil Kanban, et de <a href="https://slack.com/intl/fr-fr" target="_blank">Slack</a>, pour la communication et la partage d'informations, nos deux binômes ont pu suivre leur progression respective et avancer efficacement et de manière cohérente tout au long du développement du projet. Ainsi, nous avons pu surmonter les difficultés liées au développement en groupe, une notion nouvelle tous les membres de l'équipe, et mettre en place les fonctionnalités minimales prévues initialement, avant la deadline du Demo Day.</p>
+    <p>Avec l'aide de <a href="https://www.notion.so/fr-fr" target="_blank">Notion</a>, un outil Kanban, et de <a href="https://slack.com/intl/fr-fr" target="_blank">Slack</a>, pour la communication et la partage d'informations, nos deux binômes ont pu suivre leur progression respective et avancer efficacement et de manière cohérente tout au long du développement du projet. <br> Ainsi, nous avons pu surmonter les difficultés liées au développement en groupe, une notion nouvelle tous les membres de l'équipe, et mettre en place les fonctionnalités minimales prévues initialement, avant la deadline du Demo Day.</p>
     <h6>Nom de Domaine</h6>
     <p>Pour finaliser le projet et le rendre accessible en ligne avant la présentation, nous avons acquis un nom de domaine et configuré le certificat SSL.</p>
     <h6>Demo Day</h6>
-    <p>Pour conclure et valider notre formation, nous avons eu l'opportunité de présenter notre projet devant un public et un jury lors du "Demo Day"</p>
+    <p>Pour conclure et valider notre formation, nous avons eu l'opportunité de présenter notre projet devant un public et un jury lors du "Demo Day".</p>
     <div class="video-responsive">
       <iframe width="100%" height="700" src="https://www.youtube.com/embed/_Qgm2clu7Bc?si=gZJ2keW2gyid3HeD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>

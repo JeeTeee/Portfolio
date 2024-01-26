@@ -94,8 +94,10 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
         <p>Visuels pour des bannières imprimées sur bâche.</p>
       </div>
     </div>
-    <div class="col-lg-12 col-sm-12 mb-3 text-center fade-in animscroll">
-      <img src="/assets/images/portfolio/peugeot/banner-mockup.jpg" alt="banderoles-groupebeauvois" class="project-img">
+    <div class="col mb-5 paysage-container">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/peugeot/banner-mockup.jpg" alt="banderoles-groupebeauvois" class="project-img">
+      </div>
     </div>
   </div>
 
@@ -122,8 +124,10 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
         <p>Création de visuels pour les newsletters mensuelles et campagnes d'emailing pour les promotions et journées portes ouvertes.</p>
       </div>
     </div>
-    <div class="col-lg-12 col-sm-12 mb-3 text-center fade-in animscroll">
-      <img src="/assets/images/portfolio/peugeot/mailing.jpg" alt="mailing-groupebeauvois" class="project-img">
+    <div class="col mb-3 paysage-container">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/peugeot/mailing.jpg" alt="mailing-groupebeauvois" class="project-img">
+      </div>
     </div>
   </div>
 

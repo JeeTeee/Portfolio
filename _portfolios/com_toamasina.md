@@ -67,12 +67,12 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
   </div>
 
   <div class="row justify-content-center pf-container mt-5 mb-5">
-    <div class="col-lg-6 col-sm-12 mt-3 portrait-container">
+    <div class="col-lg-6 col-sm-12 my-3 portrait-container">
       <div class="fade-right animscroll">
         <img src="/assets/images/portfolio/exotismes/plv-exo.jpg" alt="plv exotismes Karibea" class="project-img">
       </div>
     </div>
-    <div class="col-lg-6 col-sm-12 mt-3 portrait-description">
+    <div class="col-lg-6 col-sm-12 my-3 portrait-description">
       <div class="fade-left animscroll px-3">
         <h5>PLV</h5>
         <p>Création de visuels destinés à l'impressions de kakemonos et d'affiches afin de promouvoir la marque en agence de voyage et dans les salons du tourisme.</p>
@@ -80,14 +80,18 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
     </div>
   </div>
 
-  <div class="col-lg-12 col-sm-12 mt-5 top-description">
-    <div class="fade-down animscroll">
-      <h5>Kit de papeterie</h5>
-      <p>Confection de visuels pour des cartes de visites et en-tête de lettre.</p>
+  <div class="row justify-content-center">
+    <div class="col-lg-12 col-sm-12 mt-5 top-description">
+      <div class="fade-down animscroll">
+        <h5>Kit de papeterie</h5>
+        <p>Confection de visuels pour des cartes de visites et en-tête de lettre.</p>
+      </div>
     </div>
-  </div>
-  <div class="col-lg-12 col-sm-12 mb-5 text-center fade-in animscroll">
-    <img src="/assets/images/portfolio/exotismes/cft-print.jpg" alt="kit Compagnie Financière du Tourisme" class="project-img">
+    <div class="col mb-5 paysage-container">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/exotismes/cft-print.jpg" alt="kit Compagnie Financière du Tourisme" class="project-img">
+      </div>
+    </div>
   </div>
 
   <div class="service-2 col-lg-12 mt-5">
@@ -101,7 +105,9 @@ Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, 
     </div>
   </div>
 
-  <div class="col-lg-12 col-sm-12 mb-5 text-center fade-in animscroll">
-    <img src="/assets/images/portfolio/exotismes/newsletters-exo.jpg" alt="mailing-exotismes" class="project-img">
+  <div class="col my-3 px-0 paysage-container">
+    <div class="fade-in animscroll">
+      <img src="/assets/images/portfolio/exotismes/newsletters-exo.jpg" alt="mailing-exotismes" class="project-img">
+    </div>
   </div>
 </div>
