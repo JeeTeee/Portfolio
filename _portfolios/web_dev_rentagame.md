@@ -93,6 +93,7 @@ Nous avons eu l'idée de développer une application de location de jeux de soci
       </div>
     </div>
     <h4><span class="step">03</span> Fonctionnalités</h4>
+    <p>Au cours du développement, nous avons mis en pratique nos connaissances sur Rails en implémentant plusieurs fonctionnalités.</p>
     <h6 class="mt-5">Barre de recherche</h6>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
