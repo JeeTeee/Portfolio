@@ -32,47 +32,47 @@ const hamburger = document.querySelector(".hamburger");
 
 
   // clients slider
-  // $('.clients-wrap').slick({
-  //   slidesToShow: 5,
-  //   slidesToScroll: 5,
-  //   infinite: true,
-  //   dots: false,
-  //   arrows: false,
-  //   center: true,
-  //   autoplay: true,
-  //   padding: 20,
-  //   autoplaySpeed: 6000,
-  //   responsive: [{
-  //       breakpoint: 1024,
-  //       settings: {
-  //         slidesToShow: 4,
-  //         slidesToScroll: 4,
-  //         infinite: true
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 900,
-  //       settings: {
-  //         slidesToShow: 3,
-  //         slidesToScroll: 3
-  //       }
-  //     }, {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 480,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2
-  //       }
-  //     }
+  $('.clients-wrap').slick({
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    infinite: true,
+    dots: false,
+    arrows: false,
+    center: true,
+    autoplay: true,
+    padding: 20,
+    autoplaySpeed: 6000,
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3
+        }
+      }, {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
 
-  //   ]
-  // });
+    ]
+  });
 
 
   // testimonial slider

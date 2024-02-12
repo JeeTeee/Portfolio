@@ -107,19 +107,15 @@ testimonial:
 
 
 ###################### Clients ######################
-# clients:
-#   enable : true
-#   logos:
-#     - "/assets/images/clients/client-1.png"
-#     - "/assets/images/clients/client-2.png"
-#     - "/assets/images/clients/client-3.png"
-#     - "/assets/images/clients/client-4.png"
-#     - "/assets/images/clients/client-5.png"
-#     - "/assets/images/clients/client-1.png"
-#     - "/assets/images/clients/client-2.png"
-#     - "/assets/images/clients/client-3.png"
-#     - "/assets/images/clients/client-4.png"
-#     - "/assets/images/clients/client-5.png"
+clients:
+  enable : true
+  logos:
+    - "/assets/images/clients/aws.png"
+    - "/assets/images/clients/bouches-du-rhone-13-logo.png"
+    - "/assets/images/clients/code4marseille.png"
+    - "/assets/images/clients/inco.png"
+    - "/assets/images/clients/provencetourisme.png"
+    - "/assets/images/clients/voyage-prive.png"
 
 
 ###################### Team ######################

@@ -268,6 +268,17 @@
   font-size: 16px;
   color: $black-light;
   margin-bottom: 16px;
+
+  a {
+    color: $black-light;
+    font-weight: 500;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: none;
+      font-weight: 500;
+    }
+  }
 }
 
 
@@ -543,7 +554,7 @@
     font-size: 18px;
     font-weight: 500;
     opacity: .6;
-    margin-top: 20px;
+    margin-top: 30px;
 
     .step {
       font-size: 34px;
@@ -589,4 +600,22 @@
   height:100%;
   width:100%;
   position:absolute;
+  }
+
+  .links-list {
+    list-style: url('/assets/images/list-title.svg');
+    li::marker {
+      font-size: 36px;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 300;
+
+      &:hover {
+        color: $primary-color;
+        font-weight: 300;
+      }
+
+    }
   }
