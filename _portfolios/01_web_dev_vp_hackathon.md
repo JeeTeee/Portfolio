@@ -31,8 +31,8 @@ description: "Parmi les événements marquants de mon récent parcours de dével
 
 <div class="col-lg-12 text-center my-5 p-5" style="background-color: #c9f1f978">
 	<p class="project-caption">Le hackathon de code <a href="https://dev.jo4marseille.fr/" target="_blank">Jo4marseille</a> organisé par l'association <a href="https://code4sud.fr/" target="_blank">Code4Marseille</a> en partenariat avec <a href="https://www.people-voyage-prive.com/" target="_blank">Voyage Privé</a> et <a href="https://www.provencerugby.com/" target="_blank">Provence Rugby</a> s'est tenu en novembre 2022. <br><br>
-  Pendant 3 jours, nous avons développé une application en lien avec les Jeux Olympiques sur un thème imposé, qui était pour notre équipe : "Tous éco-responsables". <br>Notre application, nommée "ECCOO 2024", a été développée dans le but de réduire les émissions de CO₂ durant l'événement. <br>
-  Sélectionnés parmi les 10 meilleures équipes du marathon, nous avons eu l'opportunité de présenter notre projet devant un jury et tous les participants de l'épreuve dans les locaux de Voyage Privé. <br>Nous avons terminé à la 5ème place du classement général."</p>
+  Pendant 3 jours, nous avons développé une application en lien avec les Jeux Olympiques sur un thème imposé, qui était pour notre équipe : "Tous éco-responsables". <br>Notre application, nommée "ECCOO 2024", a été développée dans le but de réduire les émissions de CO₂ durant les JO. <br>
+  Finalistes parmi les 10 meilleures équipes du marathon, nous avons eu l'opportunité de présenter notre projet devant un jury et tous les participants de l'épreuve dans les locaux de Voyage Privé. <br>Nous avons terminé à la 5ème place du classement général."</p>
 </div>
 
 <div class="container">
@@ -41,7 +41,7 @@ description: "Parmi les événements marquants de mon récent parcours de dével
   </div>
 
   <div class="user-flow mt-5">
-    <p>L'application <a href="https://drive.google.com/file/d/1pGkjM6lqMDXAvmxVeCqIy0bboF69610B/view?usp=drive_link" target="_blank">ECCOO 2024</a>, vise à réduire l'empreinte carbone des Jeux Olympiques de Marseille de moitié par rapport à ceux de Tokyo 2020. Axée sur la mobilité et la restauration, l'application a pour objectif de maîtriser l'empreinte carbone des participants en les incitant à utiliser des moyens de transport à faible émission de CO2 et en mesurant l'impact de leurs déplacements et de leur restauration.
+    <p>L'application <a href="https://drive.google.com/file/d/1pGkjM6lqMDXAvmxVeCqIy0bboF69610B/view?usp=drive_link" target="_blank">ECCOO 2024</a>, vise à réduire l'empreinte carbone des Jeux Olympiques de Marseille de moitié par rapport à ceux de Tokyo 2020. Axée sur la <strong  style="color: #00c8f2">mobilité</strong> et la <strong style="color: #00c8f2">restauration</strong>, l'application a pour objectif de maîtriser l'empreinte carbone des participants en les incitant à utiliser des moyens de transport à faible émission de CO² et en mesurant l'impact de leurs déplacements et de leur restauration.
     <br>Nous avons opté pour React pour le développement, une technologie qui permet le déploiement de l'application sur le web, iOS et Android, offrant ainsi une solution dynamique et pérenne.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
@@ -77,13 +77,13 @@ description: "Parmi les événements marquants de mon récent parcours de dével
           <a href="https://www.people-voyage-prive.com/" target="_blank"><img src="{{'/assets/images/clients/voyage-prive.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
         </div>
         <div>
-          <a href="https://www.myprovence.fr/" target="_blank"><img src="{{'/assets/images/clients/provencetourisme.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
-        </div>
-        <div>
-          <a href="https://aws.amazon.com/fr/?nc2=h_lg" target="_blank"><img src="{{'/assets/images/clients/aws.png' | relative_url}}" alt="Amazon Web Services" class="img-fluid mx-auto" style="margin-right: 50px"></a>
+          <a href="https://aws.amazon.com/fr/?nc2=h_lg" target="_blank"><img src="{{'/assets/images/clients/aws.png' | relative_url}}" alt="Amazon Web Services" class="img-fluid mx-auto"></a>
         </div>
         <div>
           <a href="https://www.departement13.fr/" target="_blank"><img src="{{'/assets/images/clients/bouches-du-rhone-13-logo.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
+        </div>
+        <div>
+          <a href="https://www.myprovence.fr/" target="_blank"><img src="{{'/assets/images/clients/provencetourisme.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
         </div>
         <div>
           <a href="https://inco-group.co/" target="_blank"><img src="{{'/assets/images/clients/inco.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
@@ -91,7 +91,7 @@ description: "Parmi les événements marquants de mon récent parcours de dével
       </div>
 	  </div>
     <h6>Résumé vidéo du hackathon</h6>
-    <div class="video-responsive">
+    <div class="video-responsive mb-5">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/_Fnhrzcc-Hk?si=RU0qxqxyokfecG_p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <h6>Notre équipe : La Team C Mignon</h6>
