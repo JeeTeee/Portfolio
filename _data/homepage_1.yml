@@ -94,7 +94,8 @@ experiences:
 - title : "Freelance"
   date : "Depuis 2023"
   content : "<strong>Aix-en-Provence (13)</strong> <br>
-  Développeur Web - Statut de micro-entreprise."
+  Développeur Web <br>
+  Statut de micro-entreprise."
 
 - title : "Peugeot Beauvois Auto"
   date : "2016 - 2022"
@@ -111,10 +112,11 @@ experiences:
     ########################## Enseignement ##############################
 
 educations:
-- title : "Formation Développeur Web"
+- title : "Développeur Web  Full Stack"
   date : "2022"
-  content : "<strong>Le Wagon Marseille</strong> <br>
-  Full Stack : Back-End et Front-End"
+  content : "<strong>Le Wagon Marseille (13)</strong> <br>
+  Certification Professionnelle RNCP niv 6 <br>
+  Concepteur-Développeur applications web"
 
 - title : "Licence 3 L.E.A (Langues)"
   date : "2010"

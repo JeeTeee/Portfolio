@@ -88,6 +88,14 @@
   }
 }
 
+.about-me {
+  overflow: hidden;
+  border-left: 2px solid #00caf254;
+
+  @include tablet {
+    border-left: 0px;
+  }
+}
 
 // Backgrounds
 
