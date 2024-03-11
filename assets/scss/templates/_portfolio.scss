@@ -603,11 +603,11 @@
   }
 
   .links-list {
-    list-style: url('/assets/images/list-title.svg');
-    li::marker {
-      font-size: 36px;
-    }
-
+    // list-style: url('/assets/images/list-title.svg');
+    // li::marker {
+    //   font-size: 36px;
+    // }
+    list-style: none;
     a {
       text-decoration: none;
       font-weight: 300;
@@ -617,5 +617,14 @@
         font-weight: 300;
       }
 
+    }
+
+    i {
+      font-size: 16px;
+      padding-right: 10px;
+
+      &:hover {
+        color: $primary-color;
+      }
     }
   }

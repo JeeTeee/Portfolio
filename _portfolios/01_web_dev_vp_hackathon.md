@@ -31,7 +31,7 @@ description: "Parmi les événements marquants de mon récent parcours de dével
 
 <div class="col-lg-12 text-center my-5 p-5" style="background-color: #c9f1f978">
 	<p class="project-caption">Le hackathon de code <a href="https://dev.jo4marseille.fr/" target="_blank">Jo4marseille</a> organisé par l'association <a href="https://code4sud.fr/" target="_blank">Code4Marseille</a> en partenariat avec <a href="https://www.people-voyage-prive.com/" target="_blank">Voyage Privé</a> et <a href="https://www.provencerugby.com/" target="_blank">Provence Rugby</a> s'est tenu en novembre 2022. <br><br>
-  Pendant 3 jours, nous avons développé une application en lien avec les Jeux Olympiques sur un thème imposé, qui était pour notre équipe : "Tous éco-responsables". <br>Notre application, nommée "ECCOO 2024", a été développée dans le but de réduire les émissions de CO₂ durant les JO. <br>
+  Pendant 3 jours, dans le cadre incroyable du Stade Maurice David, nous avons développé une application en lien avec les Jeux Olympiques sur un thème imposé. <br>Notre application nommée "ECCOO 2024", en lien avec le thème "Tous éco-responsables", a été développée dans le but de réduire les émissions de CO₂ durant les JO. <br>
   Finalistes parmi les 10 meilleures équipes du marathon, nous avons eu l'opportunité de présenter notre projet devant un jury et tous les participants de l'épreuve dans les locaux de Voyage Privé. <br>Nous avons terminé à la 5ème place du classement général."</p>
 </div>
 
@@ -64,8 +64,8 @@ description: "Parmi les événements marquants de mon récent parcours de dével
     </div>
     <h4><span class="step">03</span> Liens utiles</h4>
     <ul class="links-list">
-      <li><a href="https://drive.google.com/file/d/1pGkjM6lqMDXAvmxVeCqIy0bboF69610B/view?usp=drive_link" target="_blank">Diaporama de présentation : ECCOO 2024</a></li>
-      <li><a href="https://dev.jo4marseille.fr/" target="_blank">Site web JO4Marseille</a></li>
+      <li><a href="https://drive.google.com/file/d/1pGkjM6lqMDXAvmxVeCqIy0bboF69610B/view?usp=drive_link" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Diaporama de présentation : ECCOO 2024</a></li>
+      <li><a href="https://dev.jo4marseille.fr/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Site web JO4Marseille</a></li>
     </ul>
     <h6>Partenaires</h6>
     <div class="" style="padding: 35px 0px 35px 0px">
