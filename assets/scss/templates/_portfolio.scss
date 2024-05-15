@@ -661,16 +661,16 @@ html {
 .before-after-slider {
   position: relative;
   width: 1000px;
-  height: 611px;
+  height: 618px;
   border: 2px solid white;
 
   @include tablet {
     width: 700px;
-    height: 427px;
+    height: 433px;
   }
   @include mobile {
     width: 440px;
-    height: 269px;
+    height: 272px;
   }
 
 
@@ -716,13 +716,13 @@ html {
       -webkit-appearance: none;
       appearance: none;
       width: 6px;
-      height: 600px;
+      height: 620px;
       background: white;
       cursor: pointer;
     }
     &::-moz-range-thumb {
       width: 6px;
-      height: 600px;
+      height: 620px;
       background: white;
       cursor: pointer;
     }
@@ -736,8 +736,8 @@ html {
     height: $size;
     border-radius: 50%;
     background-color: white;
-    left: calc(50% - 18px);
-    top: calc(50% - 18px);
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
     @include center;
 
     @mixin arrow-helper() {
