@@ -663,6 +663,18 @@ html {
   width: 1000px;
   height: 611px;
   border: 2px solid white;
+
+  @include tablet {
+    width: 700px;
+    height: 427px;
+  }
+  @include mobile {
+    width: 440px;
+    height: 269px;
+  }
+
+
+
   .img {
     position: absolute;
     top: 0;
@@ -670,6 +682,13 @@ html {
     width: 100%;
     height: 100%;
     background-size: 1000px 100%;
+
+    @include tablet {
+      background-size: 700px 100%;
+    }
+    @include mobile {
+      background-size: 440px 100%;
+    }
   }
   .background-img {
     background-image: url('/assets/images/portfolio/peugeot-ux/beauvois-v2.gif');
