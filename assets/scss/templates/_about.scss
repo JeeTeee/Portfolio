@@ -76,6 +76,10 @@
       height: auto;
       width: 100%;
 
+      @include mobile {
+        display: none;
+      }
+
       // @include desktop {
       //   margin-left: 0px;
       // }
