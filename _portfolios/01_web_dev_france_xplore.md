@@ -53,10 +53,10 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
       </div>
     </div>
     <h4><span class="step">02</span> Logotype</h4>
-    <p>Le logo est un savant mélange de l'image de la marque Xplore et de la France.
-    Il intègre parfaitement le <strong  style="color: #1C3957">X</strong> de la marque à la forme élégante de l'hexagone francais, la lettre fermant ainsi les frontières du pays et se prolongant sur le reste du logo.
-    <br> Le nom de la marque en lui même est évocateur pour un public anglophone, puisqu'il symbolise le verbe "explore" le X se prononçant "Ex"en anglais, invite les visiteurs à explorer la France.
-    <br> Le marqueur de carte qui prend la place du <strong  style="color: #B08F62">O</strong>  est un clin d'oeil au logo existant des autres marques Xplore Voyages. Il point directement vers le mot <strong  style="font-family: 'Della Respira'; color: #B08F62">FRANCE</strong> qui reprend la typographie raffinée <strong  style="font-family: 'Della Respira'; color: #00c8f2">Della Respira</strong> </p>
+    <p>Le logo est un subtil mélange de l'identité de la  marque Xplore et de l'image de la France.
+    Il intègre parfaitement le <strong  style="color: #1C3957">X</strong> de la marque à la forme élégante de l'hexagone français, symbolisant ainsi les frontières du pays tout en s'étendant sur le reste du logo.
+    <br> Le nom de la marque lui-même est évocateur pour un public anglophone, puisqu'il suggère le verbe "explore", le "X" se prononçant "Ex" en anglais, invitant ainsi les visiteurs à découvrir la France.
+    <br> Le marqueur de carte qui prend la place du <strong  style="color: #B08F62">O</strong>  est un clin d'œil au logo existant des autres marques Xplore Voyages. Il pointe directement vers le mot <strong  style="font-family: 'Della Respira'; color: #B08F62">FRANCE</strong> qui reprend la typographie raffinée <strong  style="font-family: 'Della Respira'; color: #00c8f2">Della Respira</strong> largement utilisée dans l'identité visuelle..</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
         <img src="/assets/images/portfolio/xplore/logo-xplore-france-proportions.jpg" alt="Proportions Logo Xplore France" class="project-img" >

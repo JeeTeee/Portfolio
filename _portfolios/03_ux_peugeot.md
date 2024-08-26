@@ -37,13 +37,15 @@ Pour débuter ce projet, j'ai analysé les forces et faiblesses du site actuel, 
 </div>
 
 <div class="container">
-  <div class="col mb-3 paysage-container">
-      <div class='before-after-slider'>
+  <div class="col mb-3 paysage-container text-center">
+      <div class='before-after-slider fade-in animscroll'>
         <div class='img background-img'></div>
         <div class='img foreground-img'></div>
         <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
         <div class='slider-button'></div>
       </div>
+      <p class="fade-in animscroll pt-2"><span style= "font-style: italic">Glissez le curseur de droite à gauche pour changer l'interface du site <br>
+      (gauche : ancien site ; droite : nouvelle interface utilisateur).</span></p>
     </div>
   <div class="service-2 col-lg-12 mt-5">
     <h4>Prototypage et UX Design</h4>
@@ -56,7 +58,7 @@ Pour débuter ce projet, j'ai analysé les forces et faiblesses du site actuel, 
       </div>
     </div>
     <div class="col mb-3 paysage-container">
-      <div class="figma">
+      <div class="figma fade-in animscroll">
        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F71xBuzwvu6USranb6BcYVb%2FProjet-Site-Beauvois%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2%26viewport%3D645%252C41%252C0.12%26t%3DeyeBzhoTjx6tgGr8-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D1%253A2%26mode%3Ddesign" allowfullscreen></iframe>
       </div>
     </div>
@@ -67,7 +69,7 @@ Pour débuter ce projet, j'ai analysé les forces et faiblesses du site actuel, 
       </div>
     </div>
     <div class="col mb-3 paysage-container">
-      <div class="figma">
+      <div class="figma fade-in animscroll">
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F71xBuzwvu6USranb6BcYVb%2FProjet-Site-Beauvois%3Ftype%3Ddesign%26node-id%3D392%253A796%26mode%3Ddesign%26t%3DWV12Tzva7l2mbauh-1" allowfullscreen></iframe>
       </div>
     </div>

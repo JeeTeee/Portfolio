@@ -49,7 +49,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
         <img src="/assets/images/portfolio/peugeot/totem-slide.gif" alt="totem" class="project-img">
       </div>
     </div>
-    <div class="col-lg-6 col-sm-12 mt-3 portrait-description">
+    <div class="col-lg-6 col-sm-12 mt-3 portrait-description fade-in animscroll">
       <div class="fade-left animscroll px-3">
         <h5>Totems numériques</h5>
         <p>Immédiatement visibles par la clientèle aux deux bornes d'accueil SAV et commercial, les totems sont un formidable moyen de communication. <br>
