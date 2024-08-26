@@ -563,7 +563,7 @@
   @include mobile {
     animation-duration: 0.75s;
     animation-name: fade-left;
-    animation-delay: 0.5s;
+    animation-delay: 0.1s;
     animation-fill-mode: backwards;
     top: 0;
     opacity: 1;
@@ -573,7 +573,7 @@
 .fade-left.active{
   animation-duration: 0.75s;
   animation-name: fade-left;
-  animation-delay: 0.5s;
+  animation-delay: 0.1s;
   animation-fill-mode: backwards;
   top: 0;
   opacity: 1;
@@ -602,7 +602,7 @@
   @include mobile {
     animation-duration: 0.75s;
     animation-name: fade-right;
-    animation-delay: 0.5s;
+    animation-delay: 0.1s;
     animation-fill-mode: backwards;
     top: 0;
     opacity: 1;
@@ -612,7 +612,7 @@
 .fade-right.active{
   animation-duration: 0.75s;
   animation-name: fade-right;
-  animation-delay: 0.5s;
+  animation-delay: 0.1s;
   animation-fill-mode: backwards;
   top: 0;
   opacity: 1;

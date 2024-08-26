@@ -4,7 +4,7 @@ main:
   - name: À propos
     url: /#about-section
   - name: Portfolio
-    url: /portfolio-1.html
+    url: /portfolio.html
   - name: Contact
     url: /contact.html
   # - name: Blog

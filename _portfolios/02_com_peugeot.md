@@ -109,7 +109,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
     <div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
       <div class="fade-down animscroll">
         <h5>Site web et réseaux sociaux</h5>
-        <p>Réalisation de bannières pour le site <a href="http://www.voiture-occasion-beauvois.com/" target="_blank">groupebeauvois.fr </a> et la page facebook. <br>
+        <p>Réalisation de bannières pour le site groupebeauvois.fr et la page facebook. <br>
         Support pour communiquer sur les services, promotions et événements du groupe.</p>
       </div>
     </div>
