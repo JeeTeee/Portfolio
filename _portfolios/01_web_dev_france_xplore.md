@@ -39,7 +39,7 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
     <h4>L'identité visuelle</h4>
   </div>
 
-  <div class="user-flow mt-5">
+  <div class="user-flow mt-5 ">
     <p>L'identité visuelle d'<strong  style="color: #00c8f2">Xplore France</strong> est conçue pour attirer des touristes nord-américains. Elle met en avant le prestige et le raffinement de la France, répondant ainsi aux attentes d'une clientèle aisée et exigeante, désireuse de créer un voyage sur mesure à travers l'hexagone.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
@@ -60,6 +60,13 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
         <img src="/assets/images/portfolio/xplore/logo-xplore-france-proportions.jpg" alt="Proportions Logo Xplore France" class="project-img" >
+      </div>
+    </div>
+    <h4><span class="step">02</span> Site Web</h4>
+    <p>Flux utilisateur de la page d'acceuil du site <a href="https://xplorefrance.com/" traget="_blank">xplorefrance.com</a></p>
+    <div class="col my-3 px-0 paysage-container">
+      <div class="fade-in animscroll">
+        <img src="/assets/images/portfolio/xplore/home-page-xplorefrance.gif" alt="User Flow Xplore France Home Page" class="project-img" >
       </div>
     </div>
   </div>
