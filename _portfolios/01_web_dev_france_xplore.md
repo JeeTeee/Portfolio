@@ -62,12 +62,17 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
         <img src="/assets/images/portfolio/xplore/logo-xplore-france-proportions.jpg" alt="Proportions Logo Xplore France" class="project-img" >
       </div>
     </div>
-    <h4><span class="step">02</span> Site Web</h4>
+    <h4><span class="step">03</span> Site Web</h4>
     <p>Flux utilisateur de la page d'acceuil du site <a href="https://xplorefrance.com/" traget="_blank">xplorefrance.com</a></p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
         <img src="/assets/images/portfolio/xplore/home-page-xplorefrance.gif" alt="User Flow Xplore France Home Page" class="project-img" >
       </div>
     </div>
+    <h4><span class="step">04</span> Liens utiles</h4>
+    <ul class="links-list">
+      <li><a href="https://www.behance.net/gallery/206523157/Xplore-France" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li>
+      <li><a href="https://www.figma.com/proto/15BCiGwVCc4fHDBPEumAx5/Charte-graphique-Xplore-France?page-id=822%3A32&node-id=822-295&viewport=-2751%2C121%2C0.48&t=Xaii6xav4f68CRx7-1&scaling=contain&content-scaling=fixed&starting-point-node-id=822%3A295" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir la charte graphique sur Figma</a></li>
+    </ul>
   </div>
 </div>
