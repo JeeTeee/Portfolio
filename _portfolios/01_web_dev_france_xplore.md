@@ -40,15 +40,15 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
   </div>
 
   <div class="user-flow mt-5 ">
-    <p>L'identité visuelle d'<strong  style="color: #00c8f2">Xplore France</strong> est conçue pour attirer des touristes nord-américains. Elle met en avant le prestige et le raffinement de la France, répondant ainsi aux attentes d'une clientèle aisée et exigeante, désireuse de créer un voyage sur mesure à travers l'hexagone.</p>
+    <p>L'identité visuelle d'<strong  style="color: #00c8f2">Xplore France</strong> est conçue pour attirer des touristes nord-américains. Elle met en avant le prestige et le raffinement de la France, répondant ainsi aux attentes d'une clientèle aisée et exigeante, désireuse de créer un voyage sur mesure et vivre une expérience unique et authentique à travers l'hexagone.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
       </div>
     </div>
     <h4><span class="step">01</span> Charte Graphique</h4>
-    <p></p>
+    <p>La charte graphique définit l'identité visuelle de la marque, incluant son logo. Elle précise également les règles d'utilisation de ce dernier et propose des déclinaisons sur divers produits dérivés et supports de communication. Elle a servi de base pour la conception du design du site web.</p>
     <div class="col my-3 px-0 paysage-container">
-      <div class="figma">
+      <div class="figma pb-5">
         <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="100%" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F15BCiGwVCc4fHDBPEumAx5%2FCharte-graphique-Xplore-France%3Fpage-id%3D822%253A32%26node-id%3D822-295%26viewport%3D2475%252C440%252C0.09%26t%3D2jGciTWlAw1FBYpg-1%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D822%253A295" allowfullscreen></iframe>
       </div>
     </div>
@@ -61,11 +61,14 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
       <div class="fade-in animscroll">
         <img src="/assets/images/portfolio/xplore/logo-xplore-france-proportions.jpg" alt="Proportions Logo Xplore France" class="project-img" >
       </div>
+      <div class="fade-in animscroll pb-5">
+        <img src="/assets/images/portfolio/xplore/logos-xplore-france.jpg" alt="Logo variants Xplore France" class="project-img" >
+      </div>
     </div>
     <h4><span class="step">03</span> Site Web</h4>
     <p>Flux utilisateur de la page d'acceuil du site <a href="https://xplorefrance.com/" traget="_blank">xplorefrance.com</a></p>
     <div class="col my-3 px-0 paysage-container">
-      <div class="fade-in animscroll">
+      <div class="fade-in animscroll pb-5">
         <img src="/assets/images/portfolio/xplore/home-page-xplorefrance.gif" alt="User Flow Xplore France Home Page" class="project-img" >
       </div>
     </div>
