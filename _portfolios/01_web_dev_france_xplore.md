@@ -72,6 +72,18 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
         <img src="/assets/images/portfolio/xplore/home-page-xplorefrance.gif" alt="User Flow Xplore France Home Page" class="project-img" >
       </div>
     </div>
+    <p class="mt-5">Flux utilisateur d'une demande de devis pour une réservation.</p>
+    <div class="col my-3 px-0 paysage-container">
+      <div class="fade-in animscroll pb-5">
+        <img src="/assets/images/portfolio/xplore/booking-flow-xplorefrance.gif" alt="Booking Flow - Xplore France" class="project-img" style="border: solid 1px #cbcbcb;">
+      </div>
+    </div>
+    <p class="mt-5">Le site fournit également un condensé d'informations utiles sur la France pour les voyageurs.</p>
+    <div class="col my-3 px-0 paysage-container">
+      <div class="fade-in animscroll pb-5">
+        <img src="/assets/images/portfolio/xplore/infos-flow-xplorefrance.gif" alt="informations about france - Xplore France" class="project-img" style="border: solid 1px #cbcbcb;">
+      </div>
+    </div>
     <h4><span class="step">04</span> Liens utiles</h4>
     <ul class="links-list">
       <li><a href="https://www.behance.net/gallery/206523157/Xplore-France" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li>
