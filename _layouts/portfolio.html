@@ -21,15 +21,17 @@ layout: default_2
 			</div>
 		</div>
 		<div class="row mx-0">
-      {% for portfolio in site.portfolios limit:"3" %}
+      {% assign current_category = page.categories[0] %}
+      {% assign related_projects = site.portfolios | where_exp: "item", "item.categories contains current_category" %}
+      {% for portfolio in related_projects limit:3 %}
         {% if portfolio.url != page.url %}
           <div class="col-lg-4" style="padding: 15px">
             <div class="portfolio-block text-center border-0">
-                <img src="{{portfolio.thumbnail | relative_url}}" class="img-fluid" alt="{{portfolio.title}}"/>
-                <a class="card-img-overlay" href="{{portfolio.url}}">
-                  <h5 class="card-title text-white mb-0">{{portfolio.title}}</h5>
-                  <p class="card-text text-white text-uppercase text-sm">{{portfolio.category}}</p>
-                </a>
+              <img src="{{portfolio.thumbnail | relative_url}}" class="img-fluid" alt="{{portfolio.title}}"/>
+              <a class="card-img-overlay" href="{{portfolio.url}}">
+                <h5 class="card-title text-white mb-0">{{portfolio.title}}</h5>
+                <p class="card-text text-white  text-sm">{{portfolio.categories[0]}}</p>
+              </a>
             </div>
           </div>
         {% endif %}
