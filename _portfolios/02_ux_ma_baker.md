@@ -120,13 +120,13 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
     <p class="project-caption my-4">Grâce aux insights recueillis, j'ai créé un prototype haute fidélité en appliquant les principes du visual design et du design d'interaction. J'ai également utilisé un design system pour assurer la cohérence visuelle, et testé l'interface pour valider les choix avant d'aboutir à la <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=177%3A546&node-id=288-6360&node-type=canvas&viewport=1009%2C78%2C0.59&t=gVoFKnJ51V4BWbNH-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=288%3A6360" target="_blank">version finale du prototype</a>.</p>
     <div class="col mb-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=177%3A546&node-id=177-596&node-type=canvas&viewport=1009%2C78%2C0.59&t=1UJBWMagvLRtuzrc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=288%3A6360" target="_blank">
+        <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=177%3A546&node-id=288-6360&node-type=canvas&viewport=1009%2C78%2C0.59&t=gVoFKnJ51V4BWbNH-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=288%3A6360" target="_blank">
         <img src="/assets/images/portfolio/ma-baker/proto-high-fi-mabaker.gif" alt="Wireframe Hi-fi - Ma Baker" class="project-img" style="max-height: 72vh;">
         </a>
       </div>
       <div class="top-description">
         <div class="fade-down animscroll">
-          <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=177%3A546&node-id=177-596&node-type=canvas&viewport=1009%2C78%2C0.59&t=1UJBWMagvLRtuzrc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=288%3A6360" target="_blank"><h6 class="mt-2 mb-5">Prototype numérique Hi-Fi (haute fidélité)</h6></a>
+          <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=177%3A546&node-id=288-6360&node-type=canvas&viewport=1009%2C78%2C0.59&t=gVoFKnJ51V4BWbNH-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=288%3A6360" target="_blank"><h6 class="mt-2 mb-5">Prototype numérique Hi-Fi (haute fidélité)</h6></a>
         </div>
       </div>
     </div>
