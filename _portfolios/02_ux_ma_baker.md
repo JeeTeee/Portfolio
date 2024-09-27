@@ -130,6 +130,7 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
         </div>
       </div>
     </div>
+
   </div>
   <div class="service-2 col-lg-12 mt-5">
     <h4>Le Projet : Étude de cas</h4>

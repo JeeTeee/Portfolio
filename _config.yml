@@ -7,7 +7,7 @@ address: "13090 Aix-en-Provence"
 author: Guillaume Teillais
 description: >- # this means to ignore newlines
   Guillaume Teillais - Web Developer & UX Designer basé à Aix-en-Provence.
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo-gt.png"
 logo_icon: "/assets/images/logo.png"
 # contact form action
 contact_form_action: "https://formkeep.com/f/c3fc3f416b06"
@@ -39,15 +39,15 @@ social:
     title: "Linkedin"
     link: "https://www.linkedin.com/in/guillaume-teillais/"
 
-  - name: Behance
+  - name: behance
     icon: "fa-brands fa-behance"
     title: "Behance"
     link: "https://www.behance.net/guillaumeteillais"
 
-  - name: instagram
-    icon: "fa-brands fa-instagram"
-    title: "Instagram"
-    link: "https://instagram.com/tellguillaume?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
+  - name: dribbble
+    icon: "fa-brands fa-dribbble"
+    title: "Dribbble"
+    link: "https://dribbble.com/JeeTee__"
 
   - name: phone
     icon: "fa-solid fa-phone fa-sm"
