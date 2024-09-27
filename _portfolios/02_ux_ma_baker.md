@@ -138,8 +138,14 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
   <div class="user-flow mt-5">
     <p></p>
     <div class="col my-3 px-0 paysage-container">
-      <div class="figma">
+      <div class="figma pb-5">
         <iframe src="https://docs.google.com/presentation/d/1XJs-vyjW02gEl3CYb0EM0yyhsBLucxN2uFrEtqvJhsE/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
     </div>
+    <h4><span class="step"><i class="fa-solid fa-link"></i></span> Liens utiles</h4>
+    <ul class="links-list">
+      <li><a href="https://www.behance.net/gallery/208782923/Ma-Baker-Prototype-UX-Design" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li>
+      <li><a href="https://www.coursera.org/google-certificates/certificat-conception-ux" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>En savoir plus sur le Google UX Design Certificat Professionnel</a></li>
+    </ul>
   </div>
 </div>
