@@ -220,6 +220,38 @@
 
 	}
   .fa-github:hover {
+    animation: beat-fade 1.6s ease infinite alternate;
+    color: $primary-color;
+
+    @keyframes beat-fade {
+      0% { transform: scale(1);   opacity: 0.5; }
+      50% { transform: scale(1.25); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.5; }
+    }
+
+  }
+
+
+
+  .fa-behance {
+    transform: perspective(1px) translateZ(0);
+  }
+
+  .fa-behance:hover {
+      animation: icon3d 250ms ease infinite alternate;
+      color: $white;
+
+      @keyframes icon3d {
+        0% { text-shadow: 5px 4px $primary-color, -5px -6px $secondary-color; }
+        25% { text-shadow: -5px -6px $primary-color, 5px 4px $secondary-color; }
+        50% { text-shadow: 5px -4px $primary-color, -8px 4px $secondary-color; }
+        75% {text-shadow: -8px -4px $primary-color, -5px -4px $secondary-color; }
+        100% { text-shadow: -5px 0 $primary-color, 5px -4px $secondary-color; }
+      }
+
+    }
+
+  .fa-dribbble:hover  {
     animation: bounce 1s ease-in-out infinite alternate;
     color: $primary-color;
 
@@ -233,11 +265,8 @@
 
   }
 
-  .fa-behance {
-    transform: perspective(1px) translateZ(0);
-  }
 
-  .fa-behance:hover {
+  .fa-linkedin-in:hover {
     animation: float 1s ease-out infinite;
     animation-fill-mode: forwards;
     transform: translateZ(0);
@@ -247,32 +276,6 @@
       0% { opacity: 1; transform: scale(1);}
       50% { opacity: 0.4;  transform: translateY(-2px) translateX(2px); text-shadow: -2px 2px 0px $white;}
       100% { opacity: 1; transform: scale(1);}
-    }
-
-  }
-
-  .fa-dribbble:hover {
-    animation: icon3d 250ms ease infinite alternate;
-    color: $white;
-
-    @keyframes icon3d {
-      0% { text-shadow: 5px 4px $primary-color, -5px -6px $secondary-color; }
-      25% { text-shadow: -5px -6px $primary-color, 5px 4px $secondary-color; }
-      50% { text-shadow: 5px -4px $primary-color, -8px 4px $secondary-color; }
-      75% {text-shadow: -8px -4px $primary-color, -5px -4px $secondary-color; }
-      100% { text-shadow: -5px 0 $primary-color, 5px -4px $secondary-color; }
-    }
-
-  }
-
-  .fa-linkedin-in:hover {
-    animation: beat-fade 1.6s ease infinite alternate;
-    color: $primary-color;
-
-    @keyframes beat-fade {
-      0% { transform: scale(1);   opacity: 0.5; }
-      50% { transform: scale(1.25); opacity: 1; }
-      100% { transform: scale(1); opacity: 0.5; }
     }
 
   }
