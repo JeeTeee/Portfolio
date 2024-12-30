@@ -41,7 +41,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
   </div>
   <div class="user-flow mt-5">
     <h4><span class="step">01</span> Recherche (Empathize)</h4>
-    <p class="project-caption">L'empathie est la base du processus de design : il s’agit de comprendre les besoins, les frustrations et les aspirations des utilisateurs pour concevoir une solution adaptée à leurs expériences et attentes. <br> Dans le cas de Yume, une application pour le bien commun, il était primoridal de se mettre à la place de l'utilisateur afin de répondre à ses problèmes.<br><br>
+    <p class="project-caption">L'empathie est la base du processus de design : il s’agit de comprendre les besoins, les frustrations et les aspirations des utilisateurs pour concevoir une solution adaptée à leurs expériences et attentes. <br> Dans le cas de Yume (traduction de rêve en japonais), une application pour le bien commun, il était primoridal de se mettre à la place de l'utilisateur afin de répondre à ses problèmes.<br><br>
     Pour débuter mes recherches, j'ai commencé par interviewer des utilisateurs potentiels de l’application via un formulaire en ligne <a href="https://www.google.fr/intl/fr/forms/about/" target="_blank">(Google Forms)</a>. <br>
     Le public ciblé comprenait des adultes en quête de soutien pour leur santé mentale, mais confrontés à un manque de temps ou de ressources pour trouver le soutien dont elles ont besoin.</p>
     <p>La recherche a permis d’identifier 3 principaux points de douleur. Tout d'abord un manque de ressources et de soutien pour faire le premier pas dans une démarche pour aller mieux, mais également la difficulté à trouver un professionnel de santé adapté et efin l'absence d'un outil centralisé pour initier des routines ou atteindre des objectifs personnels.</p>
@@ -114,7 +114,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
           <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=78%3A346&node-id=471-2250&viewport=1255%2C487%2C0.15&t=18HqMHNr8e6O61Il-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=471%3A2250" target="_blank"><h6 class="links-list mt-2 mb-5"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Prototype numérique haute fidélité (version mobile)</h6></a>
         </div>
       </div>
-      <p class="project-caption my-4">Le design system m'a permis de porter rapidement et aisément le prototype mobile vers une version optimisée pour grands écrans, en développant un <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=500%3A7570&node-id=500-12163&p=f&viewport=1339%2C-57%2C0.12&t=m5mWhTzAx09B2Epc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=500%3A12163" target="_blank">second prototype destiné au site web responsive</a>. J'ai appliqué une approche d'amélioration progressive : à partir de l'interface initiale conçue pour mobile, j'ai enrichi et adapté l'expérience utilisateur en ajoutant des éléments et en optimisant l'affichage pour les grands écrans.</p>
+      <p class="project-caption my-4">Le design system m'a permis de porter rapidement et aisément le prototype mobile vers une version optimisée pour grands écrans, en développant un <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=500%3A7570&node-id=500-12163&p=f&viewport=1339%2C-57%2C0.12&t=m5mWhTzAx09B2Epc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=500%3A12163" target="_blank">second prototype destiné au site web responsive</a>. J'ai appliqué une approche d'<a href="https://fr.wikipedia.org/wiki/Am%C3%A9lioration_progressive" target="_blank">amélioration progressive</a> : à partir de l'interface initiale conçue pour mobile, j'ai enrichi et adapté l'expérience utilisateur en ajoutant des éléments et en optimisant l'affichage pour les grands écrans.</p>
       <div class="fade-in animscroll">
         <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=500%3A7570&node-id=500-12163&p=f&viewport=1339%2C-57%2C0.12&t=m5mWhTzAx09B2Epc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=500%3A12163" target="_blank">
         <img src="/assets/images/portfolio/yume/prototype-desktop-yume.gif" alt="Wireframe Hi-fi - Yume Web version" class="project-img" style="max-height: 72vh;">
@@ -135,7 +135,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
     <p></p>
     <div class="col my-3 px-0 paysage-container">
       <div class="figma pb-5">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSzQneMnVj9Bfn6gebiFFAO4Zlz7VrUMhAwXST1cYR4nWSS4QENnSALmS4pLaiAezUhcZHc1CpDwKP7/embed?start=true&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSzQneMnVj9Bfn6gebiFFAO4Zlz7VrUMhAwXST1cYR4nWSS4QENnSALmS4pLaiAezUhcZHc1CpDwKP7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
     </div>
     <h4><span class="step"><i class="fa-solid fa-link"></i></span> Liens utiles</h4>
