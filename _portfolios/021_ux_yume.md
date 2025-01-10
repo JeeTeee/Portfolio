@@ -140,7 +140,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
     </div>
     <h4><span class="step"><i class="fa-solid fa-link"></i></span> Liens utiles</h4>
     <ul class="links-list">
-      <!-- <li><a href="https://www.behance.net/gallery/208782923/Ma-Baker-Prototype-UX-Design" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li> -->
+      <li><a href="https://www.behance.net/gallery/216526377/Yume-Prototype-UX-Design" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li>
       <li><a href="https://www.coursera.org/google-certificates/certificat-conception-ux" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>En savoir plus sur le Google UX Design Certificat Professionnel</a></li>
     </ul>
   </div>
