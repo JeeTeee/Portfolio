@@ -94,8 +94,8 @@ experiences:
 - title : "Freelance"
   date : "Depuis 2023"
   content : "<strong>Aix-en-Provence (13)</strong> <br>
-  Développeur Web <br>
-  Statut de micro-entreprise."
+  Développeur Front / UX Designer <br>
+ "
 
 - title : "Peugeot Beauvois Auto"
   date : "2016 - 2022"
@@ -112,20 +112,17 @@ experiences:
     ########################## Enseignement ##############################
 
 educations:
+- title : "Google UX Design Certificat Professionnel"
+  date : "2024"
+  content : "<strong>Conception UX</strong> (expérience utilisateur) <br>
+  Rechercher > Définir > Idéer > Prototyper > Tester"
+
 - title : "Développeur Web  Full Stack"
   date : "2022"
   content : "<strong>Le Wagon Marseille (13)</strong> <br>
-  Certification Professionnelle RNCP niv 6 <br>
-  Concepteur-Développeur applications web"
+  Concepteur-Développeur applications web (RNCP niv 6 )"
 
 - title : "Licence 3 L.E.A (Langues)"
   date : "2010"
   content : "<strong>Université de Nantes (44)</strong> <br>
  Commerce International - Anglais & Russe"
-# Assistant Commercial: Livraisons et mises en main, service locations...
-
-- title : "Baccalauréat Général ES"
-  date : "2007"
-  content : "<strong>Lycée Léonard De Vinci à Montaigu (85)</strong> <br>
-  Option Anglais Renforcé"
-# Newsletters, bannières web, brochures, cartes de visites, flyers...

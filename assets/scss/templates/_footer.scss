@@ -49,7 +49,20 @@
 	display: inline-block;
 }
 
+.under-footer {
+  background-color: #c9f1f9b0;
+  height: 60px;
+  p {
+    margin-bottom: 0;
+  }
+  a{
 
+
+    &:hover {
+    color: $primary-color
+    }
+	}
+}
 
 
 ///

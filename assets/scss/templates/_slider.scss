@@ -93,10 +93,21 @@
 
 .banner-2 .portrait-img {
   height: 80vh;
-  // margin-left: 10px;
+  animation: shadowpic 8s ease-in-out infinite;
+  // animation-delay: 5s;
+  // animation-timing-function: ease-in-out;
   filter: drop-shadow(10px 10px 15px #00000088);
 }
 
+@keyframes shadowpic {
+  0% { filter: drop-shadow(0px 0px #00caf200) drop-shadow(0px 0px #ff5f6c00); }
+  96% { filter: drop-shadow(2px 1px #00caf200) drop-shadow(-2px -3px #ff5f6c00); }
+  97% { filter: drop-shadow(-5px -6px #00c8f2) drop-shadow(5px 4px #ff5f6d); }
+  98% { filter: drop-shadow(5px -4px #00c8f2) drop-shadow(-8px 4px #ff5f6d); }
+  99% { filter: drop-shadow(-8px -4px #00c8f2) drop-shadow(-5px -4px #ff5f6d); }
+  100% { filter: drop-shadow(-5px 0 #00c8f2) drop-shadow(5px -4px #ff5f6d); }
+
+}
 
 @include mobile-xs {
   .banner .banner-content h2 {
