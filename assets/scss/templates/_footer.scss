@@ -24,6 +24,7 @@
 .footer-btm{
 	.border-top{
 		border-top: 1px solid #30303036!important;
+    border-bottom: 1px solid #30303036!important;
 	}
 
 	span,p{
@@ -36,8 +37,8 @@
 
   .img-fluid {
     height: 100px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -50,8 +51,10 @@
 }
 
 .under-footer {
-  background-color: #c9f1f9b0;
   height: 60px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 30px;
   p {
     margin-bottom: 0;
   }

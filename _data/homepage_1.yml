@@ -3,7 +3,7 @@ banner:
   background_image : "/assets/images/bg/bg-home.jpg"
   subtitle: '> <span style="color: #ff5f6d">"Hello World!"</span>'
   title : "GUILLAUME TEILLAIS"
-  content : "Développeur Web & UX"
+  content : "Designer Web & UX"
   image : "/assets/images/banner/photo-banner.png"
   button:
     enable : true

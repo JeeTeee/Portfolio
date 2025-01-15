@@ -7,8 +7,6 @@ main:
     url: /portfolio.html
   - name: Contact
     url: /contact.html
-  # - name: Blog
-  #   url: /blog-1.html
 
 ############## footer nav  ###############
 footer:

@@ -57,10 +57,20 @@
   height: 100px;
   @include desktop{
     padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  @include desktop-lg{
+    // padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   @include desktop-xlg{
     padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
