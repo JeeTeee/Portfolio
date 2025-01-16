@@ -2,23 +2,23 @@
 {% assign about = site.data.homepage_1.about %}
 {% if about.enable %}
 <div id="about-section"></div>
-<section class="section about overflow-hidden" style="padding-bottom: 80px;">
+<section class="section about overflow-hidden">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-md-5">
+			<!-- <div class="col-md-5">
 				<div class="about-img d-flex justify-content-center">
           <div class="fade-right animscroll">
 					  <img src="/assets/images/about/about.jpg" alt="" class="img-about">
           </div>
 				</div>
-			</div>
-			<div class="col-lg-6 col-md-7 offset-lg-1 my-2 d-flex flex-column justify-content-center mx-1 about-me">
+			</div> -->
+			<div class="col-lg-12 col-md-7 offset-lg-1 my-2 d-flex flex-column justify-content-center mx-1 about-me">
 				<span class="code-title-sm animscroll">{{about.subtitle}}</span>
 				<div class="fade-left px-2 animscroll">
           <h3 class="mb-4 mt-3">{{ about.title }}</h3>
           {{ about.content | markdownify }}
           {% if about.button.enable %}
-          <a href="{{ about.button.link | relative_url }}" class="btn btn-primary rounded-0 bounce-to-right">{{about.button.label}}</a>
+          <a href="{{ about.button.link | relative_url }}" class="btn btn-outline-primary rounded-0 hvr-underline-from-left">{{about.button.label}}</a>
           {% endif %}
         </div>
 

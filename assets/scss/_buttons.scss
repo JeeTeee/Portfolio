@@ -1,9 +1,31 @@
 .btn {
-  padding: 12px 35px;
-    font-size: 20px;
+  padding: 0px 0px 10px 0px;
+    font-size: 22px;
   display: inline-block;
   font-weight: 500;
-  text-transform: capitalize;
+  // text-transform: capitalize;
+  transition: all .3s ease;
+  border: 0px solid;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0px;
+    box-shadow: none !important;
+  }
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.btn-form {
+  padding: 24px 12px;
+  font-size: 22px;
+  display: inline-block;
+  font-weight: 500;
+  // text-transform: capitalize;
   transition: all .3s ease;
   border: 0px solid;
   position: relative;
@@ -21,17 +43,17 @@
 }
 
 .btn-primary {
-  background: $primary-gradient;
-  color: $white;
+  background: $extra-color;
+  color: $black;
   border-color: $primary-color;
 
   &:hover,
   &:active,
   &.focus,
   &.active {
-    // background: $secondary-gradient !important;
+    background: $extra-color !important;
     // border-color: $secondary-color !important;
-    color: $white !important;
+    color: $primary-color !important;
     // transition: ease-in-out 1s;
   }
 }
@@ -53,14 +75,15 @@
 
 .btn-outline-primary {
   border-color: $primary-color;
-  color: $primary-color;
+  background: transparent;
+  color: $black;
 
   &:hover,
   &:active,
   &.focus,
   &.active {
-    background: $primary-color !important;
-    color: $white !important;
+    background: transparent !important;
+    color: $primary-color !important;
     border-color: $primary-color !important;
   }
 }
@@ -122,3 +145,92 @@
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
+
+  /* Overline From Left */
+.hvr-overline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-overline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
+  right: 0;
+}
+/* Overline From Left */
+.hvr-overline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-overline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: $primary-color;
+  height: 3px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
+  right: 0;
+}
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: $primary-color;
+  height: 3px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}

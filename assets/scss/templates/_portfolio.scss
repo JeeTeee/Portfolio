@@ -176,7 +176,7 @@
     content: "";
     height: 100%;
     width: 100%;
-    background: $secondary-gradient;
+    background: $transparent-primary-color;
     left: 0;
     top: 0;
     transform: scaleX(0);
@@ -189,7 +189,7 @@
     content: "";
     height: 100%;
     width: 100%;
-    background: $primary-gradient;
+    background: $fade-primary-color;
     left: 0;
     top: 0;
     transform: scaleX(0);

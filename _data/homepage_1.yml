@@ -14,12 +14,14 @@ banner:
 about:
   enable : true
   subtitle : '> <span style="color: #00c8f2">"À propos de moi"</span>'
-  title : "Développeur Web <br> Designer UX"
+  title : "Bonjour, je suis Guillaume"
   video_thumb : "/assets/images/about/about.jpg"
   video_url : "#"
-  content : "Après de riches expériences dans la communication et l’automobile, je me suis reconverti dans le secteur du numérique. <br>
-  J'ai choisi le métier de <span class='highlight'>Développeur Web</span> / <span class='highlight'>UX Designer</span> pour laisser libre cours à ma créativité. <br><br>
-  Animé par l’envie de découvrir et d’apprendre, je suis <span class='highlight'>disponible immédiatement</span> pour un emploi ou une mission freelance."
+  content : "Après un parcours riche et varié dans le web, la communication et l’automobile, je me consacre aujourd’hui à l'<span class='highlight'>UX Design</span>. <br>
+  Un domaine où je peux laisser libre cours à ma créativité, ma curiosité, et explorer ma passion pour la recherche utilisateur afin de créer des expériences uniques et inspirantes.<br> <br>
+  J’aime apprendre, explorer de nouvelles idées, et m’adapter aux défis qui se présentent.<br>
+  Actuellement à mon compte, je suis à la recherche d’une nouvelle aventure en entreprise où je pourrai continuer à grandir, tout en mettant mes compétences au service d’une équipe.
+ Toujours motivé, flexible et prêt à m’investir pleinement, je suis <span class='highlight'>disponible immédiatement</span> !"
   button:
     enable : true
     label : "Contactez-moi"
