@@ -35,7 +35,7 @@ Pour le volet web, j'ai enrichi le contenu du site www.exotismes.fr, créé des 
 <div class="col-lg-12 text-center my-5 py-5" style="background-color: #c9f1f978">
   <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
 	<p class="project-caption">Communiquer en temps réel sur les offres de voyages à travers les supports web. <br>
-Promouvoir et renforcer l'image de la marque Exotismes dans le monde du voyage, notamment par la création d'une brochure annuelle distribuée dans les agences de voyage.</p>
+Promouvoir et renforcer l'image de la marque <a href="https://www.exotismes.fr/" target="_blank">Exotismes</a> dans le monde du voyage, notamment par la création d'une brochure annuelle distribuée dans les agences de voyage.</p>
 </div>
 
 <div class="container">
