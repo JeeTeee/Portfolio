@@ -12,7 +12,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
 	<h3 class="my-3 project-title">{{page.title}}</h3>
 	<p class="mb-0">{{page.description}}</p>
   <div>
-    <ul class="list-inline project-links d-flex flex-fill justify-content-start MB-0">
+    <ul class="list-inline project-links d-flex flex-fill justify-content-start">
       <li class="list-inline-item">
         <a href="https://www.behance.net/gallery/216526377/Yume-Prototype-UX-Design" target="_blank" title="Voir le projet sur Behance" class="align-items-end"><i class="fa-brands fa-behance"></i></a>
       </li>
@@ -82,7 +82,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
         <img src="/assets/images/portfolio/yume/wireframe-yume.jpg" alt="Paper wireframe - Yume" class="project-img mb-5">
       </div>
     </div>
-    <p class="project-caption mb-4">Une fois ces bases établies, j'ai conçu le premier <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=0%3A1&node-id=23-1644&p=f&viewport=529%2C-14%2C0.37&t=8ifTBq4hZMuYfUup-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=23%3A1644" target="_blank">Protoype interactif sur Figma</a>, en applicant les principes de <a href="https://medium.com/design-ibm/accessibility-guidelines-for-information-architecture-ux-design-and-visual-design-5ae33ed1d52d" target="_blank">l'architecture de l'information</a> et de <a href="https://fr.wikipedia.org/wiki/Psychologie_de_la_forme" target="_blank">la théorie de Gestalt</a>.</p>
+    <p class="project-caption mb-4">Une fois ces bases établies, j'ai conçu le premier <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=0%3A1&node-id=23-1644&p=f&viewport=529%2C-14%2C0.37&t=8ifTBq4hZMuYfUup-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=23%3A1644" target="_blank">Protoype interactif sur Figma</a>, en applicant les principes de <a href="https://medium.com/design-ibm/accessibility-guidelines-for-information-architecture-ux-design-and-visual-design-5ae33ed1d52d" target="_blank">l'architecture de l'information</a> et de la <a href="https://fr.wikipedia.org/wiki/Psychologie_de_la_forme" target="_blank">théorie de Gestalt</a>.</p>
     <div class="row justify-content-center">
        <div class="col mb-3 px-0 paysage-container">
         <div class="fade-in animscroll">

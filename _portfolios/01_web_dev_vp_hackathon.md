@@ -11,7 +11,7 @@ description: "Parmi les événements marquants de mon récent parcours de dével
 	<h3 class="mb-3 mt-3 project-title">{{page.title}}</h3>
 	<p class="mb-0">{{page.description}}</p>
   <div>
-    <ul class="list-inline project-links d-flex flex-fill justify-content-start MB-0">
+    <ul class="list-inline project-links d-flex flex-fill justify-content-start">
       <li class="list-inline-item">
         <a href="https://dev.jo4marseille.fr/" target="_blank" title="Visiter le site web"><i class="fa-solid fa-globe"></i></a>
       </li>

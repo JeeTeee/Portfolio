@@ -582,8 +582,39 @@
   opacity: 1;
 }
 
+
 @keyframes fade-left {
   0% { transform: translate3d(-400%, 0, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+// fade top delay
+
+.fade-top-delay  {
+  opacity: 0;
+  transition: fade-in 1s ease;
+
+  @include mobile {
+    animation-duration: 0.75s;
+    animation-name: fade-top-delay;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.fade-top-delay.active {
+  animation-duration: 0.75s;
+  animation-name: fade-top-delay;
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards;
+  top: 0;
+  opacity: 1;
+}
+
+@keyframes fade-top-delay {
+  0% { transform: translate3d(0, 100%, 0); }
   100% { transform: translate3d(0, 0, 0); }
 }
 

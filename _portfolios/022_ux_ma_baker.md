@@ -11,7 +11,7 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
 	<h3 class="my-3 project-title">{{page.title}}</h3>
 	<p class="mb-0">{{page.description}}</p>
   <div>
-    <ul class="list-inline project-links d-flex flex-fill justify-content-start MB-0">
+    <ul class="list-inline project-links d-flex flex-fill justify-content-start">
       <li class="list-inline-item">
         <a href="https://www.behance.net/gallery/208782923/Ma-Baker-Prototype-UX-Design" target="_blank" title="Voir le projet sur Behance" class="align-items-end"><i class="fa-brands fa-behance"></i></a>
       </li>

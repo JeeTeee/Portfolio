@@ -10,7 +10,7 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
 	<h3 class="mb-3 mt-3 project-title">{{page.title}}</h3>
 	<p class="mb-0">{{page.description}}</p>
   <div>
-    <ul class="list-inline project-links d-flex flex-fill justify-content-start MB-0">
+    <ul class="list-inline project-links d-flex flex-fill justify-content-start">
       <li class="list-inline-item">
         <a href="https://xplorefrance.com/" target="_blank" title="Visiter le site web"><i class="fa-solid fa-globe"></i></a>
       </li>

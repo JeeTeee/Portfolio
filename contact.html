@@ -10,10 +10,33 @@ description: "Pour une offre d'emploi ou un devis, je suis disponible et à votr
  <section class="section page-contact">
 	<div class="container">
 		<div class="service-2 mx-3">
+      <!-- <h2 class="mb-4">Retrouvez moi sur internet</h2> -->
+      <div>
+        <ul class="list-inline socials-links d-flex flex-fill justify-content-start align-items-baseline mb-5">
+          <li class="list-inline-item ">
+            <a href="https://github.com/JeeTeee" target="_blank" title="Github" style="color:#303030; padding-left: 0; display: flex; align-items: center;"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/guillaume-teillais/" target="_blank" title="Linkedin" style="color:#303030; display: flex; align-items: center;" ><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.behance.net/guillaumeteillais" target="_blank" title="Behance" style="color:#303030; display: flex; align-items: center;"><i class="fa-brands fa-behance"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://dribbble.com/JeeTee__" target="_blank" title="Dribbble" style="color:#303030; display: flex; align-items: center;"><i class="fa-brands fa-dribbble"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="tel:{{site.phone}}" title="M'appeler" style="color:#303030; display: flex; align-items: center;"><i class="fa-solid fa-phone fa-sm"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="{{ banner.button.link | relative_url }}" target="_blank" title="Me contacter" class="mailme" style="color:#303030; display: flex; align-items: center;"><i class="fa-regular fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
 
-      <h2>Pour me joindre</h2>
 
-      <div class="row mb-3 w-100 mx-0" style="background: #c9f1f949;">
+
+      <!-- <div class="row mb-3 w-100 mx-0" style="background: #c9f1f949;">
         <div class="col-lg-12">
           <div class="contact-content mb-5 mb-lg-0">
             <div class="row">
@@ -47,8 +70,8 @@ description: "Pour une offre d'emploi ou un devis, je suis disponible et à votr
             </div>
           </div>
         </div>
-      </div>
-
+      </div> -->
+      <h2 class="mb-3">Écrivez-moi</h2>
       <form action="{{site.contact_form_action}}" target="_blank" id="home-contact-form"  accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
         <div class="form-row">
           <div class="col-lg-12">
