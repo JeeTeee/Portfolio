@@ -94,11 +94,12 @@
 .banner-2 .portrait-img{
   opacity: 0;
   animation: fade-banner 3s ease-in-out forwards;
-  animation-delay: 4500ms;
+  animation-delay: 2000ms;
 }
 
 @keyframes fade-banner {
   0% { opacity: 0; }
+  70% { opacity: 0; }
   100% { opacity: 1; }
 }
 
