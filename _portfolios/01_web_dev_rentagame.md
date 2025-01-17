@@ -34,7 +34,7 @@ Nous avons eu l'idée de développer une application de location de jeux de soci
 
 <div class="col-lg-12 text-center my-5 p-5" style="background-color: #c9f1f978">
   <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption">Rent A Game est une application web qui facilite le partage de jeux de société entre particuliers, en mettant en relation les joueurs désireux de louer des jeux avec ceux qui les possèdent à proximité. <br> Les utilisateurs peuvent facilement trouver et louer des jeux en fonction de leurs préférences et de leur emplacement grâce à une interface conviviale. <br> Fini les jeux qui prennent la poussière dans les placards, "Rent A Game" favorise le partage et l'accessibilité à une variété de jeux pour des moments de divertissement sans tracas.</p>
+	<p class="project-caption" style="line-height: 200%;">Rent A Game est une application web qui facilite le partage de jeux de société entre particuliers, en mettant en relation les joueurs désireux de louer des jeux avec ceux qui les possèdent à proximité. <br> Les utilisateurs peuvent facilement trouver et louer des jeux en fonction de leurs préférences et de leur emplacement grâce à une interface conviviale. <br> Fini les jeux qui prennent la poussière dans les placards, "Rent A Game" favorise le partage et l'accessibilité à une variété de jeux pour des moments de divertissement sans tracas.</p>
 </div>
 
 <div class="container">

@@ -42,7 +42,7 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
 
 <div class="col-lg-12 text-center my-5 p-5" style="background-color: #c9f1f978">
  <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption">Création de l'identité visuelle de la marque Xplore France et développement du site web <a href="https://xplorefrance.com/" target="_blank">xplorefrance.com</a>
+	<p class="project-caption" style="line-height: 200%;">Création de l'identité visuelle de la marque Xplore France et développement du site web <a href="https://xplorefrance.com/" target="_blank">xplorefrance.com</a>
   <br> Dans le cadre du lancement d'une nouvelle destination par l'agence Xplore Voyages. La France devient ainsi la 5ᵉ destination proposée, après le Vietnam, le Mexique, Oman et Tahiti. <br> Le site, entièrement en anglais, est conçu pour une clientèle anglophone, ciblant spécifiquement le marché nord-américain.</p>
 </div>
 

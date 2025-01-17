@@ -32,7 +32,7 @@ Pour débuter ce projet, j'ai analysé les forces et faiblesses du site actuel, 
 
 <div class="col-lg-12 text-center my-5 py-5" style="background-color: #c9f1f978">
   <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption">Moderniser l'image en ligne de l'entreprise en réinventant entièrement leur site web qui est vieillissant.<br>
+	<p class="project-caption" style="line-height: 200%;">Moderniser l'image en ligne de l'entreprise en réinventant entièrement leur site web qui est vieillissant.<br>
   L'objectif principal est d'accroître l'engagement des visiteurs et favoriser les conversions en concevant une interface intuitive et attrayante.<br>Ce nouveau design met en avant l'identité de la marque Peugeot tout en reflétant l'esthétique et les valeurs de Beauvois Automobiles.</p>
 </div>
 
