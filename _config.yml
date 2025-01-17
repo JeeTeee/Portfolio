@@ -1,12 +1,12 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.guillaumeteillais.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://Dizerjk.netlify.com
-title: "Guillaume Teillais - Web Developer & UX Designer"
+title: "Guillaume Teillais - Designer Web & UX"
 email: "guillaume.teillais@gmail.com"
 phone: "06 30 61 12 91"
 address: "13090 Aix-en-Provence"
 author: Guillaume Teillais
 description: >- # this means to ignore newlines
-  Guillaume Teillais - Web Developer & UX Designer basé à Aix-en-Provence.
+  Guillaume Teillais - Designer Web & UX basé à Aix-en-Provence.
 logo: "/assets/images/logo.svg"
 logo_icon: "/assets/images/logo-black.svg"
 # contact form action

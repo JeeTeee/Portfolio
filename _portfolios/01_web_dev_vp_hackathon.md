@@ -9,7 +9,17 @@ description: "Parmi les événements marquants de mon récent parcours de dével
 ---
 <div class="col-lg-8 text-left pf-container">
 	<h3 class="mb-3 mt-3 project-title">{{page.title}}</h3>
-	<p>{{page.description}}</p>
+	<p class="mb-0">{{page.description}}</p>
+  <div>
+    <ul class="list-inline project-links d-flex flex-fill justify-content-start MB-0">
+      <li class="list-inline-item">
+        <a href="https://dev.jo4marseille.fr/" target="_blank" title="Visiter le site web"><i class="fa-solid fa-globe"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://youtu.be/_Fnhrzcc-Hk?feature=shared" target="_blank" title="Voir la vidéo sur Youtube" class="align-items-end"><i class="fa-brands fa-youtube"></i></a>
+      </li>
+    </ul>
+  </div>
 
   <hr class="my-5">
 

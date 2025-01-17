@@ -313,6 +313,25 @@
   }
 }
 
+.project-links {
+  li a {
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+    align-self: end;
+		display: inline-flex; /* Assure une flexibilité pour aligner les enfants */
+    align-items: flex-end;
+		color: $black-light;
+    margin-right: 20px;
+    font-size: 28px;
+    // padding: 0vmin 5vmin 0vmin 2vmin;
+
+    &:hover {
+      color: $primary-color;
+    }
+}
+}
+
 .top-description {
   display: flex;
   flex-direction: column;

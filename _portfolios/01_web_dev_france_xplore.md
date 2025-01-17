@@ -8,8 +8,20 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
 ---
 <div class="col-lg-8 text-left pf-container">
 	<h3 class="mb-3 mt-3 project-title">{{page.title}}</h3>
-	<p>{{page.description}}</p>
-
+	<p class="mb-0">{{page.description}}</p>
+  <div>
+    <ul class="list-inline project-links d-flex flex-fill justify-content-start MB-0">
+      <li class="list-inline-item">
+        <a href="https://xplorefrance.com/" target="_blank" title="Visiter le site web"><i class="fa-solid fa-globe"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.behance.net/gallery/206523157/Xplore-France" target="_blank" title="Voir le projet sur Behance" class="align-items-end"><i class="fa-brands fa-behance"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://dribbble.com/shots/24936566-Xplore-France?utm_source=Clipboard_Shot&utm_campaign=JeeTee__&utm_content=Xplore%20France&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=JeeTee__&utm_content=Xplore%20France&utm_medium=Social_Share" target="_blank" title="Voir le projet sur Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+      </li>
+    </ul>
+  </div>
   <hr class="my-5">
 
   <div class="row">
@@ -87,6 +99,7 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
     <h4><span class="step">04</span> Liens utiles</h4>
     <ul class="links-list">
       <li><a href="https://www.behance.net/gallery/206523157/Xplore-France" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li>
+      <li><a href="https://dribbble.com/shots/24936566-Xplore-France?utm_source=Clipboard_Shot&utm_campaign=JeeTee__&utm_content=Xplore%20France&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=JeeTee__&utm_content=Xplore%20France&utm_medium=Social_Share" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Dribbble</a></li>
       <li><a href="https://www.figma.com/proto/15BCiGwVCc4fHDBPEumAx5/Charte-graphique-Xplore-France?page-id=822%3A32&node-id=822-295&viewport=-2751%2C121%2C0.48&t=Xaii6xav4f68CRx7-1&scaling=contain&content-scaling=fixed&starting-point-node-id=822%3A295" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir la charte graphique sur Figma</a></li>
     </ul>
   </div>
