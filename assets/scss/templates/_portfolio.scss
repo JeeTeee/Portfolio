@@ -77,7 +77,8 @@
   .btn-group .btn {
     border-radius: 0px !important;
     color: $black-light;
-    padding-left: 0px;
+    padding-right: 30px;
+    font-weight: 400;
 
     &:hover {
       color: $primary-color;
