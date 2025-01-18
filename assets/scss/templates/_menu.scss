@@ -78,6 +78,7 @@
   background: $navbar-color;
   transition: .0s all ease;
   z-index: 99999;
+
 }
 
 //  Dropdown Menu
@@ -90,6 +91,11 @@
     background: $navbar-color;
     z-index: 99999;
   }
+
+  @include tablet {
+    background: transparent;
+  }
+
 
   .dropdown {
     &:hover {
