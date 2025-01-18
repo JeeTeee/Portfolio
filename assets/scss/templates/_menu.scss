@@ -92,10 +92,6 @@
     z-index: 99999;
   }
 
-  @include tablet {
-    background: transparent;
-  }
-
 
   .dropdown {
     &:hover {

@@ -618,6 +618,21 @@
   100% { transform: translate3d(0, 0, 0); }
 }
 
+.fade-in-delay {
+  opacity: 0;
+  transition: 1s ease;
+  animation-delay: 15s;
+  animation-fill-mode: backwards;
+
+  @include mobile {
+    opacity: 1;
+  }
+}
+
+.fade-in-delay.active {
+  opacity: 1;
+}
+
 // fade right text
 
 .fade-right {
@@ -679,7 +694,7 @@
 
 .fade-top  {
   opacity: 0;
-  transition: fade-in 1s ease;
+  transition: fade-top 1s ease;
 
   @include mobile {
     animation-duration: 0.75s;
