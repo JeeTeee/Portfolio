@@ -594,14 +594,14 @@
   opacity: 0;
   transition: fade-in 1s ease;
 
-  // @include mobile {
-  //   animation-duration: 0.75s;
-  //   animation-name: fade-top-delay;
-  //   animation-delay: 1s;
-  //   animation-fill-mode: backwards;
-  //   top: 0;
-  //   opacity: 1;
-  // }
+  @include mobile {
+    animation-duration: 0.75s;
+    animation-name: fade-top-delay;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .fade-top-delay.active {
