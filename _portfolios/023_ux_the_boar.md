@@ -30,9 +30,11 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
   </div>
 </div>
 
-<div class="col-lg-12 text-center my-5 py-5" style="background-color: #c9f1f978">
-  <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption" style="line-height: 200%;">Ce projet, le second réalisé dans le cadre de la certification <a href="https://www.coursera.org/programs/pole-emploi-eypqn/professional-certificates/conception-ux-google?collectionId=EnpoQ" target="_blank">Google UX Design</a>, m'a permis d'approfondir les notions d'expérience et d'interface utilisateur.<br> L'objectif était d'aller au-delà des concepts de base en concevant un prototype de site web entièrement responsive pour un restaurant fictif, directement inspiré de la série <a href="https://www.fxnetworks.com/shows/the-bear" target="_blank">The Bear</a>.<br>Le design répond à une problématique clé : faciliter le flux de réservation dans ce type d'établissement exclusif où il est souvent difficile d'obtenir une table, tout en offrant une expérience fluide sur tout type d'affichage.</p>
+<div class="section-why">
+  <div class="container text-center">
+     <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
+	  <p class="project-caption" style="line-height: 200%;">Ce projet, le second réalisé dans le cadre de la certification <a href="https://www.coursera.org/programs/pole-emploi-eypqn/professional-certificates/conception-ux-google?collectionId=EnpoQ" target="_blank">Google UX Design</a>, m'a permis d'approfondir les notions d'expérience et d'interface utilisateur. L'objectif était d'aller au-delà des concepts de base en concevant un prototype de site web entièrement responsive pour un restaurant fictif, directement inspiré de la série <a href="https://www.fxnetworks.com/shows/the-bear" target="_blank">The Bear</a>.<br>Le design répond à une problématique clé : faciliter le flux de réservation dans ce type d'établissement exclusif où il est souvent difficile d'obtenir une table, tout en offrant une expérience fluide sur tout type d'affichage.</p>
+  </div>
 </div>
 
 <div class="container">

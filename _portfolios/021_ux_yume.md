@@ -39,9 +39,11 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
   </div>
 </div>
 
-<div class="col-lg-12 text-center my-5 py-5" style="background-color: #c9f1f978">
-  <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption" style="line-height: 200%;">C'est l'ultime projet réalisé au cours de la certification <a href="https://www.coursera.org/programs/pole-emploi-eypqn/professional-certificates/conception-ux-google?collectionId=EnpoQ" target="_blank">Google UX Design</a> après les projets "Ma Baker" et "The Boar".<br> Ce projet m’a permis de mobiliser l’ensemble des compétences acquises durant la formation, en appliquant les <a href="https://www.interaction-design.org/literature/article/ux-design-process-guide" target="_blank">5 phases du processus UX Design.</a><br>Le prototype met l’accent sur une expérience utilisateur intuitive, un design apaisant, et une optimisation pour deux environnements clés : mobile et desktop. <br>Il a pour objectif d'accompagner les utilisateurs dans la gestion de leur bien-être au quotidien et les aider à améliorer leur santé mentale et physique.</p>
+<div class="section-why">
+  <div class="container text-center">
+    <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
+	<p class="project-caption" style="line-height: 200%;">C'est l'ultime projet réalisé au cours de la certification <a href="https://www.coursera.org/programs/pole-emploi-eypqn/professional-certificates/conception-ux-google?collectionId=EnpoQ" target="_blank">Google UX Design</a> après les projets "Ma Baker" et "The Boar".<br> Ce projet m’a permis de mobiliser l’ensemble des compétences acquises durant la formation, en appliquant les <a href="https://www.interaction-design.org/literature/article/ux-design-process-guide" target="_blank">5 phases du processus UX Design.</a><br>Le prototype met l’accent sur une expérience utilisateur intuitive, un design apaisant, et une optimisation pour 2  environnements  : mobile et desktop. <br>Il a pour objectif d'accompagner les utilisateurs dans la gestion de leur bien-être au quotidien et les aider à améliorer leur santé mentale et physique.</p>
+  </div>
 </div>
 
 <div class="container">

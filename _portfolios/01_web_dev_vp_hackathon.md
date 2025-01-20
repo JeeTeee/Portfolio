@@ -39,11 +39,13 @@ description: "Parmi les événements marquants de mon récent parcours de dével
   </div>
 </div>
 
-<div class="col-lg-12 text-center my-5 p-5" style="background-color: #c9f1f978">
-  <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption" style="line-height: 200%;">Le hackathon de code <a href="https://dev.jo4marseille.fr/" target="_blank">Jo4marseille</a> organisé par l'association <a href="https://code4sud.fr/" target="_blank">Code4Marseille</a> en partenariat avec <a href="https://www.people-voyage-prive.com/" target="_blank">Voyage Privé</a> et <a href="https://www.provencerugby.com/" target="_blank">Provence Rugby</a> s'est tenu en novembre 2022. <br>
-  Pendant 3 jours, dans le cadre incroyable du Stade Maurice David, nous avons développé une application en lien avec les Jeux Olympiques sur un thème imposé. <br>Notre application nommée "ECCOO 2024", en lien avec le thème "Tous éco-responsables", a été développée dans le but de réduire les émissions de CO₂ durant les JO. <br>
-  Finalistes parmi les 10 meilleures équipes du marathon, nous avons eu l'opportunité de présenter notre projet devant un jury et tous les participants de l'épreuve dans les locaux de Voyage Privé. <br>Nous avons terminé à la 5ème place du classement général."</p>
+<div class="section-why">
+  <div class="container text-center">
+    <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
+	    <p class="project-caption" style="line-height: 200%;">Le hackathon de code <a href="https://dev.jo4marseille.fr/" target="_blank">Jo4marseille</a> organisé par l'association <a href="https://code4sud.fr/" target="_blank">Code4Marseille</a> en partenariat avec <a href="https://www.people-voyage-prive.com/" target="_blank">Voyage Privé</a> et <a href="https://www.provencerugby.com/" target="_blank">Provence Rugby</a> s'est tenu en novembre 2022.
+      Dans le cadre incroyable du Stade Maurice David, nous avons développé pendant 3 jours, une application en lien avec les Jeux Olympiques sur un thème imposé. Notre application nommée "ECCOO 2024", en lien avec le thème "Tous éco-responsables", a été développée dans le but de réduire les émissions de CO₂ durant les JO.
+      Finalistes parmi les 10 meilleures équipes du marathon, nous avons eu l'opportunité de présenter notre projet devant un jury et tous les participants de l'épreuve dans les locaux de Voyage Privé. <br>Nous avons terminé à la 5ème place du classement général."</p>
+  </div>
 </div>
 
 <div class="container">

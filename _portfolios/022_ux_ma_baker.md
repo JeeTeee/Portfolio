@@ -39,9 +39,11 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
   </div>
 </div>
 
-<div class="col-lg-12 text-center my-5 py-5" style="background-color: #c9f1f978">
-  <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption" style="line-height: 200%;">C'est le premier des 3 projets réalisés au cours de la certification <a href="https://www.coursera.org/programs/pole-emploi-eypqn/professional-certificates/conception-ux-google?collectionId=EnpoQ" target="_blank">Google UX Design</a>.<br> Tout au long de la formation, il m'a été demandé de mettre en pratique toutes les connaissances acquises pour mener à bien ce projet.<br> L'objectif était de concevoir un prototype haute fidélité d'une application mobile en appliquant les cinq phases du processus d'UX Design.</p>
+<div class="section-why">
+  <div class="container text-center">
+    <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
+	  <p class="project-caption" style="line-height: 200%;">C'est le premier des 3 projets réalisés au cours de la certification <a href="https://www.coursera.org/programs/pole-emploi-eypqn/professional-certificates/conception-ux-google?collectionId=EnpoQ" target="_blank">Google UX Design</a>.<br> Tout au long de la formation, il m'a été demandé de mettre en pratique toutes les connaissances acquises pour mener à bien ce projet.<br> L'objectif était de concevoir un prototype haute fidélité d'une application mobile en appliquant les cinq phases du processus d'UX Design.</p>
+  </div>
 </div>
 
 <div class="container">

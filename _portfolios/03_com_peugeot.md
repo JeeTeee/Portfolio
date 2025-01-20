@@ -32,10 +32,12 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
   </div>
 </div>
 
-<div class="col-lg-12 text-center my-5 py-5" style="background-color: #c9f1f978">
-  <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption" style="line-height: 200%;">Répondre aux besoins de communication interne et externe de l'entreprise avec la création de visuels variés : <br>
-  Signalétiques, tarifs, pour le parcours client, notes et informations pour le personnel en interne. <br> PLV, affiches, mailing, bannières web et autres supports pour la communication client.</p>
+<div class="section-why">
+  <div class="container text-center">
+    <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
+	  <p class="project-caption" style="line-height: 200%;">Répondre aux besoins de communication interne et externe de l'entreprise avec la création de visuels variés : <br>
+    Signalétiques, tarifs, pour le parcours client, notes et informations pour le personnel en interne. <br> PLV, affiches, mailing, bannières web et autres supports pour la communication client.</p>
+  </div>
 </div>
 
 <div class="container">

@@ -33,11 +33,14 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
   </div>
 </div>
 
-<div class="col-lg-12 text-center my-5 p-5" style="background-color: #c9f1f978">
-  <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
-	<p class="project-caption" style="line-height: 200%;">L'application web "Passengers" résout le défi des freelances juniors du Wagon en les mettant en relation avec des clients, malgré la concurrence des développeurs plus expérimentés. <br>
-  Les clients décrivent leur projet via un formulaire, l'application attribue une note de difficulté, puis propose une sélection de freelances adaptés en fonction de leur niveau et de leur expérience. <br>
-  Ainsi, que le projet soit simple, comme un site one page, ou complexe, comme une boutique en ligne, "Passengers" assure des collaborations ajustées et efficaces.</p>
+
+<div class="section-why">
+  <div class="container text-center">
+    <h4 class="mb-3" style="color: #00c8f2">Pourquoi ?</h4>
+      <p class="project-caption" style="line-height: 200%;">L'application web "Passengers" résout le défi des freelances juniors du Wagon en les mettant en relation avec des clients, malgré la concurrence des développeurs plus expérimentés.
+      Les clients décrivent leur projet via un formulaire, l'application attribue une note de difficulté, puis propose une sélection de freelances adaptés en fonction de leur niveau et de leur expérience.
+      Ainsi, que le projet soit simple, comme un site one page, ou complexe, comme une boutique en ligne, "Passengers" assure des collaborations ajustées et efficaces.</p>
+  </div>
 </div>
 
 <div class="container">
