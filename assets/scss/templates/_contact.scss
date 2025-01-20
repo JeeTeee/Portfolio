@@ -3,6 +3,7 @@
 	// background-size: contain;
   // background-position: right;
   // background-color: $extra-color;
+  padding-top: 60px;
 
 	.form-control {
 	    // background-color: $extra-color;
@@ -132,6 +133,36 @@
     @include mobile {
       max-width: 270px;
     }
+  }
+}
+
+
+.overlay-resume {
+  width: 679px; /* Largeur du conteneur */
+  height: 800px; /* Hauteur fixe pour contrôler le cadre */
+  background: url("../images/cv-guillaume.jpg");
+  background-size: contain; /* S'assure que l'image entière soit visible */
+  background-position: center; /* Centre l'image dans le cadre */
+  background-repeat: no-repeat; /* Pas de répétition */
+  // transition: background-image 0.5s ease-in-out; /* Transition fluide pour le survol */
+  @include mobile {
+    max-height: 50vh;
+  }
+}
+
+.overlay-resume:hover {
+  background: url("../images/cv-guillaume-hover.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.overlay-resume a {
+  display: block; /* Le lien couvre toute la div */
+  width: 100%;
+  height: 100%;
+  @include mobile {
+    max-height: 50vh;
   }
 }
 
