@@ -59,7 +59,7 @@ Nous avons eu l'idée de développer une application de location de jeux de soci
     <p>Après avoir joué avec ses amis, Alice retourne le jeu à son propriétaire.</p>
     <div class="col mt-3 mb-5 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/rentagame/user-flow-rentagame.gif" alt="parcours utilisateur rent a game" class="project-img">
+        <img src="/assets/images/portfolio/rentagame/user-flow-rentagame.gif" alt="parcours utilisateur rent a game" class="project-img" loading="lazy">
       </div>
       <p class="pt-4 mb-5"><strong>Solution :</strong> Avec Rent A Game, Alice peut facilement louer le jeu de son choix sans se ruiner, offrant ainsi une solution abordable à ses envies de jeu. </p>
     </div>
@@ -76,14 +76,14 @@ Nous avons eu l'idée de développer une application de location de jeux de soci
     <p>Nous avons défini le parcours utilisateur puis élaboré les user stories, conçu le schéma de la base de données et configuré les routes de l'application.</p>
     <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/rentagame/rentagame-db-table.jpg" alt="tables base de données rent a game" class="project-img">
+        <img src="/assets/images/portfolio/rentagame/rentagame-db-table.jpg" alt="tables base de données rent a game" class="project-img" loading="lazy">
       </div>
     </div>
     <h6>Logo</h6>
     <p>Avec mon expérience en graphisme, j'ai conçu le logo de Rent A Game. En intégrant la lettre A dans un dé à 20 faces, évoquant la symbolique des jeux de société. J'ai choisi la police "Josefin Sans" pour sa lisibilité, son style à la fois moderne et rétro qui s'harmonise parfaitement avec l'imaginaire ludique et nostalgique des jeux de plateau.</p>
     <div class="col my-3 px-5 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/rentagame/logo-rent-a-game.png" alt="logo rent a game" class="logo-img">
+        <img src="/assets/images/portfolio/rentagame/logo-rent-a-game.png" alt="logo rent a game" class="logo-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">02</span> Création</h4>
@@ -91,7 +91,7 @@ Nous avons eu l'idée de développer une application de location de jeux de soci
     <p>Création de l'application Rails et du dépôt sur <a href="https://github.com/MatWebDev/rent_a_game" target="_blank">Github</a>. <br> Nous avons ensuite créé les modèles et leurs contrôleurs, en plus d'établir leurs associations et validations, tout en suivant le schéma de base de données.</p>
     <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/rentagame/rentagame-code-sample.jpg" alt="échantillon du code de passengers" class="project-img">
+        <img src="/assets/images/portfolio/rentagame/rentagame-code-sample.jpg" alt="échantillon du code de passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">03</span> Fonctionnalités</h4>
@@ -99,19 +99,19 @@ Nous avons eu l'idée de développer une application de location de jeux de soci
     <h6 class="mt-5">Barre de recherche</h6>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/rentagame/searchbar-rentagame.gif" alt="searchbar rent a game" class="project-img">
+        <img src="/assets/images/portfolio/rentagame/searchbar-rentagame.gif" alt="searchbar rent a game" class="project-img" loading="lazy">
       </div>
     </div>
     <h6 class="mt-5">Création d'objets</h6>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/rentagame/creation-rentagame.gif" alt="object creation rent a game" class="project-img">
+        <img src="/assets/images/portfolio/rentagame/creation-rentagame.gif" alt="object creation rent a game" class="project-img" loading="lazy">
       </div>
     </div>
     <h6 class="mt-5">Carte géolocalisée</h6>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/rentagame/geoloc-rentagame.gif" alt="object creation rent a game" class="project-img">
+        <img src="/assets/images/portfolio/rentagame/geoloc-rentagame.gif" alt="object creation rent a game" class="project-img" loading="lazy">
       </div>
     </div>
   </div>

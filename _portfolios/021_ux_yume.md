@@ -60,12 +60,12 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
     <p>Grâce aux données collectées lors de la phase de recherche, j'ai pu identifier clairement les objectifs, les points de douleur, et les motivations d'un utilisateur cible de l'application. Ainsi j’ai élaboré un persona et une carte du parcours utilisateur :</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-left animscroll">
-        <img src="/assets/images/portfolio/yume/google-ux-design-persona.jpg" alt="Recherche UX - Yume Persona" class="project-img mb-5">
+        <img src="/assets/images/portfolio/yume/google-ux-design-persona.jpg" alt="Recherche UX - Yume Persona" class="project-img mb-5" loading="lazy">
       </div>
     </div>
     <div class="col mt-3 mb-5 px-0 paysage-container">
       <div class="fade-right animscroll">
-        <img src="/assets/images/portfolio/yume/google-ux-design-user-journey-map.jpg" alt="Recherche UX - Yume User Journey Map" class="project-img">
+        <img src="/assets/images/portfolio/yume/google-ux-design-user-journey-map.jpg" alt="Recherche UX - Yume User Journey Map" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">03</span> Idéation (Ideate)</h4>
@@ -73,7 +73,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
     <div class="col mt-3 mb-5 px-0 paysage-container">
       <h6 class="mt-2 mb-0">L'exercice du Crazy Eight</h6>
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/yume/crazy-eight-yume.jpg" alt="Ideation - Cray Eight Yume" class="project-img" style="border: solid 2px #e5e5e5;">
+        <img src="/assets/images/portfolio/yume/crazy-eight-yume.jpg" alt="Ideation - Cray Eight Yume" class="project-img" loading="lazy" style="border: solid 2px #e5e5e5;">
       </div>
     </div>
     <h4><span class="step">04</span> Prototypage (Prototype)</h4>
@@ -89,7 +89,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
        <div class="col mb-3 px-0 paysage-container">
         <div class="fade-in animscroll">
           <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=0%3A1&node-id=23-1644&p=f&viewport=529%2C-14%2C0.37&t=8ifTBq4hZMuYfUup-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=23%3A1644" target="_blank">
-          <img src="/assets/images/portfolio/yume/prototype-lowfi-mobile-yume.gif" alt="Wireframe Low-fi - Yume" class="project-img" style="max-height: 72vh; border: solid 2px #e5e5e5;">
+          <img src="/assets/images/portfolio/yume/prototype-lowfi-mobile-yume.gif" alt="Wireframe Low-fi - Yume" class="project-img" loading="lazy" style="max-height: 72vh; border: solid 2px #e5e5e5;">
           </a>
         </div>
         <div class="top-description">
@@ -104,7 +104,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
     <div class="col my-3 px-0 paysage-container">
     <div class="fade-in animscroll">
       <h6 class="text-center mt-3 mb-2">Diagramme d'affinité</h6>
-      <a href="https://drive.google.com/file/d/1mhw6ecGF79puvYIQmgevmNLqZ6xe4bSk/view?usp=sharing" target="_blank"><img src="/assets/images/portfolio/yume/diagramme-affinite-yume.jpg" alt="Diagramme d'affinité - Yume" class="project-img mb-5"></a>
+      <a href="https://drive.google.com/file/d/1mhw6ecGF79puvYIQmgevmNLqZ6xe4bSk/view?usp=sharing" target="_blank"><img src="/assets/images/portfolio/yume/diagramme-affinite-yume.jpg" alt="Diagramme d'affinité - Yume" class="project-img mb-5" loading="lazy"></a>
     </div>
     </div>
     <h6 class="mt-5 mb-2">Liens vers les détails de l'étude de recherche</h6>
@@ -117,7 +117,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
     <div class="col mb-3 px-0 paysage-container">
       <div class="fade-in animscroll">
         <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=78%3A346&node-id=471-2250&viewport=1255%2C487%2C0.15&t=18HqMHNr8e6O61Il-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=471%3A2250" target="_blank">
-        <img src="/assets/images/portfolio/yume/prototype-mobile-yume.gif" alt="Wirefram Hi-fi - Yume mobile version" class="project-img" style="max-height: 72vh;">
+        <img src="/assets/images/portfolio/yume/prototype-mobile-yume.gif" alt="Wirefram Hi-fi - Yume mobile version" class="project-img" loading="lazy" style="max-height: 72vh;">
         </a>
       </div>
       <div class="top-description">
@@ -128,7 +128,7 @@ J'ai choisi le thème de la santé mentale, un enjeu de santé publique majeur d
       <p class="project-caption my-4">Le design system m'a permis de porter rapidement et aisément le prototype mobile vers une version optimisée pour grands écrans, en développant un <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=500%3A7570&node-id=500-12163&p=f&viewport=1339%2C-57%2C0.12&t=m5mWhTzAx09B2Epc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=500%3A12163" target="_blank">second prototype destiné au site web responsive</a>. J'ai appliqué une approche d'<a href="https://fr.wikipedia.org/wiki/Am%C3%A9lioration_progressive" target="_blank">amélioration progressive</a> : à partir de l'interface initiale conçue pour mobile, j'ai enrichi et adapté l'expérience utilisateur en ajoutant des éléments et en optimisant l'affichage pour les grands écrans.</p>
       <div class="fade-in animscroll">
         <a href="https://www.figma.com/proto/UwI1TMgUWSgps1PiPNPLj8/Yume-Prototype?page-id=500%3A7570&node-id=500-12163&p=f&viewport=1339%2C-57%2C0.12&t=m5mWhTzAx09B2Epc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=500%3A12163" target="_blank">
-        <img src="/assets/images/portfolio/yume/prototype-desktop-yume.gif" alt="Wireframe Hi-fi - Yume Web version" class="project-img" style="max-height: 72vh;">
+        <img src="/assets/images/portfolio/yume/prototype-desktop-yume.gif" alt="Wireframe Hi-fi - Yume Web version" class="project-img" loading="lazy" style="max-height: 72vh;">
         </a>
       </div>
       <div class="top-description">

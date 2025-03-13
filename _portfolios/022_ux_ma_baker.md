@@ -60,12 +60,12 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
     <p>Grâce aux résultats de la recherche, j’ai pu créer un persona de l’utilisateur cible et une carte du parcours utilisateur.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-left animscroll">
-        <img src="/assets/images/portfolio/ma-baker/google-ux-design-persona.jpg" alt="Recherche UX - Ma Baker Persona" class="project-img mb-5">
+        <img src="/assets/images/portfolio/ma-baker/google-ux-design-persona.jpg" alt="Recherche UX - Ma Baker Persona" class="project-img mb-5" loading="lazy">
       </div>
     </div>
     <div class="col mt-3 mb-5 px-0 paysage-container">
       <div class="fade-right animscroll">
-        <img src="/assets/images/portfolio/ma-baker/google-ux-design-user-journey-map.jpg" alt="Recherche UX - Ma Baker User Journey Map" class="project-img">
+        <img src="/assets/images/portfolio/ma-baker/google-ux-design-user-journey-map.jpg" alt="Recherche UX - Ma Baker User Journey Map" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">03</span> Idéation (Ideate)</h4>
@@ -78,22 +78,22 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
     <div class="col my-3 px-0 paysage-container">
       <h6 class="mt-2 mb-0">Prototype papier</h6>
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/ma-baker/wireframe-paper-ma-baker.jpg" alt="Paper wireframe - Ma Baker" class="project-img mb-5">
+        <img src="/assets/images/portfolio/ma-baker/wireframe-paper-ma-baker.jpg" alt="Paper wireframe - Ma Baker" class="project-img mb-5" loading="lazy">
       </div>
       <div class="fade-in animscroll">
-        <a href="https://coursera-assessments.s3.amazonaws.com/assessments/1711742231369/cab54788-b20a-4e8d-9abb-50d94a5856d3/Storyboard-Ma-Baker-vue-ensemble.pdf" target="_blank"><img src="/assets/images/portfolio/ma-baker/Storyboard-Ma-Baker-Big-Picture.jpg" alt="Storyboard Ma Baker - big picture" class="project-img"></a>
+        <a href="https://coursera-assessments.s3.amazonaws.com/assessments/1711742231369/cab54788-b20a-4e8d-9abb-50d94a5856d3/Storyboard-Ma-Baker-vue-ensemble.pdf" target="_blank"><img src="/assets/images/portfolio/ma-baker/Storyboard-Ma-Baker-Big-Picture.jpg" alt="Storyboard Ma Baker - big picture" class="project-img" loading="lazy"></a>
       </div>
     </div>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <a href="https://coursera-assessments.s3.amazonaws.com/assessments/1711742236779/76e4737d-9c3c-420b-bb73-f4ac9127cc26/Storyboard-Ma-Baker-gros-plan.pdf" target="_blank"><img src="/assets/images/portfolio/ma-baker/Storyboard-Ma-Baker-Closeup.jpg" alt="Storyboard Ma Baker - closeup" class="project-img mb-5"></a>
+        <a href="https://coursera-assessments.s3.amazonaws.com/assessments/1711742236779/76e4737d-9c3c-420b-bb73-f4ac9127cc26/Storyboard-Ma-Baker-gros-plan.pdf" target="_blank"><img src="/assets/images/portfolio/ma-baker/Storyboard-Ma-Baker-Closeup.jpg" alt="Storyboard Ma Baker - closeup" class="project-img mb-5" loading="lazy"></a>
       </div>
     </div>
     <p class="project-caption mb-4">Une fois ces bases établies, j'ai conçu le premier <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=0%3A1&node-id=1-86&node-type=canvas&viewport=736%2C73%2C0.57&t=bS6pVWORuuQj4Z81-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A86" target="_blank">Protoype interactif sur Figma</a>, en applicant les principes de <a href="https://medium.com/design-ibm/accessibility-guidelines-for-information-architecture-ux-design-and-visual-design-5ae33ed1d52d" target="_blank">l'architecture de l'information</a> et de <a href="https://fr.wikipedia.org/wiki/Psychologie_de_la_forme" target="_blank">la théorie de Gestalt</a>.</p>
     <div class="row justify-content-center">
       <div class="col-lg-6 mb-3 px-0 paysage-container">
         <div class="fade-in animscroll">
-          <img src="/assets/images/portfolio/ma-baker/prototype-low-fi-mabaker.gif" alt="Wireframe version 1 - Ma Baker" class="project-img" style="max-height: 72vh;">
+          <img src="/assets/images/portfolio/ma-baker/prototype-low-fi-mabaker.gif" alt="Wireframe version 1 - Ma Baker" class="project-img" loading="lazy" style="max-height: 72vh;">
         </div>
         <div class="top-description">
           <div class="fade-down animscroll">
@@ -104,7 +104,7 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
       <div class="col-lg-6 mb-3 px-0 paysage-container">
         <div class="fade-in animscroll">
           <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=0%3A1&node-id=1-86&node-type=canvas&viewport=736%2C73%2C0.57&t=bS6pVWORuuQj4Z81-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A86" target="_blank">
-          <img src="/assets/images/portfolio/ma-baker/prototype-low-fi-mabaker-v2.gif" alt="Wireframe Low-fi - Ma Baker" class="project-img" style="max-height: 72vh;">
+          <img src="/assets/images/portfolio/ma-baker/prototype-low-fi-mabaker-v2.gif" alt="Wireframe Low-fi - Ma Baker" class="project-img" loading="lazy" style="max-height: 72vh;">
           </a>
         </div>
         <div class="top-description">
@@ -119,7 +119,7 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
     <div class="col my-3 px-0 paysage-container">
     <div class="fade-in animscroll">
       <h6 class="text-center mt-3 mb-2">Diagramme d'affinité</h6>
-      <a href="https://drive.google.com/file/d/1mhw6ecGF79puvYIQmgevmNLqZ6xe4bSk/view?usp=sharing" target="_blank"><img src="/assets/images/portfolio/ma-baker/diagramme-affinité-ma-baker.jpg" alt="Diagramme d'affinité - Ma Baker" class="project-img mb-5"></a>
+      <a href="https://drive.google.com/file/d/1mhw6ecGF79puvYIQmgevmNLqZ6xe4bSk/view?usp=sharing" target="_blank"><img src="/assets/images/portfolio/ma-baker/diagramme-affinité-ma-baker.jpg" alt="Diagramme d'affinité - Ma Baker" class="project-img mb-5" loading="lazy"></a>
     </div>
     </div>
     <h6 class="mt-5 mb-2">Liens vers les détails de l'étude de recherche</h6>
@@ -133,7 +133,7 @@ Cette formation, qui enseigne les bases de la conception de l'Expérience Utilis
     <div class="col mb-3 px-0 paysage-container">
       <div class="fade-in animscroll">
         <a href="https://www.figma.com/proto/5jkEzqqOhctAc84EgbaCrf/Ma-Baker---Prototype?page-id=177%3A546&node-id=288-6360&node-type=canvas&viewport=1009%2C78%2C0.59&t=gVoFKnJ51V4BWbNH-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=288%3A6360" target="_blank">
-        <img src="/assets/images/portfolio/ma-baker/proto-high-fi-mabaker.gif" alt="Wireframe Hi-fi - Ma Baker" class="project-img" style="max-height: 72vh;">
+        <img src="/assets/images/portfolio/ma-baker/proto-high-fi-mabaker.gif" alt="Wireframe Hi-fi - Ma Baker" class="project-img" loading="lazy" style="max-height: 72vh;">
         </a>
       </div>
       <div class="top-description">

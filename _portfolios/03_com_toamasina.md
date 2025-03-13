@@ -56,23 +56,23 @@ Pour le volet web, j'ai enrichi le contenu du site www.exotismes.fr, créé des 
 
   <div class="mosaic col-lg-12">
     <div class="panoramic1 fade-down animscroll">
-        <img src="/assets/images/portfolio/exotismes/brochure-couv.jpg" alt="Brochure 2014 Exotismes Couverture">
+        <img src="/assets/images/portfolio/exotismes/brochure-couv.jpg" alt="Brochure 2014 Exotismes Couverture" loading="lazy">
     </div>
     <div class="square1 fade-left animscroll">
-        <img src="/assets/images/portfolio/exotismes/brochure-page-1.jpg" alt="Brochure 2014 Exotismes page">
+        <img src="/assets/images/portfolio/exotismes/brochure-page-1.jpg" alt="Brochure 2014 Exotismes page" loading="lazy">
     </div>
     <div class="square2 fade-right animscroll">
-        <img src="/assets/images/portfolio/exotismes/brochure-page-2.jpg" alt="Brochure 2014 Exotismes page double">
+        <img src="/assets/images/portfolio/exotismes/brochure-page-2.jpg" alt="Brochure 2014 Exotismes page double" loading="lazy">
     </div>
     <div class="panoramic2 fade-top animscroll">
-        <img src="/assets/images/portfolio/exotismes/brochure-zoom.jpg" alt="Brochure 2014 Exotismes">
+        <img src="/assets/images/portfolio/exotismes/brochure-zoom.jpg" alt="Brochure 2014 Exotismes" loading="lazy">
     </div>
   </div>
 
   <div class="row justify-content-center pf-container mt-5 mb-5">
     <div class="col-lg-6 col-sm-12 my-3 portrait-container">
       <div class="fade-right animscroll">
-        <img src="/assets/images/portfolio/exotismes/plv-exo.jpg" alt="plv exotismes Karibea" class="project-img">
+        <img src="/assets/images/portfolio/exotismes/plv-exo.jpg" alt="plv exotismes Karibea" class="project-img" loading="lazy">
       </div>
     </div>
     <div class="col-lg-6 col-sm-12 my-3 portrait-description fade-in animscroll">
@@ -92,7 +92,7 @@ Pour le volet web, j'ai enrichi le contenu du site www.exotismes.fr, créé des 
     </div>
     <div class="col mb-5 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/exotismes/cft-print.jpg" alt="kit Compagnie Financière du Tourisme" class="project-img">
+        <img src="/assets/images/portfolio/exotismes/cft-print.jpg" alt="kit Compagnie Financière du Tourisme" class="project-img" loading="lazy">
       </div>
     </div>
   </div>
@@ -110,7 +110,7 @@ Pour le volet web, j'ai enrichi le contenu du site www.exotismes.fr, créé des 
 
   <div class="col my-3 px-0 paysage-container">
     <div class="fade-in animscroll">
-      <img src="/assets/images/portfolio/exotismes/newsletters-exo.jpg" alt="mailing-exotismes" class="project-img">
+      <img src="/assets/images/portfolio/exotismes/newsletters-exo.jpg" alt="mailing-exotismes" class="project-img" loading="lazy">
     </div>
   </div>
 </div>

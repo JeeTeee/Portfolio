@@ -50,12 +50,12 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
     <p>Grâce aux données collectées, j’ai créé un persona utilisateur, représentant les frustrations et objectifs de la cible. J’ai également élaboré une carte de parcours utilisateur pour identifier les moments clés et les points de friction dans l’expérience de réservation.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-left animscroll">
-        <img src="/assets/images/portfolio/the-boar/google-ux-design-certificate-persona-victoria.jpg" alt="Recherche UX - The Boar Persona" class="project-img mb-5">
+        <img src="/assets/images/portfolio/the-boar/google-ux-design-certificate-persona-victoria.jpg" alt="Recherche UX - The Boar Persona" class="project-img mb-5" loading="lazy">
       </div>
     </div>
     <div class="col mt-3 mb-5 px-0 paysage-container">
       <div class="fade-right animscroll">
-        <img src="/assets/images/portfolio/the-boar/google-ux-design-certificate-user-journey-map-victoria.jpg" alt="Recherche UX - The Boar User Journey Map" class="project-img">
+        <img src="/assets/images/portfolio/the-boar/google-ux-design-certificate-user-journey-map-victoria.jpg" alt="Recherche UX - The Boar User Journey Map" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">03</span> Idéation (Ideate)</h4>
@@ -65,7 +65,7 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
     <div class="col my-3 px-0 paysage-container">
       <h6 class="mt-2 mb-0">Prototype papier</h6>
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/the-boar/wireframe-theboar.jpg" alt="Paper wireframe - The Boar" class="project-img mb-5">
+        <img src="/assets/images/portfolio/the-boar/wireframe-theboar.jpg" alt="Paper wireframe - The Boar" class="project-img mb-5" loading="lazy">
       </div>
     </div>
     <p class="project-caption mb-4">Une fois ces bases posées, j’ai développé un premier <a href="https://www.figma.com/proto/aOoNtdcogirWHlvDZwt6D8/Google-Certficates-UX-Design---Project-2?page-id=5%3A2&node-id=7-50&p=f&viewport=625%2C300%2C0.12&t=5mlJ58nb15vPj6yC-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7%3A50" target="_blank">Prototype interactif en basse fidélité sur Figma</a>. Ce prototype intègre les principes d'<a href="https://medium.com/design-ibm/accessibility-guidelines-for-information-architecture-ux-design-and-visual-design-5ae33ed1d52d" target="_blank">architecture de l'information</a> et de la <a href="https://fr.wikipedia.org/wiki/Psychologie_de_la_forme" target="_blank">théorie de Gestalt</a>, en mettant l'accent sur une navigation fluide et intuitive.</p>
@@ -73,7 +73,7 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
       <div class="col mb-3 px-0 paysage-container">
         <div class="fade-in animscroll">
           <a href="https://www.figma.com/proto/aOoNtdcogirWHlvDZwt6D8/Google-Certficates-UX-Design---Project-2?page-id=5%3A2&node-id=7-50&p=f&viewport=625%2C300%2C0.12&t=5mlJ58nb15vPj6yC-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7%3A50" target="_blank">
-          <img src="/assets/images/portfolio/the-boar/prototype-low-fi-theboar.gif" alt="Wireframe Low-fi - The Boar" class="project-img" style="max-height: 72vh; border: solid 2px #e5e5e5;">
+          <img src="/assets/images/portfolio/the-boar/prototype-low-fi-theboar.gif" alt="Wireframe Low-fi - The Boar" class="project-img" loading="lazy" style="max-height: 72vh; border: solid 2px #e5e5e5;">
           </a>
         </div>
         <div class="top-description">
@@ -88,7 +88,7 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
     <div class="col mb-3 px-0 paysage-container">
       <div class="fade-in animscroll">
         <a href="https://www.figma.com/proto/aOoNtdcogirWHlvDZwt6D8/Google-Certficates-UX-Design---Project-2?page-id=58%3A201&node-id=164-1506&p=f&viewport=746%2C587%2C0.06&t=x5uogfZz3k8c4msC-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=164%3A1506" target="_blank">
-        <img src="/assets/images/portfolio/the-boar/prototype-desktop-theboar.gif" alt="Wirefram Hi-fi - The Boar Desktop version" class="project-img" style="max-height: 72vh;">
+        <img src="/assets/images/portfolio/the-boar/prototype-desktop-theboar.gif" alt="Wirefram Hi-fi - The Boar Desktop version" class="project-img" loading="lazy" style="max-height: 72vh;">
         </a>
       </div>
       <div class="top-description">
@@ -99,7 +99,7 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
       <p class="project-caption my-4">Le design system m’a ensuite permis de développer un <a href="https://www.figma.com/proto/aOoNtdcogirWHlvDZwt6D8/Google-Certficates-UX-Design---Project-2?page-id=433%3A12622&node-id=460-14527&p=f&viewport=1510%2C1021%2C0.12&t=GdKr2r2Agv6xyt5v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=460%3A14527" target="_blank">Prototype haute fidélité optimisé pour affichage mobile</a>. J'ai appliqué le principe d'<a href="https://fr.wikipedia.org/wiki/Am%C3%A9lioration_progressive" target="_blank">amélioration progressive</a> : à partir de l'interface desktop, j'ai simplifié et réorganisé les éléments pour proposer une expérience utilisateur intuitive et adaptée aux petits écrans.</p>
       <div class="fade-in animscroll">
         <a href="https://www.figma.com/proto/aOoNtdcogirWHlvDZwt6D8/Google-Certficates-UX-Design---Project-2?page-id=433%3A12622&node-id=460-14527&p=f&viewport=1510%2C1021%2C0.12&t=GdKr2r2Agv6xyt5v-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=460%3A14527" target="_blank">
-        <img src="/assets/images/portfolio/the-boar/prototype-mobile-theboar.gif" alt="Wireframe Hi-fi - The Boar Mobile version" class="project-img" style="max-height: 72vh;">
+        <img src="/assets/images/portfolio/the-boar/prototype-mobile-theboar.gif" alt="Wireframe Hi-fi - The Boar Mobile version" class="project-img" loading="lazy" style="max-height: 72vh;">
         </a>
       </div>
       <div class="top-description">

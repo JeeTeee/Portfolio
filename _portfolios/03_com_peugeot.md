@@ -48,7 +48,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
   <div class="row justify-content-center pf-container mb-5">
     <div class="col-lg-6 col-sm-12 mt-3 portrait-container">
       <div class="fade-right animscroll">
-        <img src="/assets/images/portfolio/peugeot/totem-slide.gif" alt="totem" class="project-img">
+        <img src="/assets/images/portfolio/peugeot/totem-slide.gif" alt="totem" class="project-img" loading="lazy">
       </div>
     </div>
     <div class="col-lg-6 col-sm-12 mt-3 portrait-description fade-in animscroll">
@@ -98,7 +98,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
     </div>
     <div class="col mb-5 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/peugeot/banner-mockup.jpg" alt="banderoles-groupebeauvois" class="project-img">
+        <img src="/assets/images/portfolio/peugeot/banner-mockup.jpg" alt="banderoles-groupebeauvois" class="project-img" loading="lazy">
       </div>
     </div>
   </div>
@@ -117,7 +117,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
     </div>
     <div class="col mb-3 paysage-container">
       <div class="fade-left animscroll">
-        <img src="/assets/images/portfolio/peugeot/banner-web.gif" alt="banner-groupebeauvois" class="project-img">
+        <img src="/assets/images/portfolio/peugeot/banner-web.gif" alt="banner-groupebeauvois" class="project-img" loading="lazy">
       </div>
     </div>
     <div class="col-lg-12 col-sm-12 mt-5 mb-3 top-description">
@@ -128,7 +128,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
     </div>
     <div class="col mb-3 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/peugeot/mailing.jpg" alt="mailing-groupebeauvois" class="project-img">
+        <img src="/assets/images/portfolio/peugeot/mailing.jpg" alt="mailing-groupebeauvois" class="project-img" loading="lazy">
       </div>
     </div>
   </div>
@@ -145,7 +145,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
     </div>
     <div class="col mb-3 paysage-container">
       <div class="fade-left animscroll">
-        <img src="/assets/images/portfolio/peugeot/mockup-ouest-france.jpg" alt="ouest-france-beauvois" class="project-img">
+        <img src="/assets/images/portfolio/peugeot/mockup-ouest-france.jpg" alt="ouest-france-beauvois" class="project-img" loading="lazy">
        </div>
     </div>
     <div class="col-lg-12 col-sm-12 pt-4 mb-3 top-description">
@@ -156,7 +156,7 @@ En parallèle, je gérais l'organisation du parc automobile d'occasion et les li
     </div>
     <div class="col mb-3 paysage-container">
       <div class="fade-right animscroll">
-        <img src="/assets/images/portfolio/peugeot/flyer-electric.jpg" alt="flyer-beauvois" class="project-img">
+        <img src="/assets/images/portfolio/peugeot/flyer-electric.jpg" alt="flyer-beauvois" class="project-img" loading="lazy">
       </div>
     </div>
   </div>

@@ -73,29 +73,29 @@ description: "Réalisation d'un site Web pour mon client Xplore Voyages, une ent
     <br> Le marqueur de carte qui prend la place du <strong  style="color: #B08F62">O</strong>  est un clin d'œil au logo existant des autres marques Xplore Voyages. Il pointe directement vers le mot <strong  style="font-family: 'Della Respira'; color: #B08F62">FRANCE</strong> qui reprend la typographie raffinée <strong  style="font-family: 'Della Respira'; color: #00c8f2">Della Respira</strong> largement utilisée dans l'identité visuelle..</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/xplore/logo-xplore-france-proportions.jpg" alt="Proportions Logo Xplore France" class="project-img" >
+        <img src="/assets/images/portfolio/xplore/logo-xplore-france-proportions.jpg" alt="Proportions Logo Xplore France" class="project-img" loading="lazy">
       </div>
       <div class="fade-in animscroll pb-5">
-        <img src="/assets/images/portfolio/xplore/logos-xplore-france.jpg" alt="Logo variants Xplore France" class="project-img" >
+        <img src="/assets/images/portfolio/xplore/logos-xplore-france.jpg" alt="Logo variants Xplore France" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">03</span> Site Web</h4>
     <p>Flux utilisateur de la page d'acceuil du site <a href="https://xplorefrance.com/" traget="_blank">xplorefrance.com</a></p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll pb-5">
-        <img src="/assets/images/portfolio/xplore/home-page-xplorefrance.gif" alt="User Flow Xplore France Home Page" class="project-img" >
+        <img src="/assets/images/portfolio/xplore/home-page-xplorefrance.gif" alt="User Flow Xplore France Home Page" class="project-img" loading="lazy">
       </div>
     </div>
     <p class="mt-5">Flux utilisateur d'une demande de devis pour une réservation.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll pb-5">
-        <img src="/assets/images/portfolio/xplore/booking-flow-xplorefrance.gif" alt="Booking Flow - Xplore France" class="project-img" style="border: solid 1px #cbcbcb;">
+        <img src="/assets/images/portfolio/xplore/booking-flow-xplorefrance.gif" alt="Booking Flow - Xplore France" class="project-img" loading="lazy" style="border: solid 1px #cbcbcb;">
       </div>
     </div>
     <p class="mt-5">Le site fournit également un condensé d'informations utiles sur la France pour les voyageurs.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll pb-5">
-        <img src="/assets/images/portfolio/xplore/infos-flow-xplorefrance.gif" alt="informations about france - Xplore France" class="project-img" style="border: solid 1px #cbcbcb;">
+        <img src="/assets/images/portfolio/xplore/infos-flow-xplorefrance.gif" alt="informations about france - Xplore France" class="project-img" loading="lazy" style="border: solid 1px #cbcbcb;">
       </div>
     </div>
     <h4><span class="step">04</span> Liens utiles</h4>

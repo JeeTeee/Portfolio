@@ -58,21 +58,21 @@ description: "Parmi les événements marquants de mon récent parcours de dével
     <br>Nous avons opté pour React pour le développement, une technologie qui permet le déploiement de l'application sur le web, iOS et Android, offrant ainsi une solution dynamique et pérenne.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-      <a href="https://drive.google.com/file/d/1pGkjM6lqMDXAvmxVeCqIy0bboF69610B/view?usp=drive_link" target="_blank"><img src="/assets/images/portfolio/jo4marseille/jo4marseille-pres.jpg" alt="ECCOO 2024 - JO4Marseille" class="project-img"></a>
+      <a href="https://drive.google.com/file/d/1pGkjM6lqMDXAvmxVeCqIy0bboF69610B/view?usp=drive_link" target="_blank"><img src="/assets/images/portfolio/jo4marseille/jo4marseille-pres.jpg" alt="ECCOO 2024 - JO4Marseille" class="project-img" loading="lazy"></a>
     </div>
     </div>
     <h4><span class="step">01</span> Mobilité</h4>
     <p>Concernant la mobilité, l'application propose trois fonctionnalités de géolocalisation pour les transports en commun, les sites des Jeux Olympiques à Marseille et la personne connectée, ainsi que deux fonctionnalités de calcul pour la distance du site/position et les émissions de CO2 liées au trajet.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/jo4marseille/mobilite-durable.jpg" alt="Mobilité durable - ECCOO 2024" class="project-img">
+        <img src="/assets/images/portfolio/jo4marseille/mobilite-durable.jpg" alt="Mobilité durable - ECCOO 2024" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">02</span> Restauration Durable</h4>
     <p>Quant à la restauration durable et bas-carbone, l'application propose deux fonctionnalités de géolocalisation pour les restaurants labellisés BIO et les commerçants labellisés BIO, ainsi que deux fonctionnalités pour la sélection du commerce et l'indication de localisation.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/jo4marseille/conso-responsable.jpg" alt="Restauration responsable - ECCOO 2024" class="project-img">
+        <img src="/assets/images/portfolio/jo4marseille/conso-responsable.jpg" alt="Restauration responsable - ECCOO 2024" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">03</span> Liens utiles</h4>
@@ -84,22 +84,22 @@ description: "Parmi les événements marquants de mon récent parcours de dével
     <div class="" style="padding: 35px 0px 35px 0px">
       <div class="row clients-wrap">
         <div>
-          <a href="https://code4sud.fr/" target="_blank"><img src="{{'/assets/images/clients/code4marseille.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
+          <a href="https://code4sud.fr/" target="_blank"><img src="{{'/assets/images/clients/code4marseille.png' | relative_url}}" alt="" class="img-fluid mx-auto" loading="lazy"></a>
         </div>
         <div>
-          <a href="https://www.people-voyage-prive.com/" target="_blank"><img src="{{'/assets/images/clients/voyage-prive.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
+          <a href="https://www.people-voyage-prive.com/" target="_blank"><img src="{{'/assets/images/clients/voyage-prive.png' | relative_url}}" alt="" class="img-fluid mx-auto" loading="lazy"></a>
         </div>
         <div>
-          <a href="https://aws.amazon.com/fr/?nc2=h_lg" target="_blank"><img src="{{'/assets/images/clients/aws.png' | relative_url}}" alt="Amazon Web Services" class="img-fluid mx-auto"></a>
+          <a href="https://aws.amazon.com/fr/?nc2=h_lg" target="_blank"><img src="{{'/assets/images/clients/aws.png' | relative_url}}" alt="Amazon Web Services" class="img-fluid mx-auto" loading="lazy"></a>
         </div>
         <div>
-          <a href="https://www.departement13.fr/" target="_blank"><img src="{{'/assets/images/clients/bouches-du-rhone-13-logo.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
+          <a href="https://www.departement13.fr/" target="_blank"><img src="{{'/assets/images/clients/bouches-du-rhone-13-logo.png' | relative_url}}" alt="" class="img-fluid mx-auto" loading="lazy"></a>
         </div>
         <div>
-          <a href="https://www.myprovence.fr/" target="_blank"><img src="{{'/assets/images/clients/provencetourisme.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
+          <a href="https://www.myprovence.fr/" target="_blank"><img src="{{'/assets/images/clients/provencetourisme.png' | relative_url}}" alt="" class="img-fluid mx-auto" loading="lazy"></a>
         </div>
         <div>
-          <a href="https://inco-group.co/" target="_blank"><img src="{{'/assets/images/clients/inco.png' | relative_url}}" alt="" class="img-fluid mx-auto"></a>
+          <a href="https://inco-group.co/" target="_blank"><img src="{{'/assets/images/clients/inco.png' | relative_url}}" alt="" class="img-fluid mx-auto" loading="lazy"></a>
         </div>
       </div>
 	  </div>
@@ -110,7 +110,7 @@ description: "Parmi les événements marquants de mon récent parcours de dével
     <h6>Notre équipe : La Team C Mignon</h6>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/jo4marseille/team-hackathon.jpg" alt="Team C Mignon - Hackathon JO4Marseille 2022" class="project-img">
+        <img src="/assets/images/portfolio/jo4marseille/team-hackathon.jpg" alt="Team C Mignon - Hackathon JO4Marseille 2022" class="project-img" loading="lazy">
       </div>
     </div>
   </div>

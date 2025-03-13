@@ -58,21 +58,21 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Passengers résout ce problème en attribuant une note de difficulté au projet, basée sur les informations fournies par le client.</p>
     <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/project-score-code-sample.jpg" alt="échantillon du code de passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/project-score-code-sample.jpg" alt="échantillon du code de passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h6><span class="step">04</span> Sélection de Freelances</h6>
     <p>En fonction de la note de difficulté, Passengers propose une sélection de freelances adaptés à la complexité du projet.</p>
      <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/freelance-selection.gif" alt="sélection de freelances sur passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/freelance-selection.gif" alt="sélection de freelances sur passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h6><span class="step">05</span> Choix du Freelance</h6>
     <p><strong>Solution :</strong> Le client choisit un freelance en accord avec ses besoins, garantissant ainsi une collaboration optimale malgré les contraintes budgétaires.</p>
     <div class="col mt-3 mb-5 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-client-flow.gif" alt="parcours utilisateur client passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/passengers-client-flow.gif" alt="parcours utilisateur client passengers" class="project-img" loading="lazy">
       </div>
     </div>
   </div>
@@ -88,21 +88,21 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Passengers résout ce problème en évaluant les projets disponibles et en attribuant une note en fonction de la complexité et des compétences requises.</p>
     <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/user-score-code-sample.jpg" alt="échantillon du code de passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/user-score-code-sample.jpg" alt="échantillon du code de passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h6><span class="step">04</span> Mise en Relation</h6>
     <p>En se basant sur l'évaluation des projets, Passengers met en relation le freelance avec des projets pertinents, il sera mis en relation avec le client et pourra lui envoyer un devis.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-freelancer-flow.gif" alt="parcours utilisateur freelance passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/passengers-freelancer-flow.gif" alt="parcours utilisateur freelance passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h6><span class="step">05</span> Collaboration Réussie</h6>
     <p><strong>Solution :</strong> Le freelance et le client parviennent à un accord et collaborent ensemble sur le projet, assurant ainsi une expérience de travail fructueuse.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/collaboration-client.gif" alt="validation devis passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/collaboration-client.gif" alt="validation devis passengers" class="project-img" loading="lazy">
       </div>
       <p class="pt-4 mb-5">Cette approche garantit au freelance la possibilité de mettre en avant ses compétences, de trouver des projets alignés sur ses capacités et d'établir des collaborations réussies.</p>
     </div>
@@ -122,7 +122,7 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Conception du schema de la base de données en fonction du parcours utilisateur.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-db-table.jpg" alt="tables base de données passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/passengers-db-table.jpg" alt="tables base de données passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h6>Maquette et Routes</h6>
@@ -131,7 +131,7 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Fort de mon expérience en graphisme, j'ai pris en charge la conception du logotype de "Passengers". En fusionnant les chevrons, emblèmes des balises en code, avec le pictogramme d'une personne assise dans un train, j'ai créé un logo évocateur qui symbolise à la fois les développeurs et les utilisateurs de l'application.  Enfin, j'ai utilisé la typographie "Anonymous Pro", utilisée en programmation comme référence directe.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/passengers-logo.png" alt="logo passengers" class="logo-img">
+        <img src="/assets/images/portfolio/passengers/passengers-logo.png" alt="logo passengers" class="logo-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">02</span> Création</h4>
@@ -139,14 +139,14 @@ En équipe de 4, nous avons eu 10 jours pour concevoir et développer une applic
     <p>Création de l'application Rails et du dépôt sur <a href="https://github.com/MatWebDev/PASSENGERS" target="_blank">Github</a> et déploiement de l'application sur <a href="https://www.heroku.com/" target="_blank">Heroku</a>. <br> En pair programming, nous avons ensuite créé les modèles et leurs contrôleurs, en plus d'établir leurs associations et validations, tout en suivant le schéma de base de données.</p>
     <div class="col my-3 px-0 justify-content-start">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/model-code-sample.jpg" alt="échantillon du code de passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/model-code-sample.jpg" alt="échantillon du code de passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h6>Prototype Figma</h6>
     <p>Une fois les bases de l'application établies, nous avons mis à jour la maquette sur Figma et développé le design de l'application pour qu'il soit proche du rendu final. Cette maquette haute fidélité a facilité le développement des fonctionnalités par l'équipe et la mise en place du front-end.</p>
     <div class="col my-3 px-0 paysage-container">
       <div class="fade-in animscroll">
-        <img src="/assets/images/portfolio/passengers/figma-flow-passengers.gif" alt="maquette figma passengers" class="project-img">
+        <img src="/assets/images/portfolio/passengers/figma-flow-passengers.gif" alt="maquette figma passengers" class="project-img" loading="lazy">
       </div>
     </div>
     <h4><span class="step">03</span> Gestion de Projet</h4>
