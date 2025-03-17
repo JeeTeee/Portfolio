@@ -10,8 +10,17 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
 ---
 <div class="col-lg-8 text-left pf-container">
 	<h3 class="my-3 project-title">{{page.title}}</h3>
-	<p>{{page.description}}</p>
-
+	<p class="mb-0">{{page.description}}</p>
+  <div>
+    <ul class="list-inline project-links d-flex flex-fill justify-content-start">
+      <li class="list-inline-item">
+        <a href="https://www.behance.net/gallery/219136801/The-Boar-Restaurant-Prototype-UX-Design" target="_blank" title="Voir le projet sur Behance" class="align-items-end"><i class="fa-brands fa-behance"></i></a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://dribbble.com/shots/25777136-The-Boar-Prototype-UX-Design?utm_source=Clipboard_Shot&utm_campaign=JeeTee__&utm_content=The%20Boar%20Prototype%20-%20UX%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=JeeTee__&utm_content=The%20Boar%20Prototype%20-%20UX%20Design&utm_medium=Social_Share" target="_blank" title="Voir le projet sur Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+      </li>
+    </ul>
+  </div>
   <hr class="my-5">
 
   <div class="row">
@@ -122,7 +131,7 @@ Les projets réalisés pendant cette certification m'ont offert l'opportunité d
     </div>
     <h4><span class="step"><i class="fa-solid fa-link"></i></span> Liens utiles</h4>
     <ul class="links-list">
-      <!-- <li><a href="https://www.behance.net/gallery/208782923/Ma-Baker-Prototype-UX-Design" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li> -->
+      <li><a href="https://www.behance.net/gallery/219136801/The-Boar-Restaurant-Prototype-UX-Design" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>Voir le projet sur Behance</a></li>
       <li><a href="https://www.coursera.org/google-certificates/certificat-conception-ux" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>En savoir plus sur le Google UX Design Certificat Professionnel</a></li>
     </ul>
   </div>
